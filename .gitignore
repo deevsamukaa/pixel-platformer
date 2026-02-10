@@ -1,0 +1,51 @@
+# =========================
+# UNITY GENERATED FOLDERS
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# =========================
+# UNITY CACHE / ARTIFACTS
+# =========================
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# =========================
+# UNITY META OVERRIDES
+# =========================
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# ANDROID / GRADLE
+# =========================
+.gradle/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# =========================
+# TEMP / BACKUP
+# =========================
+*.tmp
+*.bak
+*.old
