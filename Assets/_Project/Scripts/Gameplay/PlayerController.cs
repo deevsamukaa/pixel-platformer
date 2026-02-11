@@ -47,6 +47,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundCheckRadius = 0.15f;
     [SerializeField] private LayerMask groundLayer;
+    // Estado chão/pulo
+    private bool isGrounded;
+    private bool isGroundedFixed;
+    public bool IsGrounded => isGroundedFixed;
 
     [Header("Death / Respawn")]
     [SerializeField] private float respawnDelay = 0.1f;
@@ -54,6 +58,7 @@ public class PlayerController : MonoBehaviour
     private bool isDead;
 
     [Header("Ledge Climb (Hollow Knight-like)")]
+    public bool IsClimbingOrHanging => isClimbing || isLedgeHanging;
     [SerializeField] private bool enableLedgeClimb = true;
     [SerializeField] private Transform wallCheck;   // peito
     [SerializeField] private Transform ledgeCheck;  // acima da cabeça
@@ -75,10 +80,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float ledgeCornerInset = 0.05f;
 
     private Rigidbody2D rb;
-
-    // Estado chão/pulo
-    private bool isGrounded;
-    private bool isGroundedFixed;
 
     private float coyoteTimeCounter;
     private float jumpBufferCounter;

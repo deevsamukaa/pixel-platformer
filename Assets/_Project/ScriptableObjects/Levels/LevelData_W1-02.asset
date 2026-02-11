@@ -15,7 +15,7 @@ MonoBehaviour:
   levelId: W1-02
   worldIndex: 1
   levelIndex: 2
-  levelPrefab: {fileID: 249221030090109083, guid: 48db24550299648498c3b686d2ee6b9c, type: 3}
-  playerSpawnPosition: {x: -11, y: -1}
+  levelPrefab: {fileID: 249221030090109083, guid: 381b09d9f6897fe48abf75eda8ba2274, type: 3}
+  playerSpawnPosition: {x: -1, y: -1.4}
   targetTimeSeconds: 40
   targetDeaths: 2
