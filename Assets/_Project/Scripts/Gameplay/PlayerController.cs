@@ -4,6 +4,10 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+    [Header("Visual / Flip")]
+    [SerializeField] private Transform visualRoot;
+    [SerializeField] private SpriteRenderer visualSprite;
+
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 6f;
 
@@ -97,6 +101,12 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         originalGravity = rb.gravityScale;
+
+        if (visualRoot == null)
+            visualRoot = transform.Find("Visual");
+
+        if (visualSprite == null && visualRoot != null)
+            visualSprite = visualRoot.GetComponentInChildren<SpriteRenderer>();
     }
 
     private void Start()
@@ -210,13 +220,19 @@ public class PlayerController : MonoBehaviour
         // Mobile tem prioridade se estiver ativo
         moveInput = (Mathf.Abs(externalMoveInput) > 0.01f) ? externalMoveInput : keyboard;
 
-        // facing
-        if (moveInput > 0.01f) facing = 1;
-        else if (moveInput < -0.01f) facing = -1;
+        // facing (não muda enquanto pendurado/subindo)
+        if (!isLedgeHanging && !isClimbing)
+        {
+            if (moveInput > 0.01f) facing = 1;
+            else if (moveInput < -0.01f) facing = -1;
+        }
 
         // buffer do pulo
         if (IsJumpDown())
             jumpBufferCounter = jumpBufferTime;
+
+        if (visualSprite != null)
+            visualSprite.flipX = (facing == -1);
     }
 
     private bool IsJumpDown()
