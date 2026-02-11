@@ -110,15 +110,6 @@ public class PlayerController : MonoBehaviour
             visualSprite = visualRoot.GetComponentInChildren<SpriteRenderer>();
     }
 
-    private void Start()
-    {
-        GameObject spawn = GameObject.FindGameObjectWithTag("SpawnPoint");
-        if (spawn != null)
-            spawnPosition = spawn.transform.position;
-        else
-            spawnPosition = transform.position;
-    }
-
     private void Update()
     {
         if (isDead) return;

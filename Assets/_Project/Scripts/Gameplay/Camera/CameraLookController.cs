@@ -13,12 +13,13 @@ public class CameraLookController : MonoBehaviour
     [SerializeField] private float smoothSpeed = 6f;
 
     private CinemachinePositionComposer composer;
-
     private float defaultOffsetY;
-    private float holdTimer;
 
-    // vem do MobileInputUI
-    private bool isHoldingDown;
+    private float holdTimer;
+    private bool isHoldingDownMobile;
+
+    // Para resetar timer quando o estado muda
+    private bool wasHoldingCombined;
 
     private void Awake()
     {
@@ -39,39 +40,64 @@ public class CameraLookController : MonoBehaviour
 
     private void Update()
     {
-        if (player != null)
+        if (!Application.isFocused)
         {
-            if (!player.IsGrounded || player.IsClimbingOrHanging)
-            {
-                holdTimer = 0f;
-                SmoothTo(defaultOffsetY);
-                return;
-            }
+            ResetLook();
+            return;
         }
 
-        bool downPressed = Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow);
+        if (player != null && (!player.IsGrounded || player.IsClimbingOrHanging))
+        {
+            ResetLook();
+            return;
+        }
 
-        if (isHoldingDown || downPressed)
+        bool downPressedKeyboard = Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow);
+        bool holdingCombined = isHoldingDownMobile || downPressedKeyboard;
+
+        // Se começou/parou de segurar, reseta o timer pra não “herdar” meio segundo
+        if (holdingCombined != wasHoldingCombined)
+        {
+            holdTimer = 0f;
+            wasHoldingCombined = holdingCombined;
+        }
+
+        if (holdingCombined)
         {
             holdTimer += Time.deltaTime;
-            float targetY = (holdTimer >= holdTime) ? defaultOffsetY + lookDownOffsetY : defaultOffsetY;
+
+            float targetY = (holdTimer >= holdTime)
+                ? defaultOffsetY + lookDownOffsetY
+                : defaultOffsetY;
+
             SmoothTo(targetY);
         }
         else
         {
-            holdTimer = 0f;
-            SmoothTo(defaultOffsetY);
+            ResetLook();
         }
     }
 
     public void SetHoldingDown(bool holding)
     {
-        isHoldingDown = holding;
+        isHoldingDownMobile = holding;
+    }
+
+    private void ResetLook()
+    {
+        holdTimer = 0f;
+        SmoothTo(defaultOffsetY);
     }
 
     private void SmoothTo(float targetY)
     {
         float newY = Mathf.Lerp(composer.TargetOffset.y, targetY, Time.deltaTime * smoothSpeed);
+
+        // Clamp pra garantir que não extrapola por drift
+        float minY = defaultOffsetY + lookDownOffsetY;
+        float maxY = defaultOffsetY;
+        newY = Mathf.Clamp(newY, minY, maxY);
+
         composer.TargetOffset = new Vector3(composer.TargetOffset.x, newY, composer.TargetOffset.z);
     }
 }
