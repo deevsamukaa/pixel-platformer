@@ -1211,15 +1211,15 @@ MonoBehaviour:
   visualRoot: {fileID: 0}
   visualSprite: {fileID: 0}
   moveSpeed: 6
-  jumpForce: 12.5
-  coyoteTime: 0.15
-  jumpBufferTime: 0.15
-  jumpHoldTime: 0.17
-  jumpHoldAcceleration: 35
+  jumpForce: 11.2
+  coyoteTime: 0.12
+  jumpBufferTime: 0.1
+  jumpHoldTime: 0.1
+  jumpHoldAcceleration: 16
   jumpCutMultiplier: 0.45
-  maxJumpUpVelocity: 16
+  maxJumpUpVelocity: 12.8
   groundCheck: {fileID: 290497646}
-  groundCheckRadius: 0.05
+  groundCheckRadius: 0.09
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -1236,6 +1236,7 @@ MonoBehaviour:
   ledgeRegrabCooldown: 0.15
   topCheckDownDistance: 1.5
   ledgeCornerInset: 0.08
+  ungroundedUpVelocity: 0.1
 --- !u!50 &772139024
 Rigidbody2D:
   serializedVersion: 5
@@ -1272,7 +1273,7 @@ Transform:
   m_GameObject: {fileID: 772139021}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -88, y: -8.4, z: 0}
+  m_LocalPosition: {x: -88, y: -8.065, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2703,7 +2704,7 @@ Transform:
   m_GameObject: {fileID: 1771349169}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -88, y: -8.408219, z: -10}
+  m_LocalPosition: {x: -88, y: -8.073219, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3252,7 +3253,7 @@ Transform:
   m_GameObject: {fileID: 2107908022}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -88, y: -8.408219, z: -10}
+  m_LocalPosition: {x: -88, y: -8.073219, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
