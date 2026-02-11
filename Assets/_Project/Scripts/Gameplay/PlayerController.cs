@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Death / Respawn")]
     [SerializeField] private float respawnDelay = 0.1f;
-    private Vector3 spawnPosition;
+    public Vector3 spawnPosition;
     private bool isDead;
 
     [Header("Ledge Climb (Hollow Knight-like)")]
@@ -111,8 +111,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        // --- Spawn ---
-        GameObject spawn = GameObject.FindWithTag("SpawnPoint");
+        GameObject spawn = GameObject.FindGameObjectWithTag("SpawnPoint");
         if (spawn != null)
             spawnPosition = spawn.transform.position;
         else
@@ -546,5 +545,10 @@ public class PlayerController : MonoBehaviour
             Vector3 dir = Vector3.right * facing;
             Gizmos.DrawLine(ledgeCheck.position, ledgeCheck.position + dir * ledgeCheckDistance);
         }
+    }
+
+    public void SetSpawnPosition(Vector3 newSpawn)
+    {
+        spawnPosition = newSpawn;
     }
 }
