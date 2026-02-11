@@ -2567,6 +2567,10 @@ MonoBehaviour:
   jumpForce: 12.5
   coyoteTime: 0.15
   jumpBufferTime: 0.15
+  jumpHoldTime: 0.17
+  jumpHoldAcceleration: 35
+  jumpCutMultiplier: 0.45
+  maxJumpUpVelocity: 16
   groundCheck: {fileID: 290497646}
   groundCheckRadius: 0.18
   groundLayer:
@@ -8109,6 +8113,7 @@ GameObject:
   - component: {fileID: 1769486354}
   - component: {fileID: 1769486353}
   - component: {fileID: 1769486356}
+  - component: {fileID: 1769486357}
   m_Layer: 5
   m_Name: BtnJump
   m_TagString: Untagged
@@ -8231,6 +8236,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::JumpButton
   inputUI: {fileID: 1049832052}
+--- !u!114 &1769486357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769486351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6fb270d2bafb634ca3147c496f802c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoldButton
 --- !u!1 &1771349169
 GameObject:
   m_ObjectHideFlags: 0

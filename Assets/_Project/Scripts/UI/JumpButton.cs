@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class JumpButton : MonoBehaviour, IPointerDownHandler
+public class JumpButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     [SerializeField] private MobileInputUI inputUI;
 
@@ -15,5 +15,17 @@ public class JumpButton : MonoBehaviour, IPointerDownHandler
     {
         if (inputUI != null)
             inputUI.JumpPressed();
+    }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        if (inputUI != null)
+            inputUI.JumpReleased();
+    }
+
+    private void OnDisable()
+    {
+        if (inputUI != null)
+            inputUI.JumpReleased();
     }
 }

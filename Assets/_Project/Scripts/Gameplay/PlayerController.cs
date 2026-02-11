@@ -10,9 +10,13 @@ public class PlayerController : MonoBehaviour
     // Input (mobile + teclado fallback)
     private float moveInput;
     private float externalMoveInput = 0f;
-    private bool externalJumpPressed = false;
 
-    [Header("Jump")]
+    // Botão de pulo (mobile)
+    private bool externalJumpDown = false;
+    private bool externalJumpHeld = false;
+    private bool externalJumpUp = false;
+
+    [Header("Jump - Base")]
     [SerializeField] private float jumpForce = 12f;
 
     [Tooltip("Tempo (em segundos) que ainda permite pular após sair do chão.")]
@@ -20,6 +24,20 @@ public class PlayerController : MonoBehaviour
 
     [Tooltip("Tempo (em segundos) que o pulo fica 'guardado' antes de tocar no chão.")]
     [SerializeField] private float jumpBufferTime = 0.12f;
+
+    [Header("Jump - Variable Height (Hollow Knight-like)")]
+    [Tooltip("Tempo máximo em que segurar o botão ainda aumenta a altura do pulo.")]
+    [SerializeField] private float jumpHoldTime = 0.16f;
+
+    [Tooltip("Aceleração extra para 'sustentar' o pulo enquanto segura (somado à física).")]
+    [SerializeField] private float jumpHoldAcceleration = 35f;
+
+    [Tooltip("Se soltar o botão durante a subida, reduz a velocidade vertical multiplicando por este fator (0.3~0.6 costuma ficar bom).")]
+    [Range(0.05f, 0.95f)]
+    [SerializeField] private float jumpCutMultiplier = 0.45f;
+
+    [Tooltip("Velocidade máxima de subida permitida durante o hold (evita foguete em rampas/forças).")]
+    [SerializeField] private float maxJumpUpVelocity = 16f;
 
     [Header("Ground Check")]
     [SerializeField] private Transform groundCheck;
@@ -56,6 +74,8 @@ public class PlayerController : MonoBehaviour
 
     // Estado chão/pulo
     private bool isGrounded;
+    private bool isGroundedFixed;
+
     private float coyoteTimeCounter;
     private float jumpBufferCounter;
 
@@ -69,6 +89,10 @@ public class PlayerController : MonoBehaviour
     private float ledgeCooldownTimer;
     private RaycastHit2D wallHitCached;
 
+    // Jump variable runtime
+    private bool isJumping;
+    private float jumpHoldCounter;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -77,7 +101,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        // --- Spawn (do Script 1) ---
+        // --- Spawn ---
         GameObject spawn = GameObject.FindWithTag("SpawnPoint");
         if (spawn != null)
             spawnPosition = spawn.transform.position;
@@ -103,18 +127,20 @@ public class PlayerController : MonoBehaviour
             if (!isLedgeHanging)
             {
                 TryLedgeGrab();
-                TryJump();
+                TryStartJump();      // usa buffer+coyote e seta isJumping
+                ApplyJumpCut();      // corta quando solta
             }
             else
             {
                 // pendurado: subir com jump (ou auto)
-                if (externalJumpPressed || Input.GetButtonDown("Jump"))
+                if (IsJumpDown())
                     StartClimb();
             }
         }
 
-        // consume clique externo (mobile)
-        externalJumpPressed = false;
+        // consome flags externas (mobile) - Down/Up são "1 frame"
+        externalJumpDown = false;
+        externalJumpUp = false;
     }
 
     private void FixedUpdate()
@@ -122,14 +148,28 @@ public class PlayerController : MonoBehaviour
         if (isDead) return;
         if (isClimbing) return;
 
+        // ✅ Ground check sincronizado com a física
+        isGroundedFixed = Physics2D.OverlapCircle(
+            groundCheck.position,
+            groundCheckRadius,
+            groundLayer
+        );
+
+        // Se encostou no chão, corta qualquer hold residual
+        if (isGroundedFixed)
+        {
+            isJumping = false;
+            jumpHoldCounter = 0f;
+        }
+
         if (isLedgeHanging)
         {
-            // trava o player no lugar
             rb.linearVelocity = Vector2.zero;
             return;
         }
 
         Move();
+        ApplyJumpHold();
     }
 
     // -----------------------
@@ -140,9 +180,24 @@ public class PlayerController : MonoBehaviour
         externalMoveInput = Mathf.Clamp(value, -1f, 1f);
     }
 
+    // Down (início)
     public void JumpPressed()
     {
-        externalJumpPressed = true;
+        externalJumpDown = true;
+        externalJumpHeld = true;
+    }
+
+    // Up (soltou)
+    public void JumpReleased()
+    {
+        externalJumpUp = true;
+        externalJumpHeld = false;
+    }
+
+    // (opcional) caso você queira setar held direto por UI
+    public void SetJumpHeld(bool held)
+    {
+        externalJumpHeld = held;
     }
 
     // -----------------------
@@ -159,10 +214,24 @@ public class PlayerController : MonoBehaviour
         if (moveInput > 0.01f) facing = 1;
         else if (moveInput < -0.01f) facing = -1;
 
-        // buffer do pulo (teclado + mobile)
-        bool jumpDown = Input.GetButtonDown("Jump") || externalJumpPressed;
-        if (jumpDown)
+        // buffer do pulo
+        if (IsJumpDown())
             jumpBufferCounter = jumpBufferTime;
+    }
+
+    private bool IsJumpDown()
+    {
+        return Input.GetButtonDown("Jump") || externalJumpDown;
+    }
+
+    private bool IsJumpHeld()
+    {
+        return Input.GetButton("Jump") || externalJumpHeld;
+    }
+
+    private bool IsJumpUp()
+    {
+        return Input.GetButtonUp("Jump") || externalJumpUp;
     }
 
     private void Move()
@@ -173,6 +242,8 @@ public class PlayerController : MonoBehaviour
     private void Jump()
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        isJumping = true;
+        jumpHoldCounter = jumpHoldTime;
     }
 
     // -----------------------
@@ -189,6 +260,10 @@ public class PlayerController : MonoBehaviour
         // se tocou o chão, não fica pendurado
         if (isGrounded && isLedgeHanging)
             ExitLedgeHang();
+
+        // reset do estado de pulo ao tocar no chão (para o hold não ficar ativo)
+        if (isGrounded)
+            isJumping = false;
     }
 
     private void UpdateJumpTimers()
@@ -204,7 +279,7 @@ public class PlayerController : MonoBehaviour
             jumpBufferCounter -= Time.deltaTime;
     }
 
-    private void TryJump()
+    private void TryStartJump()
     {
         if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f)
         {
@@ -212,6 +287,58 @@ public class PlayerController : MonoBehaviour
             jumpBufferCounter = 0f;
             coyoteTimeCounter = 0f;
         }
+    }
+
+    // -----------------------
+    // Jump Variable (hold) + Jump Cut (soltar)
+    // -----------------------
+    private void ApplyJumpHold()
+    {
+        if (!isJumping) return;
+
+        // ✅ se está no chão (pela checagem do Fixed), nunca aplica hold
+        if (isGroundedFixed)
+        {
+            isJumping = false;
+            jumpHoldCounter = 0f;
+            return;
+        }
+
+        if (!IsJumpHeld()) return;
+
+        if (rb.linearVelocity.y <= 0f)
+        {
+            isJumping = false;
+            return;
+        }
+
+        if (jumpHoldCounter <= 0f)
+        {
+            isJumping = false;
+            return;
+        }
+
+        rb.AddForce(Vector2.up * jumpHoldAcceleration, ForceMode2D.Force);
+
+        if (rb.linearVelocity.y > maxJumpUpVelocity)
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, maxJumpUpVelocity);
+
+        jumpHoldCounter -= Time.fixedDeltaTime;
+    }
+
+    private void ApplyJumpCut()
+    {
+        // soltar durante a subida corta a velocidade
+        if (!IsJumpUp()) return;
+
+        if (rb.linearVelocity.y > 0.01f)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * jumpCutMultiplier);
+        }
+
+        // encerra hold de vez ao soltar
+        isJumping = false;
+        jumpHoldCounter = 0f;
     }
 
     // -----------------------
@@ -236,21 +363,15 @@ public class PlayerController : MonoBehaviour
         if (ledgeBlocked) return;
 
         // 3) Confirma que existe "topo" logo depois da parede
-        // Origem: um pouco depois da parede, na altura do ledgeCheck
         Vector2 cornerProbe = new Vector2(
             wallHit.point.x + (ledgeCornerInset * facing),
             ledgeCheck.position.y
         );
 
         RaycastHit2D topHit = Physics2D.Raycast(cornerProbe, Vector2.down, topCheckDownDistance, groundLayer);
-        if (!topHit) return; // sem chão em cima => não é quina (evita subir no meio da parede)
+        if (!topHit) return;
 
-        // Achou quina válida: cache wallHit e também o ponto do topo (opcional)
         wallHitCached = wallHit;
-
-        // Se você quiser, pode usar topHit.point como referência melhor pro climb:
-        // (opcional) guardar topHit.point num campo e usar pra posicionar o final do climb
-        // ledgeTopCached = topHit.point;
 
         EnterLedgeHang();
 
@@ -275,15 +396,18 @@ public class PlayerController : MonoBehaviour
     private void EnterLedgeHang()
     {
         isLedgeHanging = true;
+
+        // zera pulo/hold
+        isJumping = false;
+        jumpHoldCounter = 0f;
+
         rb.linearVelocity = Vector2.zero;
         rb.gravityScale = 0f;
 
-        // Gruda numa posição estável na quina (evita tremedeira)
         Vector3 p = transform.position;
         p.x = wallHitCached.point.x - (0.05f * facing);
         transform.position = p;
 
-        // quando gruda na quina, zera permissões antigas de pulo
         coyoteTimeCounter = 0f;
         jumpBufferCounter = 0f;
     }
@@ -309,7 +433,6 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         rb.gravityScale = 0f;
 
-        // ponto final do climb baseado na parede detectada
         Vector2 end = wallHitCached.point;
         end.x += climbEndOffset.x * facing;
         end.y += climbEndOffset.y;
@@ -331,12 +454,15 @@ public class PlayerController : MonoBehaviour
         isLedgeHanging = false;
         isClimbing = false;
 
+        isJumping = false;
+        jumpHoldCounter = 0f;
+
         rb.gravityScale = originalGravity;
         ledgeCooldownTimer = ledgeRegrabCooldown;
     }
 
     // -----------------------
-    // Death / Respawn (do Script 1)
+    // Death / Respawn
     // -----------------------
     public void Die()
     {
@@ -347,10 +473,13 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         rb.simulated = false;
 
-        // limpa estados de climb
         isLedgeHanging = false;
         isClimbing = false;
         rb.gravityScale = originalGravity;
+
+        // limpa pulo variável
+        isJumping = false;
+        jumpHoldCounter = 0f;
 
         CancelInvoke(nameof(Respawn));
         StopAllCoroutines();
@@ -365,13 +494,17 @@ public class PlayerController : MonoBehaviour
         rb.simulated = true;
         rb.gravityScale = originalGravity;
 
-        // zera inputs/timers
         externalMoveInput = 0f;
-        externalJumpPressed = false;
-        moveInput = 0f;
+        externalJumpDown = false;
+        externalJumpUp = false;
+        externalJumpHeld = false;
 
+        moveInput = 0f;
         coyoteTimeCounter = 0f;
         jumpBufferCounter = 0f;
+
+        isJumping = false;
+        jumpHoldCounter = 0f;
 
         isDead = false;
     }
@@ -384,7 +517,6 @@ public class PlayerController : MonoBehaviour
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
 
-        // OBS: Gizmos usando 'facing' em edit mode pode não refletir seu lado real.
         if (wallCheck != null)
         {
             Gizmos.color = Color.cyan;

@@ -26,10 +26,15 @@ public class MobileInputUI : MonoBehaviour
         player.SetMoveInput(move);
     }
 
-    // Chame isso no OnClick do botão Jump
     public void JumpPressed()
     {
         if (player == null) return;
         player.JumpPressed();
+    }
+
+    public void JumpReleased()
+    {
+        if (player == null) return;
+        player.JumpReleased();
     }
 }
