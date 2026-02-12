@@ -114,6 +114,8 @@ public class LevelManager : MonoBehaviour
 
         Debug.Log($"[LevelManager] Level completo: {currentLevel.levelId} | Tempo: {levelTimer:F2}s | Mortes: {deathsThisRun}");
 
+        SaveBestCoinsForCurrentLevel();
+
         if (levelCompleteUI != null)
             levelCompleteUI.Show(currentLevel.levelId, hasNext);
 
@@ -138,6 +140,7 @@ public class LevelManager : MonoBehaviour
         currentLevelInstance = Instantiate(level.levelPrefab);
 
         ResetRunStats();
+        CoinManager.Instance?.ResetRun();
         TeleportPlayerToSpawn();
         UpdateCinemachineBounds();
 
@@ -272,5 +275,20 @@ public class LevelManager : MonoBehaviour
     public IReadOnlyList<LevelData> GetOrderedLevels()
     {
         return orderedLevels;
+    }
+
+    private void SaveBestCoinsForCurrentLevel()
+    {
+        if (currentLevel == null) return;
+
+        int current = CoinManager.Instance != null ? CoinManager.Instance.CoinsThisRun : 0;
+        string key = $"BEST_COINS_{currentLevel.levelId}";
+
+        int best = PlayerPrefs.GetInt(key, -1);
+        if (current > best)
+        {
+            PlayerPrefs.SetInt(key, current);
+            PlayerPrefs.Save();
+        }
     }
 }
