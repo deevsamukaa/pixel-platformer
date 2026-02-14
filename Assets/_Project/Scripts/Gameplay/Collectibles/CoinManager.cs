@@ -26,5 +26,6 @@ public class CoinManager : MonoBehaviour
     {
         CoinsThisRun += Mathf.Max(0, amount);
         CoinHUD.Instance?.Set(CoinsThisRun);
+        RunManager.I.AddCoins(1);
     }
 }
