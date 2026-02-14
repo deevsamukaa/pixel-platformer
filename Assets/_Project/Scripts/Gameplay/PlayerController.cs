@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
 
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 6f;
+    public float MoveSpeed => moveSpeed;
+
 
     // Input (mobile + teclado fallback)
     private float moveInput;
@@ -59,6 +61,8 @@ public class PlayerController : MonoBehaviour
 
     [Header("Ledge Climb (Hollow Knight-like)")]
     public bool IsClimbingOrHanging => isClimbing || isLedgeHanging;
+    public bool IsLedgeHanging => isLedgeHanging;
+    public bool IsClimbing => isClimbing;
     [SerializeField] private bool enableLedgeClimb = true;
     [SerializeField] private Transform wallCheck;   // peito
     [SerializeField] private Transform ledgeCheck;  // acima da cabeça
