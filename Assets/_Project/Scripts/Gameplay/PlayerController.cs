@@ -173,6 +173,13 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+        var combat = GetComponent<PlayerCombat>();
+        if (combat != null && combat.IsAttacking && isGroundedFixed && !isLedgeHanging && !isClimbing)
+        {
+            ApplyJumpHold();
+            return;
+        }
+
         Move();
         ApplyJumpHold();
     }

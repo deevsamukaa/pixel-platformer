@@ -4,149 +4,158 @@ public class PlayerCombat : MonoBehaviour
 {
     [Header("Refs")]
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private Transform attackPoint; // empty na mão do player
-    [SerializeField] private LayerMask hittableLayers;
+    [SerializeField] private PlayerAnimator playerAnimator;
 
-    [Header("Melee Combo (3 hits)")]
-    [SerializeField] private float comboResetTime = 0.55f;
-    [SerializeField] private float attackCooldown = 0.12f;
-    [SerializeField] private float[] hitDurations = { 0.08f, 0.09f, 0.10f };
-    [SerializeField] private Vector2[] hitBoxSizes = { new Vector2(1.0f, 0.7f), new Vector2(1.1f, 0.7f), new Vector2(1.2f, 0.8f) };
-    [SerializeField] private int[] hitDamages = { 1, 1, 2 };
+    [Header("Facing (para o lunge)")]
+    [SerializeField] private SpriteRenderer visualSprite; // o do Visual
 
-    [Header("Ranged Skill")]
-    [SerializeField] private ProjectileData equippedProjectile;
+    [Header("Combo")]
+    [SerializeField] private float comboResetTime = 0.7f;
+    [SerializeField] private int maxBufferedInputs = 2;
 
-    // runtime
-    private int _comboIndex = 0; // 0..2
-    private float _lastAttackTime = -999f;
-    private float _nextMeleeAllowedTime = 0f;
-    private float _nextRangedAllowedTime = 0f;
+    [Header("Failsafe")]
+    [SerializeField] private float attackFailSafeTime = 1.3f;
+    [SerializeField] private bool debugLogs = false;
 
-    // facing (pega do scale/vel ou do PlayerController se quiser)
-    private int _facing = 1;
+    [Header("Lunge (Impulse)")]
+    [SerializeField] private float lungeAttack1 = 2.0f;
+    [SerializeField] private float lungeAttack3 = 3.5f;
+
+    public bool IsAttacking => _isAttacking;
+
+    private bool _isAttacking;
+    private bool _comboWindowOpen;
+    private int _currentAttackIndex;   // 1..3
+    private int _bufferedInputs;
+    private float _lastAttackInputTime = -999f;
+    private float _attackExpireAt = -999f;
 
     private void Awake()
     {
         if (rb == null) rb = GetComponent<Rigidbody2D>();
-        if (attackPoint == null)
+        if (playerAnimator == null) playerAnimator = GetComponent<PlayerAnimator>();
+
+        if (visualSprite == null)
         {
-            var ap = transform.Find("AttackPoint");
-            if (ap != null) attackPoint = ap;
+            var visual = transform.Find("Visual");
+            if (visual != null) visualSprite = visual.GetComponentInChildren<SpriteRenderer>();
         }
     }
 
     private void Update()
     {
-        UpdateFacing();
-
-        // INPUT (teclado por enquanto)
         if (Input.GetButtonDown("Fire1"))
             TryMelee();
 
-        if (Input.GetButtonDown("Fire2"))
-            TryRanged();
-    }
+        if (!_isAttacking && Time.time - _lastAttackInputTime > comboResetTime)
+        {
+            _currentAttackIndex = 0;
+            _bufferedInputs = 0;
+        }
 
-    private void UpdateFacing()
-    {
-        // simples: usa velocity (se parado, mantém)
-        if (rb == null) return;
-
-        if (rb.linearVelocity.x > 0.1f) _facing = 1;
-        else if (rb.linearVelocity.x < -0.1f) _facing = -1;
-    }
-
-    public void SetEquippedProjectile(ProjectileData data)
-    {
-        equippedProjectile = data;
+        // failsafe anti-trava
+        if (_isAttacking && Time.time > _attackExpireAt)
+        {
+            if (debugLogs) Debug.LogWarning($"[Combat] FAILSAFE release idx={_currentAttackIndex}");
+            ForceEndAttack();
+        }
     }
 
     public void TryMelee()
     {
-        if (Time.time < _nextMeleeAllowedTime) return;
+        _lastAttackInputTime = Time.time;
 
-        // reset combo se demorou
-        if (Time.time - _lastAttackTime > comboResetTime)
-            _comboIndex = 0;
-
-        _lastAttackTime = Time.time;
-        _nextMeleeAllowedTime = Time.time + attackCooldown;
-
-        int idx = Mathf.Clamp(_comboIndex, 0, 1);
-
-        DoMeleeHit(idx);
-
-        _comboIndex++;
-        if (_comboIndex > 1) _comboIndex = 0;
-    }
-
-    private void DoMeleeHit(int idx)
-    {
-        if (attackPoint == null)
+        if (_isAttacking)
         {
-            Debug.LogWarning("[PlayerCombat] AttackPoint não setado.");
+            _bufferedInputs = Mathf.Clamp(_bufferedInputs + 1, 0, maxBufferedInputs);
             return;
         }
 
-        Vector2 size = hitBoxSizes[idx];
-        float duration = hitDurations[idx];
-        int damage = hitDamages[idx];
+        StartAttack(1);
+    }
 
-        // offset pra frente
-        Vector3 center = attackPoint.position + new Vector3(_facing * (size.x * 0.35f), 0f, 0f);
+    private void StartAttack(int index)
+    {
+        index = Mathf.Clamp(index, 1, 3);
 
-        // detecta
-        var hits = Physics2D.OverlapBoxAll(center, size, 0f, hittableLayers);
-        foreach (var h in hits)
+        _isAttacking = true;
+        _comboWindowOpen = false;
+        _currentAttackIndex = index;
+
+        if (_bufferedInputs > 0) _bufferedInputs--;
+
+        _attackExpireAt = Time.time + attackFailSafeTime;
+
+        playerAnimator?.PlayAttack(index);
+    }
+
+    // -------------------
+    // Animation Events
+    // -------------------
+
+    public void AnimEvent_ComboOpen()
+    {
+        if (!_isAttacking) return;
+        _comboWindowOpen = true;
+    }
+
+    public void AnimEvent_ComboWindow()
+    {
+        if (!_isAttacking) return;
+        if (!_comboWindowOpen) return;
+        TryAdvanceCombo();
+    }
+
+    public void AnimEvent_AttackEnd()
+    {
+        if (!_isAttacking) return;
+
+        if (_currentAttackIndex < 3 && _bufferedInputs > 0)
         {
-            if (h == null) continue;
-            var dmg = h.GetComponentInParent<Damageable>();
-            if (dmg != null) dmg.TakeDamage(damage);
+            TryAdvanceCombo(force: true);
+            return;
         }
 
-        // Debug gizmo rápido (opcional)
-        StartCoroutine(DebugHitbox(center, size, duration));
+        ForceEndAttack();
     }
 
-    private System.Collections.IEnumerator DebugHitbox(Vector3 center, Vector2 size, float duration)
+    // ✅ CHAME ESTE EVENTO NO CLIP (Attack1 e Attack3)
+    public void AnimEvent_Lunge()
     {
-        float t = 0f;
-        while (t < duration)
-        {
-            t += Time.deltaTime;
-            DebugDrawRect(center, size);
-            yield return null;
-        }
+        if (rb == null) return;
+
+        int facing = 1;
+        if (visualSprite != null)
+            facing = visualSprite.flipX ? -1 : 1;
+        else
+            facing = transform.localScale.x < 0 ? -1 : 1;
+
+        float impulse = 0f;
+        if (_currentAttackIndex == 1) impulse = lungeAttack1;
+        else if (_currentAttackIndex == 3) impulse = lungeAttack3;
+
+        if (impulse <= 0f) return;
+
+        // aplica impulso horizontal e zera qualquer drift pra não "patinar"
+        rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+        rb.AddForce(Vector2.right * facing * impulse, ForceMode2D.Impulse);
     }
 
-    private void DebugDrawRect(Vector3 center, Vector2 size)
+    private void TryAdvanceCombo(bool force = false)
     {
-        // desenha no Scene view
-        Vector3 a = center + new Vector3(-size.x, -size.y) * 0.5f;
-        Vector3 b = center + new Vector3(-size.x, +size.y) * 0.5f;
-        Vector3 c = center + new Vector3(+size.x, +size.y) * 0.5f;
-        Vector3 d = center + new Vector3(+size.x, -size.y) * 0.5f;
+        if (_currentAttackIndex >= 3) return;
+        if (_bufferedInputs <= 0) return;
 
-        Debug.DrawLine(a, b, Color.red, 0f, false);
-        Debug.DrawLine(b, c, Color.red, 0f, false);
-        Debug.DrawLine(c, d, Color.red, 0f, false);
-        Debug.DrawLine(d, a, Color.red, 0f, false);
+        int next = _currentAttackIndex + 1;
+        StartAttack(next);
     }
 
-    public void TryRanged()
+    private void ForceEndAttack()
     {
-        if (equippedProjectile == null || equippedProjectile.prefab == null) return;
-        if (Time.time < _nextRangedAllowedTime) return;
-
-        _nextRangedAllowedTime = Time.time + equippedProjectile.cooldown;
-
-        Vector2 off = equippedProjectile.spawnOffset;
-        Vector3 spawnPos = transform.position + new Vector3(off.x * _facing, off.y, 0f);
-
-        var go = Instantiate(equippedProjectile.prefab, spawnPos, Quaternion.identity);
-        var proj = go.GetComponent<Projectile>();
-        if (proj != null)
-            proj.Fire(_facing, equippedProjectile.speed, equippedProjectile.damage);
+        _isAttacking = false;
+        _comboWindowOpen = false;
+        _bufferedInputs = 0;
+        _currentAttackIndex = 0;
+        _attackExpireAt = -999f;
     }
 }

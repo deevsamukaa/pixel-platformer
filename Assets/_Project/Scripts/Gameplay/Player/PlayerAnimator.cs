@@ -22,6 +22,7 @@ public class PlayerAnimator : MonoBehaviour
     private static readonly int H_Attack = Animator.StringToHash("Attack");
     private static readonly int H_Hurt = Animator.StringToHash("Hurt");
     private static readonly int H_Death = Animator.StringToHash("Death");
+    private static readonly int H_Attacking = Animator.StringToHash("Attacking");
 
     private void Awake()
     {
@@ -56,6 +57,13 @@ public class PlayerAnimator : MonoBehaviour
         animator.SetBool(H_Grounded, controller.IsGrounded);
         animator.SetBool(H_Hanging, controller.IsLedgeHanging);
         animator.SetBool(H_Climbing, controller.IsClimbing);
+
+        if (combat != null)
+            animator.SetBool(H_Attacking, combat.IsAttacking);
+        else
+            animator.SetBool(H_Attacking, false);
+
+
     }
 
     // Chamados por outros scripts (combat/damage)
