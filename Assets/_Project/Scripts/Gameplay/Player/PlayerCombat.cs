@@ -22,11 +22,24 @@ public class PlayerCombat : MonoBehaviour
         new Vector2(1.20f, 0.80f),
     };
 
+    [Tooltip("Centro do hitbox (offset LOCAL a partir do AttackPoint) por hit (1..3). " +
+             "O X é espelhado automaticamente pelo facing.")]
+    [SerializeField]
+    private Vector2[] hitBoxCenterOffsets =
+    {
+        new Vector2(0.55f, 0.05f),  // Attack1
+        new Vector2(0.60f, 0.10f),  // Attack2
+        new Vector2(0.70f, 0.08f),  // Attack3
+    };
+
     [Tooltip("Dano por hit (1..3).")]
     [SerializeField] private int[] hitDamages = { 1, 1, 2 };
 
-    [Tooltip("Quanto pra frente a hitbox nasce (multiplicador do size.x).")]
-    [SerializeField] private float hitForwardFactor = 0.35f;
+    [Header("Knockback (por hit 1..3)")]
+    [SerializeField] private float[] hitKnockbackForces = { 9f, 10f, 12f };
+
+    [Tooltip("Empurra um pouco pra cima pra ficar gostoso.")]
+    [SerializeField] private float knockUpBias = 0.35f;
 
     [Header("Combo")]
     [SerializeField] private float comboResetTime = 0.7f;
@@ -119,14 +132,12 @@ public class PlayerCombat : MonoBehaviour
     // Animation Events (coloque nos clips)
     // -------------------
 
-    // Attack1 e Attack2: abre cedo (~35–45% do clip)
     public void AnimEvent_ComboOpen()
     {
         if (!_isAttacking) return;
         _comboWindowOpen = true;
     }
 
-    // Attack1 e Attack2: ponto bonito (~65–80% do clip)
     public void AnimEvent_ComboWindow()
     {
         if (!_isAttacking) return;
@@ -134,12 +145,10 @@ public class PlayerCombat : MonoBehaviour
         TryAdvanceCombo();
     }
 
-    // Attack1/2/3: último frame
     public void AnimEvent_AttackEnd()
     {
         if (!_isAttacking) return;
 
-        // fallback: se tem buffer e não chegou no 3, avança mesmo no fim
         if (_currentAttackIndex < 3 && _bufferedInputs > 0)
         {
             TryAdvanceCombo(force: true);
@@ -149,13 +158,11 @@ public class PlayerCombat : MonoBehaviour
         ForceEndAttack();
     }
 
-    // ✅ Evento de impacto (coloque em Attack1/2/3 no frame que "acerta")
     public void AnimEvent_MeleeHit()
     {
         DoMeleeHit(_currentAttackIndex);
     }
 
-    // ✅ Lunge só em Attack1 e Attack3 (coloque no frame do impacto)
     public void AnimEvent_Lunge()
     {
         if (rb == null) return;
@@ -168,7 +175,6 @@ public class PlayerCombat : MonoBehaviour
 
         if (impulse <= 0f) return;
 
-        // não patinar com drift antigo
         rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
         rb.AddForce(Vector2.right * facing * impulse, ForceMode2D.Impulse);
     }
@@ -208,20 +214,32 @@ public class PlayerCombat : MonoBehaviour
         if (attackPoint == null) return;
 
         int i = Mathf.Clamp(attackIndex, 1, 3) - 1;
+
         if (i < 0 || i >= hitBoxSizes.Length) return;
+        if (i < 0 || i >= hitBoxCenterOffsets.Length) return;
 
         Vector2 size = hitBoxSizes[i];
         int damage = (i < hitDamages.Length) ? hitDamages[i] : 1;
+        float kb = (i < hitKnockbackForces.Length) ? hitKnockbackForces[i] : 0f;
 
         int facing = GetFacing();
-        Vector3 center = attackPoint.position + new Vector3(facing * (size.x * hitForwardFactor), 0f, 0f);
+
+        // ✅ centro custom por hit + espelho automático no X
+        Vector2 off = hitBoxCenterOffsets[i];
+        Vector3 center = attackPoint.position + new Vector3(off.x * facing, off.y, 0f);
 
         var hits = Physics2D.OverlapBoxAll(center, size, 0f, hittableLayers);
         foreach (var h in hits)
         {
             if (h == null) continue;
-            var dmg = h.GetComponentInParent<Damageable>();
-            if (dmg != null) dmg.TakeDamage(damage);
+
+            var dmg = h.GetComponentInParent<IDamageable>();
+            if (dmg == null) continue;
+
+            Vector2 dir = new Vector2(facing, 0f);
+            dir.y = Mathf.Max(dir.y, knockUpBias);
+
+            dmg.TakeDamage(new DamageInfo(damage, dir.normalized, kb, gameObject));
         }
 
         if (debugHitbox)

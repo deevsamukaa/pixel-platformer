@@ -59,6 +59,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float respawnDelay = 0.1f;
     public Vector3 spawnPosition;
     private bool isDead;
+    [Header("Hurt Lock (recebe dano)")]
+    [SerializeField] private float hurtLockDuration = 0.15f;
+    private bool isHurtLocked;
     [Header("Ledge - Stability")]
     [SerializeField] private float ledgeStartClimbLock = 0.35f; // bloqueia regrab durante climb
     [SerializeField] private float ledgeHangLock = 0.12f;
@@ -133,6 +136,14 @@ public class PlayerController : MonoBehaviour
     {
         if (isDead) return;
 
+        if (isHurtLocked)
+        {
+            externalJumpDown = false;
+            externalJumpUp = false;
+            // Não processa input nem ledge/jump
+            return;
+        }
+
         // timers (ledge)
         if (ledgeCooldownTimer > 0f)
             ledgeCooldownTimer -= Time.deltaTime;
@@ -165,6 +176,13 @@ public class PlayerController : MonoBehaviour
     {
         if (isDead) return;
         if (isClimbing) return;
+
+        if (isHurtLocked)
+        {
+            // trava movimento horizontal durante o hit
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+            return;
+        }
 
         // ✅ Ground check sincronizado com a física (única fonte)
         isGroundedFixed = Physics2D.OverlapCircle(
@@ -547,6 +565,10 @@ public class PlayerController : MonoBehaviour
         jumpHoldCounter = 0f;
 
         isDead = false;
+        isHurtLocked = false;
+        CancelInvoke(nameof(ClearHurtLock));
+        var hp = GetComponent<PlayerHealth>();
+        if (hp != null) hp.ResetFull();
     }
 
     private void OnDrawGizmosSelected()
@@ -584,4 +606,25 @@ public class PlayerController : MonoBehaviour
 
         return isGroundedFixed;
     }
+
+    public void SetHurtLock(float duration)
+    {
+        if (isDead) return;
+
+        if (duration <= 0f)
+        {
+            isHurtLocked = false;
+            return;
+        }
+
+        isHurtLocked = true;
+        CancelInvoke(nameof(ClearHurtLock));
+        Invoke(nameof(ClearHurtLock), duration);
+    }
+
+    private void ClearHurtLock()
+    {
+        isHurtLocked = false;
+    }
+
 }
