@@ -83,6 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3514a708396c7964f9cda3262d43f578, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  playerAnimator: {fileID: 0}
   visualRoot: {fileID: 0}
   visualSprite: {fileID: 0}
   moveSpeed: 6
@@ -94,12 +95,14 @@ MonoBehaviour:
   jumpCutMultiplier: 0.45
   maxJumpUpVelocity: 12.8
   groundCheck: {fileID: 9093153577156044938}
-  groundCheckRadius: 0.09
+  groundCheckRadius: 0.06
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
   respawnDelay: 0.1
   spawnPosition: {x: 0, y: 0, z: 0}
+  ledgeStartClimbLock: 0.35
+  ledgeHangLock: 0.12
   enableLedgeClimb: 1
   wallCheck: {fileID: 3119248185363908457}
   ledgeCheck: {fileID: 8324415098479185147}
@@ -108,7 +111,7 @@ MonoBehaviour:
   autoClimbDelay: 0.15
   climbDuration: 0.12
   climbEndOffset: {x: 0.35, y: 1.1}
-  ledgeRegrabCooldown: 0.15
+  ledgeRegrabCooldown: 0.1
   topCheckDownDistance: 1.5
   ledgeCornerInset: 0.08
   ungroundedUpVelocity: 0.1
@@ -147,7 +150,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: -0.2717984}
-  m_Size: {x: 0.7, y: 2.0016956}
+  m_Size: {x: 0.35, y: 2.0016956}
   m_Direction: 0
 --- !u!114 &3763621976324699256
 MonoBehaviour:
@@ -162,20 +165,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
   rb: {fileID: 5314452833213806406}
-  controller: {fileID: 2777030518035636007}
   playerAnimator: {fileID: 4654773292306859373}
+  visualSprite: {fileID: 0}
   attackPoint: {fileID: 6616784539717687355}
   hittableLayers:
     serializedVersion: 2
     m_Bits: 128
-  comboResetTime: 0.55
-  attackCooldown: 0.12
   hitBoxSizes:
   - {x: 1, y: 0.7}
   - {x: 1.1, y: 0.7}
-  hitDamages: 0100000001000000
+  - {x: 1.1, y: 0.7}
+  hitDamages: 010000000100000002000000
   hitForwardFactor: 0.35
-  equippedProjectile: {fileID: 11400000, guid: 42e44c3a07461ef43b220ef5222a24c9, type: 2}
+  comboResetTime: 0.55
+  maxBufferedInputs: 3
+  attackFailSafeTime: 1.3
+  lungeAttack1: 1.2
+  lungeAttack3: 2.1
+  debugHitbox: 0
+  debugHitboxDuration: 0.06
 --- !u!114 &4654773292306859373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -385,7 +393,7 @@ Transform:
   m_GameObject: {fileID: 7768174438750035546}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.792, z: 0}
+  m_LocalPosition: {x: 0, y: 0.754, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

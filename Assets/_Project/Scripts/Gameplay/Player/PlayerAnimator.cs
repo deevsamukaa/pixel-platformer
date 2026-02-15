@@ -85,4 +85,23 @@ public class PlayerAnimator : MonoBehaviour
         if (animator == null) return;
         animator.SetTrigger(H_Death);
     }
+
+    public void SetLedge(bool value)
+    {
+        animator.SetBool("Edge", value); // ou "LedgeHang"
+    }
+
+    public void SetClimbing(bool value)
+    {
+        animator.SetBool("Climb", value); // ou "IsClimbing"
+    }
+
+    public void ForceLocomotion()
+    {
+        animator.ResetTrigger("EdgeGrab"); // se existir
+        animator.ResetTrigger("ClimbUp");  // se existir
+        animator.Play("Locomotion", 0, 0f); // nome do state base
+    }
+
+    public void TriggerEdgeGrab() => animator.SetTrigger("EdgeGrab");
 }

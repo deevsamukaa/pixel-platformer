@@ -522,7 +522,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.000.000
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -3693,38 +3693,6 @@ PrefabInstance:
     - target: {fileID: 2483986292729766039, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763621976324699256, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
-      propertyPath: lungeAttack1
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763621976324699256, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
-      propertyPath: lungeAttack3
-      value: 2.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763621976324699256, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
-      propertyPath: hitDamages.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763621976324699256, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
-      propertyPath: hitBoxSizes.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763621976324699256, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
-      propertyPath: 'hitDamages.Array.data[2]'
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763621976324699256, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
-      propertyPath: hitBoxSizes.Array.data[2].x
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763621976324699256, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
-      propertyPath: hitBoxSizes.Array.data[2].y
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4654773292306859373, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
-      propertyPath: animator
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7184016620082162045, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
       propertyPath: m_LocalPosition.x

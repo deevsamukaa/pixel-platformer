@@ -4,6 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private PlayerAnimator playerAnimator;
     [Header("Visual / Flip")]
     [SerializeField] private Transform visualRoot;
     [SerializeField] private SpriteRenderer visualSprite;
@@ -58,11 +59,19 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float respawnDelay = 0.1f;
     public Vector3 spawnPosition;
     private bool isDead;
+    [Header("Ledge - Stability")]
+    [SerializeField] private float ledgeStartClimbLock = 0.35f; // bloqueia regrab durante climb
+    [SerializeField] private float ledgeHangLock = 0.12f;
+    private Collider2D col;
+    private RaycastHit2D topHitCached;  // bloqueia re-entrada logo ao agarrar
+
 
     [Header("Ledge Climb (Hollow Knight-like)")]
     public bool IsClimbingOrHanging => isClimbing || isLedgeHanging;
     public bool IsLedgeHanging => isLedgeHanging;
     public bool IsClimbing => isClimbing;
+    private Coroutine autoClimbCo;
+    private Coroutine climbCo;
     [SerializeField] private bool enableLedgeClimb = true;
     [SerializeField] private Transform wallCheck;   // peito
     [SerializeField] private Transform ledgeCheck;  // acima da cabeça
@@ -113,6 +122,11 @@ public class PlayerController : MonoBehaviour
 
         if (visualSprite == null && visualRoot != null)
             visualSprite = visualRoot.GetComponentInChildren<SpriteRenderer>();
+
+        if (playerAnimator == null) playerAnimator = GetComponent<PlayerAnimator>();
+
+        col = GetComponent<Collider2D>();
+
     }
 
     private void Update()
@@ -346,11 +360,14 @@ public class PlayerController : MonoBehaviour
         if (!topHit) return;
 
         wallHitCached = wallHit;
-
+        topHitCached = topHit;          // ✅ novo: cache do topo
         EnterLedgeHang();
 
         if (autoClimbDelay > 0f)
-            StartCoroutine(AutoClimbAfterDelay(autoClimbDelay));
+        {
+            if (autoClimbCo != null) StopCoroutine(autoClimbCo);
+            autoClimbCo = StartCoroutine(AutoClimbAfterDelay(autoClimbDelay));
+        }
     }
 
     private IEnumerator AutoClimbAfterDelay(float delay)
@@ -383,6 +400,12 @@ public class PlayerController : MonoBehaviour
 
         coyoteTimeCounter = 0f;
         jumpBufferCounter = 0f;
+
+        ledgeCooldownTimer = Mathf.Max(ledgeCooldownTimer, ledgeHangLock);
+
+        playerAnimator?.TriggerEdgeGrab();
+        playerAnimator?.SetLedge(true);
+        playerAnimator?.SetClimbing(false);
     }
 
     private void ExitLedgeHang()
@@ -396,22 +419,56 @@ public class PlayerController : MonoBehaviour
         if (isClimbing) return;
         if (!isLedgeHanging) return;
 
-        StartCoroutine(ClimbRoutine());
+        // ✅ trava imediatamente (não espera o primeiro frame do coroutine)
+        isClimbing = true;
+        externalJumpDown = false;
+        externalJumpUp = false;
+
+        // ✅ mata auto climb pendente (pra não chamar StartClimb de novo)
+        if (autoClimbCo != null)
+        {
+            StopCoroutine(autoClimbCo);
+            autoClimbCo = null;
+        }
+
+        // ✅ se por algum motivo já tinha coroutine, garante só 1
+        if (climbCo != null)
+            StopCoroutine(climbCo);
+
+        ledgeCooldownTimer = Mathf.Max(ledgeCooldownTimer, ledgeStartClimbLock);
+        playerAnimator?.SetClimbing(true);
+
+        climbCo = StartCoroutine(ClimbRoutine());
     }
+
 
     private IEnumerator ClimbRoutine()
     {
-        isClimbing = true;
-
+        rb.simulated = false;
         rb.linearVelocity = Vector2.zero;
         rb.gravityScale = 0f;
 
-        Vector2 end = wallHitCached.point;
-        end.x += climbEndOffset.x * facing;
-        end.y += climbEndOffset.y;
+        // X continua usando a parede (ajuste fino com seu offset)
+        float endX = wallHitCached.point.x + (climbEndOffset.x * facing);
+
+        // Y agora usa o chão do topo + metade da altura do colisor (pé no chão)
+        float endY;
+
+        if (col != null && topHitCached)
+        {
+            float halfH = col.bounds.extents.y;
+            endY = topHitCached.point.y + halfH + 0.02f; // 0.02 = folga pra não enroscar
+        }
+        else
+        {
+            // fallback (se algo estiver nulo)
+            endY = wallHitCached.point.y + climbEndOffset.y;
+        }
+
+        Vector3 endPos = new Vector3(endX, endY, transform.position.z);
+
 
         Vector3 startPos = transform.position;
-        Vector3 endPos = new Vector3(end.x, end.y, transform.position.z);
 
         float t = 0f;
         while (t < climbDuration)
@@ -426,12 +483,24 @@ public class PlayerController : MonoBehaviour
 
         isLedgeHanging = false;
         isClimbing = false;
+        climbCo = null;
 
         isJumping = false;
         jumpHoldCounter = 0f;
 
+        rb.simulated = true;
         rb.gravityScale = originalGravity;
         ledgeCooldownTimer = ledgeRegrabCooldown;
+
+        StartCoroutine(EndClimbAnimatorCleanup());
+    }
+
+    private IEnumerator EndClimbAnimatorCleanup()
+    {
+        yield return null; // 1 frame
+        playerAnimator?.SetLedge(false);
+        playerAnimator?.SetClimbing(false);
+        playerAnimator?.ForceLocomotion();
     }
 
     // -----------------------
