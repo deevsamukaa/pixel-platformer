@@ -404,7 +404,7 @@ public class PlayerController : MonoBehaviour
         ledgeCooldownTimer = Mathf.Max(ledgeCooldownTimer, ledgeHangLock);
 
         playerAnimator?.TriggerEdgeGrab();
-        playerAnimator?.SetLedge(true);
+        playerAnimator?.SetHanging(true);
         playerAnimator?.SetClimbing(false);
     }
 
@@ -498,9 +498,8 @@ public class PlayerController : MonoBehaviour
     private IEnumerator EndClimbAnimatorCleanup()
     {
         yield return null; // 1 frame
-        playerAnimator?.SetLedge(false);
+        playerAnimator?.SetHanging(false);
         playerAnimator?.SetClimbing(false);
-        playerAnimator?.ForceLocomotion();
     }
 
     // -----------------------

@@ -8,11 +8,6 @@ public class PlayerAnimator : MonoBehaviour
     [SerializeField] private PlayerController controller;
     [SerializeField] private PlayerCombat combat;
 
-    [Header("Tuning")]
-    [SerializeField] private float speedDeadzone = 0.05f;
-    [SerializeField] private float vSpeedDeadzone = 0.05f;
-
-    // hashes (mais rápido e evita typo)
     private static readonly int H_Speed = Animator.StringToHash("Speed");
     private static readonly int H_VSpeed = Animator.StringToHash("VSpeed");
     private static readonly int H_Grounded = Animator.StringToHash("Grounded");
@@ -20,8 +15,6 @@ public class PlayerAnimator : MonoBehaviour
     private static readonly int H_Climbing = Animator.StringToHash("Climbing");
     private static readonly int H_AttackIndex = Animator.StringToHash("AttackIndex");
     private static readonly int H_Attack = Animator.StringToHash("Attack");
-    private static readonly int H_Hurt = Animator.StringToHash("Hurt");
-    private static readonly int H_Death = Animator.StringToHash("Death");
     private static readonly int H_Attacking = Animator.StringToHash("Attacking");
 
     private void Awake()
@@ -34,74 +27,38 @@ public class PlayerAnimator : MonoBehaviour
 
     private void Update()
     {
-        if (animator == null || rb == null || controller == null) return;
+        if (!animator) return;
 
-        float rawSpeed = Mathf.Abs(rb.linearVelocity.x);
-
-        float normalizedSpeed = 0f;
-
-        if (controller.MoveSpeed > 0.01f)
-            normalizedSpeed = rawSpeed / controller.MoveSpeed;
-
-        normalizedSpeed = Mathf.Clamp01(normalizedSpeed);
-
-        // opcional: suavização leve
-        float current = animator.GetFloat(H_Speed);
-        float smooth = Mathf.Lerp(current, normalizedSpeed, 15f * Time.deltaTime);
-        animator.SetFloat(H_Speed, smooth);
-
-        float vSpeed = rb.linearVelocity.y;
-        if (Mathf.Abs(vSpeed) < 0.05f) vSpeed = 0f;
-        animator.SetFloat(H_VSpeed, vSpeed);
-
+        float normalizedSpeed = Mathf.Clamp01(Mathf.Abs(rb.linearVelocity.x) / controller.MoveSpeed);
+        animator.SetFloat(H_Speed, normalizedSpeed);
+        animator.SetFloat(H_VSpeed, rb.linearVelocity.y);
         animator.SetBool(H_Grounded, controller.IsGrounded);
         animator.SetBool(H_Hanging, controller.IsLedgeHanging);
         animator.SetBool(H_Climbing, controller.IsClimbing);
 
-        if (combat != null)
-            animator.SetBool(H_Attacking, combat.IsAttacking);
-        else
-            animator.SetBool(H_Attacking, false);
-
-
+        animator.SetBool(H_Attacking, combat != null && combat.IsAttacking);
     }
 
-    // Chamados por outros scripts (combat/damage)
-    public void PlayAttack(int attackIndex)
+    // ====== Ataque ======
+    public void PlayAttack(int index)
     {
-        if (animator == null) return;
-        animator.SetInteger(H_AttackIndex, attackIndex);
+        animator.SetInteger(H_AttackIndex, index);
         animator.SetTrigger(H_Attack);
     }
 
-    public void PlayHurt()
+    // ====== Ledge ======
+    public void TriggerEdgeGrab()
     {
-        if (animator == null) return;
-        animator.SetTrigger(H_Hurt);
+        animator.SetTrigger("EdgeGrab");
     }
 
-    public void PlayDeath()
+    public void SetHanging(bool value)
     {
-        if (animator == null) return;
-        animator.SetTrigger(H_Death);
-    }
-
-    public void SetLedge(bool value)
-    {
-        animator.SetBool("Edge", value); // ou "LedgeHang"
+        animator.SetBool(H_Hanging, value);
     }
 
     public void SetClimbing(bool value)
     {
-        animator.SetBool("Climb", value); // ou "IsClimbing"
+        animator.SetBool(H_Climbing, value);
     }
-
-    public void ForceLocomotion()
-    {
-        animator.ResetTrigger("EdgeGrab"); // se existir
-        animator.ResetTrigger("ClimbUp");  // se existir
-        animator.Play("Locomotion", 0, 0f); // nome do state base
-    }
-
-    public void TriggerEdgeGrab() => animator.SetTrigger("EdgeGrab");
 }
