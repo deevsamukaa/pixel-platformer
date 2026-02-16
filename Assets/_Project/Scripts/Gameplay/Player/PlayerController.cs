@@ -31,6 +31,13 @@ public class PlayerController : MonoBehaviour
 
     [Tooltip("Tempo (em segundos) que o pulo fica 'guardado' antes de tocar no chão.")]
     [SerializeField] private float jumpBufferTime = 0.12f;
+    [Header("Jump - Double Jump")]
+    [SerializeField] private bool enableDoubleJump = true;
+
+    [Tooltip("Força do double jump. Se 0, usa jumpForce.")]
+    [SerializeField] private float doubleJumpForce = 12f;
+
+    private bool hasUsedDoubleJump;
 
     [Header("Jump - Variable Height (Hollow Knight-like)")]
     [Tooltip("Tempo máximo em que segurar o botão ainda aumenta a altura do pulo.")]
@@ -197,6 +204,7 @@ public class PlayerController : MonoBehaviour
         {
             isJumping = false;
             jumpHoldCounter = 0f;
+            hasUsedDoubleJump = false;
         }
 
         if (isLedgeHanging)
@@ -273,10 +281,19 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        JumpWithForce(jumpForce);
+    }
+
+    private void JumpWithForce(float force)
+    {
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, force);
         isJumping = true;
         jumpHoldCounter = jumpHoldTime;
+
+        // Se você quiser futuramente plugar animação:
+        // playerAnimator?.TriggerJump(); ou TriggerDoubleJump();
     }
+
 
     // -----------------------
     // Jump permissivo (coyote/buffer)
@@ -295,13 +312,35 @@ public class PlayerController : MonoBehaviour
 
     private void TryStartJump()
     {
-        if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f)
+        if (jumpBufferCounter <= 0f) return;
+
+        // 1) Pulo normal (chão/coyote)
+        if (coyoteTimeCounter > 0f)
         {
-            Jump();
+            JumpWithForce(jumpForce);
+
+            // ✅ ao usar pulo do chão, libera double jump de novo
+            hasUsedDoubleJump = false;
+
             jumpBufferCounter = 0f;
+            coyoteTimeCounter = 0f;
+            return;
+        }
+
+        // 2) Double jump (no ar)
+        if (enableDoubleJump && !hasUsedDoubleJump)
+        {
+            float force = (doubleJumpForce > 0f) ? doubleJumpForce : jumpForce;
+            JumpWithForce(force);
+
+            hasUsedDoubleJump = true;
+            jumpBufferCounter = 0f;
+
+            // opcional: dá “peso” e garante que não herda coyote residual
             coyoteTimeCounter = 0f;
         }
     }
+
 
     // -----------------------
     // Jump Variable + Jump Cut
@@ -408,6 +447,7 @@ public class PlayerController : MonoBehaviour
 
         isJumping = false;
         jumpHoldCounter = 0f;
+        hasUsedDoubleJump = false;
 
         rb.linearVelocity = Vector2.zero;
         rb.gravityScale = 0f;
@@ -565,6 +605,7 @@ public class PlayerController : MonoBehaviour
         jumpHoldCounter = 0f;
 
         isDead = false;
+        hasUsedDoubleJump = false;
         isHurtLocked = false;
         CancelInvoke(nameof(ClearHurtLock));
         var hp = GetComponent<PlayerHealth>();
