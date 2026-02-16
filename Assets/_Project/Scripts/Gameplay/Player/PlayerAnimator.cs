@@ -16,6 +16,9 @@ public class PlayerAnimator : MonoBehaviour
     private static readonly int H_AttackIndex = Animator.StringToHash("AttackIndex");
     private static readonly int H_Attack = Animator.StringToHash("Attack");
     private static readonly int H_Attacking = Animator.StringToHash("Attacking");
+    private static readonly int H_Dash = Animator.StringToHash("Dash");
+    private static readonly int H_Dashing = Animator.StringToHash("Dashing");
+
 
     private void Awake()
     {
@@ -37,6 +40,10 @@ public class PlayerAnimator : MonoBehaviour
         animator.SetBool(H_Climbing, controller.IsClimbing);
 
         animator.SetBool(H_Attacking, combat != null && combat.IsAttacking);
+
+        if (controller != null)
+            animator.SetBool(H_Dashing, controller.IsDashing);
+
     }
 
     // ====== Ataque ======
@@ -60,5 +67,10 @@ public class PlayerAnimator : MonoBehaviour
     public void SetClimbing(bool value)
     {
         animator.SetBool(H_Climbing, value);
+    }
+
+    public void TriggerDash()
+    {
+        animator.SetTrigger(H_Dash);
     }
 }

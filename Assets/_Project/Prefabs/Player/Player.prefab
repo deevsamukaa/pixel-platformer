@@ -138,9 +138,17 @@ MonoBehaviour:
   visualRoot: {fileID: 2245489731299567049}
   visualSprite: {fileID: 8346454390706687901}
   moveSpeed: 6
+  enableDash: 1
+  dashSpeed: 20
+  dashDuration: 0.2
+  dashCooldown: 0.6
+  dashNoGravity: 1
+  dashLockMovement: 1
   jumpForce: 11.2
   coyoteTime: 0.12
   jumpBufferTime: 0.1
+  enableDoubleJump: 1
+  doubleJumpForce: 12
   jumpHoldTime: 0.1
   jumpHoldAcceleration: 16
   jumpCutMultiplier: 0.45

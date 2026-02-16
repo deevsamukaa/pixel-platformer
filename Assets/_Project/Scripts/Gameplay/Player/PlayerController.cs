@@ -23,6 +23,31 @@ public class PlayerController : MonoBehaviour
     private bool externalJumpHeld = false;
     private bool externalJumpUp = false;
 
+    [Header("Dash")]
+    [SerializeField] private bool enableDash = true;
+
+    [Tooltip("Velocidade do dash (horizontal).")]
+    [SerializeField] private float dashSpeed = 16f;
+
+    [Tooltip("Duração do dash (segundos).")]
+    [SerializeField] private float dashDuration = 0.12f;
+
+    [Tooltip("Cooldown entre dashes.")]
+    [SerializeField] private float dashCooldown = 0.35f;
+
+    [Tooltip("Se true, o dash não tem gravidade durante a duração.")]
+    [SerializeField] private bool dashNoGravity = true;
+
+    [Tooltip("Se true, trava o controle horizontal durante o dash.")]
+    [SerializeField] private bool dashLockMovement = true;
+
+    private bool isDashing;
+    public bool IsDashing => isDashing;
+
+    private float dashReadyAt = -999f;
+    private Coroutine dashCo;
+
+
     [Header("Jump - Base")]
     [SerializeField] private float jumpForce = 12f;
 
@@ -177,12 +202,14 @@ public class PlayerController : MonoBehaviour
 
         externalJumpDown = false;
         externalJumpUp = false;
+        externalDashDown = false;
     }
 
     private void FixedUpdate()
     {
         if (isDead) return;
         if (isClimbing) return;
+        if (isDashing) return;
 
         if (isHurtLocked)
         {
@@ -232,6 +259,15 @@ public class PlayerController : MonoBehaviour
         externalMoveInput = Mathf.Clamp(value, -1f, 1f);
     }
 
+    private bool externalDashDown;
+
+    public void DashPressed()
+    {
+        externalDashDown = true;
+    }
+
+    private bool IsDashDown() => Input.GetButtonDown("Fire3") || Input.GetKeyDown(KeyCode.LeftShift) || externalDashDown;
+
     public void JumpPressed()
     {
         externalJumpDown = true;
@@ -268,6 +304,8 @@ public class PlayerController : MonoBehaviour
 
         if (visualSprite != null)
             visualSprite.flipX = (facing == -1);
+
+        TryDash();
     }
 
     private bool IsJumpDown() => Input.GetButtonDown("Jump") || externalJumpDown;
@@ -668,4 +706,61 @@ public class PlayerController : MonoBehaviour
         isHurtLocked = false;
     }
 
+    private void TryDash()
+    {
+        if (!enableDash) return;
+        if (!IsDashDown()) return;
+        if (isDead) return;
+        if (isHurtLocked) return;
+        if (isClimbing || isLedgeHanging) return;
+        if (isDashing) return;
+        if (Time.time < dashReadyAt) return;
+
+        // se estiver atacando, opcional: bloquear dash (ou permitir)
+        var combat = GetComponent<PlayerCombat>();
+        if (combat != null && combat.IsAttacking) return;
+
+        if (dashCo != null) StopCoroutine(dashCo);
+        dashCo = StartCoroutine(DashRoutine());
+    }
+
+    private IEnumerator DashRoutine()
+    {
+        isDashing = true;
+
+        dashReadyAt = Time.time + dashCooldown;
+
+        // animação
+        playerAnimator?.TriggerDash();
+
+        float prevGravity = rb.gravityScale;
+        if (dashNoGravity)
+            rb.gravityScale = 0f;
+
+        float dir = facing; // usa seu facing atual
+
+        // zera Y pra não “subir/baixar” no dash
+        rb.linearVelocity = new Vector2(0f, 0f);
+
+        float t = 0f;
+        while (t < dashDuration)
+        {
+            t += Time.deltaTime;
+
+            // trava controle horizontal durante dash
+            rb.linearVelocity = new Vector2(dir * dashSpeed, 0f);
+
+            yield return null;
+        }
+
+        // finaliza dash
+        rb.gravityScale = prevGravity;
+
+        isDashing = false;
+        dashCo = null;
+
+        // dá uma pequena “saída” sem grudar
+        if (dashLockMovement)
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+    }
 }
