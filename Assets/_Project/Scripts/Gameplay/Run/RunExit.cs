@@ -10,6 +10,7 @@ public class RunExit : MonoBehaviour
         if (!other.CompareTag("Player")) return;
 
         _used = true;
-        RunManager.I.OnStageCompleted();
+        if (RunManager.I == null) return;
+        RunManager.I.OnStageGatePassed();
     }
 }

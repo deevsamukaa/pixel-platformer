@@ -1,36 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &475493989958075145
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1802066721063043447}
-  m_Layer: 0
-  m_Name: PlayerSpawn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1802066721063043447
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 475493989958075145}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -103.5, y: -13.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2675663597037466447}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1345287437108659664
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,7 +12,7 @@ GameObject:
   - component: {fileID: 2816078919144273359}
   m_Layer: 0
   m_Name: SegmentRoot-0
-  m_TagString: Start
+  m_TagString: Rest
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63,7 +32,6 @@ Transform:
   m_Children:
   - {fileID: 4477096817179057557}
   - {fileID: 3019357110927998573}
-  - {fileID: 1802066721063043447}
   - {fileID: 8599484164901589784}
   - {fileID: 6437635379964928316}
   - {fileID: 4826897006270811691}
@@ -81,10 +49,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9783d96d6282c4ca0a5630a7b11ea6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SegmentSpec
-  playerSpawn: {fileID: 1802066721063043447}
+  playerSpawn: {fileID: 0}
   startAnchor: {fileID: 3019357110927998573}
   endAnchor: {fileID: 8599484164901589784}
-  tag: 1
+  tag: 6
   difficulty: 1
   stageGate: {fileID: 7956873496996828404}
 --- !u!1 &2112250778534010670

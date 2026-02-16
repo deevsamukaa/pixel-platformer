@@ -17,6 +17,6 @@ public class StageGate : MonoBehaviour
         if (!other.CompareTag("Player")) return;
 
         _used = true;
-        RunManager.I?.OnStageCompleted(); // sem reload! só incrementa contador/vitória
+        RunManager.I?.OnStageGatePassed(); // sem reload! só incrementa contador/vitória
     }
 }

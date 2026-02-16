@@ -4,8 +4,6 @@ public class CoinManager : MonoBehaviour
 {
     public static CoinManager Instance { get; private set; }
 
-    public int CoinsThisRun { get; private set; }
-
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -18,14 +16,12 @@ public class CoinManager : MonoBehaviour
 
     public void ResetRun()
     {
-        CoinsThisRun = 0;
-        CoinHUD.Instance?.Set(CoinsThisRun);
+        CoinHUD.Instance?.Set(RunManager.I != null ? RunManager.I.CoinsThisRun : 0);
     }
 
     public void Add(int amount)
     {
-        CoinsThisRun += Mathf.Max(0, amount);
-        CoinHUD.Instance?.Set(CoinsThisRun);
-        RunManager.I.AddCoins(1);
+        RunManager.I?.AddCoins(amount);
     }
+
 }

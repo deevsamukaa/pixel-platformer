@@ -1,0 +1,3159 @@
+fileFormatVersion: 2
+guid: 02ed4efc77c93734a9cabdc56e400fcf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 496207590306939623
+    second: spritesheet_variant_mage_teal_0
+  - first:
+      213: -340234659482945385
+    second: spritesheet_variant_mage_teal_1
+  - first:
+      213: -4858132784240089587
+    second: spritesheet_variant_mage_teal_2
+  - first:
+      213: 1947989702226924621
+    second: spritesheet_variant_mage_teal_3
+  - first:
+      213: -3738526639782142905
+    second: spritesheet_variant_mage_teal_4
+  - first:
+      213: -2073319442392951186
+    second: spritesheet_variant_mage_teal_5
+  - first:
+      213: -3098883137887134118
+    second: spritesheet_variant_mage_teal_6
+  - first:
+      213: 8256078203642524185
+    second: spritesheet_variant_mage_teal_7
+  - first:
+      213: 751225127311228976
+    second: spritesheet_variant_mage_teal_8
+  - first:
+      213: -4368012053024934233
+    second: spritesheet_variant_mage_teal_9
+  - first:
+      213: -4681740496114004427
+    second: spritesheet_variant_mage_teal_10
+  - first:
+      213: -5860689306929471386
+    second: spritesheet_variant_mage_teal_11
+  - first:
+      213: 1320606685612827084
+    second: spritesheet_variant_mage_teal_12
+  - first:
+      213: 6796128166981664567
+    second: spritesheet_variant_mage_teal_13
+  - first:
+      213: 1011077580235475537
+    second: spritesheet_variant_mage_teal_14
+  - first:
+      213: -9083269526455033519
+    second: spritesheet_variant_mage_teal_15
+  - first:
+      213: 171943365674226290
+    second: spritesheet_variant_mage_teal_16
+  - first:
+      213: 4077666970097418880
+    second: spritesheet_variant_mage_teal_17
+  - first:
+      213: -3008841070151733523
+    second: spritesheet_variant_mage_teal_18
+  - first:
+      213: 2101392069002405002
+    second: spritesheet_variant_mage_teal_19
+  - first:
+      213: 4420175862442692174
+    second: spritesheet_variant_mage_teal_20
+  - first:
+      213: 8974699915730196404
+    second: spritesheet_variant_mage_teal_21
+  - first:
+      213: -1458982693341641682
+    second: spritesheet_variant_mage_teal_22
+  - first:
+      213: -3835984113184175869
+    second: spritesheet_variant_mage_teal_23
+  - first:
+      213: 1914511504882021946
+    second: spritesheet_variant_mage_teal_24
+  - first:
+      213: -4136633405506404649
+    second: spritesheet_variant_mage_teal_25
+  - first:
+      213: 5243220272936016871
+    second: spritesheet_variant_mage_teal_26
+  - first:
+      213: 5116356053942852918
+    second: spritesheet_variant_mage_teal_27
+  - first:
+      213: 1949369742843212350
+    second: spritesheet_variant_mage_teal_28
+  - first:
+      213: 5534925940249917886
+    second: spritesheet_variant_mage_teal_29
+  - first:
+      213: -2310687769618351601
+    second: spritesheet_variant_mage_teal_30
+  - first:
+      213: -7759783857592332188
+    second: spritesheet_variant_mage_teal_31
+  - first:
+      213: -4984669863841071855
+    second: spritesheet_variant_mage_teal_32
+  - first:
+      213: -5706082276764034558
+    second: spritesheet_variant_mage_teal_33
+  - first:
+      213: 5632239553338084762
+    second: spritesheet_variant_mage_teal_34
+  - first:
+      213: 5064195313069698239
+    second: spritesheet_variant_mage_teal_35
+  - first:
+      213: -3207774963836087033
+    second: spritesheet_variant_mage_teal_36
+  - first:
+      213: 5292041970785721870
+    second: spritesheet_variant_mage_teal_37
+  - first:
+      213: 2981689581310230881
+    second: spritesheet_variant_mage_teal_38
+  - first:
+      213: -9190374246064391688
+    second: spritesheet_variant_mage_teal_39
+  - first:
+      213: 6710379657320342167
+    second: spritesheet_variant_mage_teal_40
+  - first:
+      213: -7794800527059159328
+    second: spritesheet_variant_mage_teal_41
+  - first:
+      213: -1311531335471447834
+    second: spritesheet_variant_mage_teal_42
+  - first:
+      213: 4266051294077873956
+    second: spritesheet_variant_mage_teal_43
+  - first:
+      213: 2365568203973452013
+    second: spritesheet_variant_mage_teal_44
+  - first:
+      213: -8235475486052126340
+    second: spritesheet_variant_mage_teal_45
+  - first:
+      213: 5133365064808774923
+    second: spritesheet_variant_mage_teal_46
+  - first:
+      213: 1130463369689501152
+    second: spritesheet_variant_mage_teal_47
+  - first:
+      213: -3737274833745158466
+    second: spritesheet_variant_mage_teal_48
+  - first:
+      213: -3093670072489366834
+    second: spritesheet_variant_mage_teal_49
+  - first:
+      213: -7509179046530728169
+    second: spritesheet_variant_mage_teal_50
+  - first:
+      213: 5286154639418240211
+    second: spritesheet_variant_mage_teal_51
+  - first:
+      213: 6738936482926574647
+    second: spritesheet_variant_mage_teal_52
+  - first:
+      213: -6308014716302564920
+    second: spritesheet_variant_mage_teal_53
+  - first:
+      213: 2975731861331137787
+    second: spritesheet_variant_mage_teal_54
+  - first:
+      213: 5836087162570012749
+    second: spritesheet_variant_mage_teal_55
+  - first:
+      213: -1602443924345905184
+    second: spritesheet_variant_mage_teal_56
+  - first:
+      213: 8942330264662924318
+    second: spritesheet_variant_mage_teal_57
+  - first:
+      213: 855956993085833578
+    second: spritesheet_variant_mage_teal_58
+  - first:
+      213: -7348517582501897737
+    second: spritesheet_variant_mage_teal_59
+  - first:
+      213: -5631232771190478709
+    second: spritesheet_variant_mage_teal_60
+  - first:
+      213: 3160931268653293710
+    second: spritesheet_variant_mage_teal_61
+  - first:
+      213: -4132473726360299209
+    second: spritesheet_variant_mage_teal_62
+  - first:
+      213: 7042036967310384148
+    second: spritesheet_variant_mage_teal_63
+  - first:
+      213: -8255693725546723456
+    second: spritesheet_variant_mage_teal_64
+  - first:
+      213: -7620135656254528336
+    second: spritesheet_variant_mage_teal_65
+  - first:
+      213: 4751480652976041833
+    second: spritesheet_variant_mage_teal_66
+  - first:
+      213: -6094015150076354926
+    second: spritesheet_variant_mage_teal_67
+  - first:
+      213: -6272269716583991766
+    second: spritesheet_variant_mage_teal_68
+  - first:
+      213: -2489857593482959420
+    second: spritesheet_variant_mage_teal_69
+  - first:
+      213: -5670004661898852836
+    second: spritesheet_variant_mage_teal_70
+  - first:
+      213: 482598222652141785
+    second: spritesheet_variant_mage_teal_71
+  - first:
+      213: -4645886374649151796
+    second: spritesheet_variant_mage_teal_72
+  - first:
+      213: -2128041336850734208
+    second: spritesheet_variant_mage_teal_73
+  - first:
+      213: 2544898977824738058
+    second: spritesheet_variant_mage_teal_74
+  - first:
+      213: -4938168642868828728
+    second: spritesheet_variant_mage_teal_75
+  - first:
+      213: 8779452804376887444
+    second: spritesheet_variant_mage_teal_76
+  - first:
+      213: 4025718416071648426
+    second: spritesheet_variant_mage_teal_77
+  - first:
+      213: 7635566729125363314
+    second: spritesheet_variant_mage_teal_78
+  - first:
+      213: -8351951477645659115
+    second: spritesheet_variant_mage_teal_79
+  - first:
+      213: 6745914103491688487
+    second: spritesheet_variant_mage_teal_80
+  - first:
+      213: -8350430112845129965
+    second: spritesheet_variant_mage_teal_81
+  - first:
+      213: -1259678930342405133
+    second: spritesheet_variant_mage_teal_82
+  - first:
+      213: 3583513955933393835
+    second: spritesheet_variant_mage_teal_83
+  - first:
+      213: 8629792450966138667
+    second: spritesheet_variant_mage_teal_84
+  - first:
+      213: -6024599122342672885
+    second: spritesheet_variant_mage_teal_85
+  - first:
+      213: 5811312175568835650
+    second: spritesheet_variant_mage_teal_86
+  - first:
+      213: -7881742788316388234
+    second: spritesheet_variant_mage_teal_87
+  - first:
+      213: -6542555882432587896
+    second: spritesheet_variant_mage_teal_88
+  - first:
+      213: -9042110122520811166
+    second: spritesheet_variant_mage_teal_89
+  - first:
+      213: 7370399112301603724
+    second: spritesheet_variant_mage_teal_90
+  - first:
+      213: 8710792217419467307
+    second: spritesheet_variant_mage_teal_91
+  - first:
+      213: 4036330181843357294
+    second: spritesheet_variant_mage_teal_92
+  - first:
+      213: -706582116781791615
+    second: spritesheet_variant_mage_teal_93
+  - first:
+      213: -5026519831663083992
+    second: spritesheet_variant_mage_teal_94
+  - first:
+      213: 490999008023195541
+    second: spritesheet_variant_mage_teal_95
+  - first:
+      213: 507017361462049798
+    second: spritesheet_variant_mage_teal_96
+  - first:
+      213: -5252903559778995679
+    second: spritesheet_variant_mage_teal_97
+  - first:
+      213: -7914632348003181985
+    second: spritesheet_variant_mage_teal_98
+  - first:
+      213: -551833442816885993
+    second: spritesheet_variant_mage_teal_99
+  - first:
+      213: 3613032057829146011
+    second: spritesheet_variant_mage_teal_100
+  - first:
+      213: -7674174358345998219
+    second: spritesheet_variant_mage_teal_101
+  - first:
+      213: -3060655964375336373
+    second: spritesheet_variant_mage_teal_102
+  - first:
+      213: -1970668794093254320
+    second: spritesheet_variant_mage_teal_103
+  - first:
+      213: -5956020411254892460
+    second: spritesheet_variant_mage_teal_104
+  - first:
+      213: 7993958276620980102
+    second: spritesheet_variant_mage_teal_105
+  - first:
+      213: 3732134128214942678
+    second: spritesheet_variant_mage_teal_106
+  - first:
+      213: -7072922207195945086
+    second: spritesheet_variant_mage_teal_107
+  - first:
+      213: 3800413533700053409
+    second: spritesheet_variant_mage_teal_108
+  - first:
+      213: -2606195839938081537
+    second: spritesheet_variant_mage_teal_109
+  - first:
+      213: 7136708289919507272
+    second: spritesheet_variant_mage_teal_110
+  - first:
+      213: -3283937007206534167
+    second: spritesheet_variant_mage_teal_111
+  - first:
+      213: 9204516154591029666
+    second: spritesheet_variant_mage_teal_112
+  - first:
+      213: -284630639819561542
+    second: spritesheet_variant_mage_teal_113
+  - first:
+      213: -6684719949134328562
+    second: spritesheet_variant_mage_teal_114
+  - first:
+      213: -7158543843377877869
+    second: spritesheet_variant_mage_teal_115
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e20913ac22e2e600800000000000000
+      internalID: 496207590306939623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7983e3d316e374bf0800000000000000
+      internalID: -340234659482945385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 704
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06a0b3e8f1749cb0800000000000000
+      internalID: -4858132784240089587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 704
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44da533056a80b10800000000000000
+      internalID: 1947989702226924621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 704
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c537424d51e1cc0800000000000000
+      internalID: -3738526639782142905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_5
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 704
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66d14ab3f61a33e0800000000000000
+      internalID: -2073319442392951186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 660
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e1ac5643e8ef4d0800000000000000
+      internalID: -3098883137887134118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 663
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91235f5326b739270800000000000000
+      internalID: 8256078203642524185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 662
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030cbbbe543ec6a00800000000000000
+      internalID: 751225127311228976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 660
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6f2d43e24b163c0800000000000000
+      internalID: -4368012053024934233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 660
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e409ed2dd170fb0800000000000000
+      internalID: -4681740496114004427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 663
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660e9896026aaaea0800000000000000
+      internalID: -5860689306929471386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 618
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc165ff98ccb35210800000000000000
+      internalID: 1320606685612827084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 616
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ff7f87f82b05e50800000000000000
+      internalID: 6796128166981664567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 616
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a0c4ac3b1180e00800000000000000
+      internalID: 1011077580235475537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 607
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151648cad7eb1f180800000000000000
+      internalID: -9083269526455033519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_16
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 616
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2725f70849dd26200800000000000000
+      internalID: 171943365674226290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 616
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08200014188c69830800000000000000
+      internalID: 4077666970097418880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 572
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deeeffbfcf27e36d0800000000000000
+      internalID: -3008841070151733523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 572
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8426bef3f4a92d10800000000000000
+      internalID: 2101392069002405002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 572
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e07ad178e975d30800000000000000
+      internalID: 4420175862442692174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_21
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 572
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b793daf50a8c8c70800000000000000
+      internalID: 8974699915730196404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 596
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24cded68f6a0cbe0800000000000000
+      internalID: -1458982693341641682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_23
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 572
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3098d91e5c8d3cac0800000000000000
+      internalID: -3835984113184175869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_24
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 569
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3634e6f116b19a10800000000000000
+      internalID: 1914511504882021946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7deb6c2a5d9b796c0800000000000000
+      internalID: -4136633405506404649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 528
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb5a77fe09a3c840800000000000000
+      internalID: 5243220272936016871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_27
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 528
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ddea339b2f00740800000000000000
+      internalID: 5116356053942852918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_28
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 530
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e327012f37d8d0b10800000000000000
+      internalID: 1949369742843212350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_29
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 563
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9f0be31d100dc40800000000000000
+      internalID: 5534925940249917886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_30
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 556
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0afe0157b9ceefd0800000000000000
+      internalID: -2310687769618351601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_31
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 557
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4601662d1b5bf4490800000000000000
+      internalID: -7759783857592332188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_32
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 550
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d78233b25e2dab0800000000000000
+      internalID: -4984669863841071855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_33
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 547
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ad352c66cefc0b0800000000000000
+      internalID: -5706082276764034558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_34
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 537
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d0f9a680cb92e40800000000000000
+      internalID: 5632239553338084762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 543
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbca7b45ec2a74640800000000000000
+      internalID: 5064195313069698239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_36
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 529
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70598297aa1bb73d0800000000000000
+      internalID: -3207774963836087033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_37
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 532
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e142d422c117940800000000000000
+      internalID: 5292041970785721870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_38
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 484
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161ca7460e6116920800000000000000
+      internalID: 2981689581310230881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 503
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9fe6ed05b357080800000000000000
+      internalID: -9190374246064391688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_40
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 513
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7922696cebe002d50800000000000000
+      internalID: 6710379657320342167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 506
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e67c91283e43d390800000000000000
+      internalID: -7794800527059159328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_42
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 501
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e04e6df2318ccde0800000000000000
+      internalID: -1311531335471447834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_43
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 491
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f6b19ac0f043b30800000000000000
+      internalID: 4266051294077873956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_44
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 484
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0ebc98fbf24d020800000000000000
+      internalID: 2365568203973452013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_45
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 484
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71fc69cda6b5bd80800000000000000
+      internalID: -8235475486052126340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_46
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 484
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0db35624506d3740800000000000000
+      internalID: 5133365064808774923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 503
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed0fedf17630bf00800000000000000
+      internalID: 1130463369689501152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 484
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebedc92f658822cc0800000000000000
+      internalID: -3737274833745158466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_49
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 484
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecaa305c5731115d0800000000000000
+      internalID: -3093670072489366834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fbab841790ac790800000000000000
+      internalID: -7509179046530728169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_51
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 440
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dcae4623a13c5940800000000000000
+      internalID: 5286154639418240211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_52
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 440
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c32ccd603858d50800000000000000
+      internalID: 6738936482926574647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_53
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 440
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c169dc690e6578a0800000000000000
+      internalID: -6308014716302564920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_54
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 440
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4547d9c5ceb4920800000000000000
+      internalID: 2975731861331137787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_55
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 442
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48f33b7a52fdf050800000000000000
+      internalID: 5836087162570012749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_56
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 398
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef11ecadb9f2c9e0800000000000000
+      internalID: -1602443924345905184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_57
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 398
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c55794ff9891c70800000000000000
+      internalID: 8942330264662924318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_58
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 399
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6184e3a958f0eb00800000000000000
+      internalID: 855956993085833578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 399
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9134d5132d40a90800000000000000
+      internalID: -7348517582501897737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_60
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 396
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8827a151a7d9d1b0800000000000000
+      internalID: -5631232771190478709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_61
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 396
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e802183dd32eddb20800000000000000
+      internalID: 3160931268653293710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 352
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739d8a86a0186a6c0800000000000000
+      internalID: -4132473726360299209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_63
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 360
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c54bbbf475ab160800000000000000
+      internalID: 7042036967310384148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_64
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 353
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087cd521c42ed6d80800000000000000
+      internalID: -8255693725546723456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_65
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 353
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b429ac6ef6df3690800000000000000
+      internalID: -7620135656254528336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_66
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 353
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f27cdba76a0f140800000000000000
+      internalID: 4751480652976041833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_67
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 353
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e99db2285bd6ba0800000000000000
+      internalID: -6094015150076354926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_68
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a263297bceb64f8a0800000000000000
+      internalID: -6272269716583991766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_69
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5a327e5bf327dd0800000000000000
+      internalID: -2489857593482959420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_70
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 309
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16c5bc0dc81051b0800000000000000
+      internalID: -5670004661898852836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_71
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 309
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d07a6ec68882b600800000000000000
+      internalID: 482598222652141785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_72
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 309
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cceb53c05fe768fb0800000000000000
+      internalID: -4645886374649151796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_73
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0832aa1ddada772e0800000000000000
+      internalID: -2128041336850734208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_74
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 265
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b8f7a032c415320800000000000000
+      internalID: 2544898977824738058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_75
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 265
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5a4d868c9187bb0800000000000000
+      internalID: -4938168642868828728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_76
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 265
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490013f5fc1e6d970800000000000000
+      internalID: 8779452804376887444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_77
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 264
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4e2bbf1993ed730800000000000000
+      internalID: 4025718416071648426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_78
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 264
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27efe443c7bf6f960800000000000000
+      internalID: 7635566729125363314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_79
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 264
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514b1a1b168e71c80800000000000000
+      internalID: -8351951477645659115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_80
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7287befb22d4e9d50800000000000000
+      internalID: 6745914103491688487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_81
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317142a0e005d1c80800000000000000
+      internalID: -8350430112845129965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_82
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 220
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb95e9dfa8b48ee0800000000000000
+      internalID: -1259678930342405133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_83
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 220
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba39017e4f23bb130800000000000000
+      internalID: 3583513955933393835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_84
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 220
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f2f25f28e23c770800000000000000
+      internalID: 8629792450966138667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_85
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 220
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0682a69403546ca0800000000000000
+      internalID: -6024599122342672885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_86
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 176
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244deaf42ade5a050800000000000000
+      internalID: 5811312175568835650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_87
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674a76b71bc6e9290800000000000000
+      internalID: -7881742788316388234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 176
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8879670c61c2435a0800000000000000
+      internalID: -6542555882432587896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_89
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 176
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269ee2f20c8f38280800000000000000
+      internalID: -9042110122520811166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_90
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 176
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b679d41fae84660800000000000000
+      internalID: 7370399112301603724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_91
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a4687be53f2e870800000000000000
+      internalID: 8710792217419467307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_92
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e06fc3aece30830800000000000000
+      internalID: 4036330181843357294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_93
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 176
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186e394fe47b136f0800000000000000
+      internalID: -706582116781791615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_94
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 132
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ef34148d63e3ab0800000000000000
+      internalID: -5026519831663083992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_95
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 132
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59faa421ff060d600800000000000000
+      internalID: 490999008023195541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_96
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 132
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cb6ec9a99490700800000000000000
+      internalID: 507017361462049798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_97
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 132
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122fcff1b00f917b0800000000000000
+      internalID: -5252903559778995679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 132
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a547120d3992290800000000000000
+      internalID: -7914632348003181985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_99
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 132
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bf7b1586e7758f0800000000000000
+      internalID: -551833442816885993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_100
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 88
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d31019381142230800000000000000
+      internalID: 3613032057829146011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_101
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 88
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5702062a41bdf7590800000000000000
+      internalID: -7674174358345998219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_102
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 88
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a3abfcd9d5685d0800000000000000
+      internalID: -3060655964375336373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_103
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059cf1e3c27c6a4e0800000000000000
+      internalID: -1970668794093254320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_104
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 88
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4581d280ef6f75da0800000000000000
+      internalID: -5956020411254892460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_105
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 88
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f8943e2be30fe60800000000000000
+      internalID: 7993958276620980102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_106
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 48
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d32d5647343bc330800000000000000
+      internalID: 3732134128214942678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 88
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2872d1cf9bee7dd90800000000000000
+      internalID: -7072922207195945086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_108
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 44
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a957c339f7cdb430800000000000000
+      internalID: 3800413533700053409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_109
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 50
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcc36911bee4dbd0800000000000000
+      internalID: -2606195839938081537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_110
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 47
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bdc36b06eaa0360800000000000000
+      internalID: 7136708289919507272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_111
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 46
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3f1b4e0bc1d62d0800000000000000
+      internalID: -3283937007206534167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_112
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 50
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a92ebbcca20dbf70800000000000000
+      internalID: 9204516154591029666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_113
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5ec5de0f9cc0cf0800000000000000
+      internalID: -284630639819561542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_114
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d81e89f9a1b33a0800000000000000
+      internalID: -6684719949134328562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_mage_teal_115
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ce6625d4eb7ac90800000000000000
+      internalID: -7158543843377877869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spritesheet_variant_mage_teal_0: 496207590306939623
+      spritesheet_variant_mage_teal_1: -340234659482945385
+      spritesheet_variant_mage_teal_10: -4681740496114004427
+      spritesheet_variant_mage_teal_100: 3613032057829146011
+      spritesheet_variant_mage_teal_101: -7674174358345998219
+      spritesheet_variant_mage_teal_102: -3060655964375336373
+      spritesheet_variant_mage_teal_103: -1970668794093254320
+      spritesheet_variant_mage_teal_104: -5956020411254892460
+      spritesheet_variant_mage_teal_105: 7993958276620980102
+      spritesheet_variant_mage_teal_106: 3732134128214942678
+      spritesheet_variant_mage_teal_107: -7072922207195945086
+      spritesheet_variant_mage_teal_108: 3800413533700053409
+      spritesheet_variant_mage_teal_109: -2606195839938081537
+      spritesheet_variant_mage_teal_11: -5860689306929471386
+      spritesheet_variant_mage_teal_110: 7136708289919507272
+      spritesheet_variant_mage_teal_111: -3283937007206534167
+      spritesheet_variant_mage_teal_112: 9204516154591029666
+      spritesheet_variant_mage_teal_113: -284630639819561542
+      spritesheet_variant_mage_teal_114: -6684719949134328562
+      spritesheet_variant_mage_teal_115: -7158543843377877869
+      spritesheet_variant_mage_teal_12: 1320606685612827084
+      spritesheet_variant_mage_teal_13: 6796128166981664567
+      spritesheet_variant_mage_teal_14: 1011077580235475537
+      spritesheet_variant_mage_teal_15: -9083269526455033519
+      spritesheet_variant_mage_teal_16: 171943365674226290
+      spritesheet_variant_mage_teal_17: 4077666970097418880
+      spritesheet_variant_mage_teal_18: -3008841070151733523
+      spritesheet_variant_mage_teal_19: 2101392069002405002
+      spritesheet_variant_mage_teal_2: -4858132784240089587
+      spritesheet_variant_mage_teal_20: 4420175862442692174
+      spritesheet_variant_mage_teal_21: 8974699915730196404
+      spritesheet_variant_mage_teal_22: -1458982693341641682
+      spritesheet_variant_mage_teal_23: -3835984113184175869
+      spritesheet_variant_mage_teal_24: 1914511504882021946
+      spritesheet_variant_mage_teal_25: -4136633405506404649
+      spritesheet_variant_mage_teal_26: 5243220272936016871
+      spritesheet_variant_mage_teal_27: 5116356053942852918
+      spritesheet_variant_mage_teal_28: 1949369742843212350
+      spritesheet_variant_mage_teal_29: 5534925940249917886
+      spritesheet_variant_mage_teal_3: 1947989702226924621
+      spritesheet_variant_mage_teal_30: -2310687769618351601
+      spritesheet_variant_mage_teal_31: -7759783857592332188
+      spritesheet_variant_mage_teal_32: -4984669863841071855
+      spritesheet_variant_mage_teal_33: -5706082276764034558
+      spritesheet_variant_mage_teal_34: 5632239553338084762
+      spritesheet_variant_mage_teal_35: 5064195313069698239
+      spritesheet_variant_mage_teal_36: -3207774963836087033
+      spritesheet_variant_mage_teal_37: 5292041970785721870
+      spritesheet_variant_mage_teal_38: 2981689581310230881
+      spritesheet_variant_mage_teal_39: -9190374246064391688
+      spritesheet_variant_mage_teal_4: -3738526639782142905
+      spritesheet_variant_mage_teal_40: 6710379657320342167
+      spritesheet_variant_mage_teal_41: -7794800527059159328
+      spritesheet_variant_mage_teal_42: -1311531335471447834
+      spritesheet_variant_mage_teal_43: 4266051294077873956
+      spritesheet_variant_mage_teal_44: 2365568203973452013
+      spritesheet_variant_mage_teal_45: -8235475486052126340
+      spritesheet_variant_mage_teal_46: 5133365064808774923
+      spritesheet_variant_mage_teal_47: 1130463369689501152
+      spritesheet_variant_mage_teal_48: -3737274833745158466
+      spritesheet_variant_mage_teal_49: -3093670072489366834
+      spritesheet_variant_mage_teal_5: -2073319442392951186
+      spritesheet_variant_mage_teal_50: -7509179046530728169
+      spritesheet_variant_mage_teal_51: 5286154639418240211
+      spritesheet_variant_mage_teal_52: 6738936482926574647
+      spritesheet_variant_mage_teal_53: -6308014716302564920
+      spritesheet_variant_mage_teal_54: 2975731861331137787
+      spritesheet_variant_mage_teal_55: 5836087162570012749
+      spritesheet_variant_mage_teal_56: -1602443924345905184
+      spritesheet_variant_mage_teal_57: 8942330264662924318
+      spritesheet_variant_mage_teal_58: 855956993085833578
+      spritesheet_variant_mage_teal_59: -7348517582501897737
+      spritesheet_variant_mage_teal_6: -3098883137887134118
+      spritesheet_variant_mage_teal_60: -5631232771190478709
+      spritesheet_variant_mage_teal_61: 3160931268653293710
+      spritesheet_variant_mage_teal_62: -4132473726360299209
+      spritesheet_variant_mage_teal_63: 7042036967310384148
+      spritesheet_variant_mage_teal_64: -8255693725546723456
+      spritesheet_variant_mage_teal_65: -7620135656254528336
+      spritesheet_variant_mage_teal_66: 4751480652976041833
+      spritesheet_variant_mage_teal_67: -6094015150076354926
+      spritesheet_variant_mage_teal_68: -6272269716583991766
+      spritesheet_variant_mage_teal_69: -2489857593482959420
+      spritesheet_variant_mage_teal_7: 8256078203642524185
+      spritesheet_variant_mage_teal_70: -5670004661898852836
+      spritesheet_variant_mage_teal_71: 482598222652141785
+      spritesheet_variant_mage_teal_72: -4645886374649151796
+      spritesheet_variant_mage_teal_73: -2128041336850734208
+      spritesheet_variant_mage_teal_74: 2544898977824738058
+      spritesheet_variant_mage_teal_75: -4938168642868828728
+      spritesheet_variant_mage_teal_76: 8779452804376887444
+      spritesheet_variant_mage_teal_77: 4025718416071648426
+      spritesheet_variant_mage_teal_78: 7635566729125363314
+      spritesheet_variant_mage_teal_79: -8351951477645659115
+      spritesheet_variant_mage_teal_8: 751225127311228976
+      spritesheet_variant_mage_teal_80: 6745914103491688487
+      spritesheet_variant_mage_teal_81: -8350430112845129965
+      spritesheet_variant_mage_teal_82: -1259678930342405133
+      spritesheet_variant_mage_teal_83: 3583513955933393835
+      spritesheet_variant_mage_teal_84: 8629792450966138667
+      spritesheet_variant_mage_teal_85: -6024599122342672885
+      spritesheet_variant_mage_teal_86: 5811312175568835650
+      spritesheet_variant_mage_teal_87: -7881742788316388234
+      spritesheet_variant_mage_teal_88: -6542555882432587896
+      spritesheet_variant_mage_teal_89: -9042110122520811166
+      spritesheet_variant_mage_teal_9: -4368012053024934233
+      spritesheet_variant_mage_teal_90: 7370399112301603724
+      spritesheet_variant_mage_teal_91: 8710792217419467307
+      spritesheet_variant_mage_teal_92: 4036330181843357294
+      spritesheet_variant_mage_teal_93: -706582116781791615
+      spritesheet_variant_mage_teal_94: -5026519831663083992
+      spritesheet_variant_mage_teal_95: 490999008023195541
+      spritesheet_variant_mage_teal_96: 507017361462049798
+      spritesheet_variant_mage_teal_97: -5252903559778995679
+      spritesheet_variant_mage_teal_98: -7914632348003181985
+      spritesheet_variant_mage_teal_99: -551833442816885993
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

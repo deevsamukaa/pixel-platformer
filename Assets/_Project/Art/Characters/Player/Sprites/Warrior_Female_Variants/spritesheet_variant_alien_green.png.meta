@@ -1,0 +1,3159 @@
+fileFormatVersion: 2
+guid: b81c316d85a03e740b3c858daa78eaf9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2488731736029129366
+    second: spritesheet_variant_alien_green_0
+  - first:
+      213: 9045559035758995515
+    second: spritesheet_variant_alien_green_1
+  - first:
+      213: 3080180785113684576
+    second: spritesheet_variant_alien_green_2
+  - first:
+      213: -5266451534566315981
+    second: spritesheet_variant_alien_green_3
+  - first:
+      213: 1901112262486763958
+    second: spritesheet_variant_alien_green_4
+  - first:
+      213: 1902020720198241447
+    second: spritesheet_variant_alien_green_5
+  - first:
+      213: -6925437825619660535
+    second: spritesheet_variant_alien_green_6
+  - first:
+      213: -6001403815390594846
+    second: spritesheet_variant_alien_green_7
+  - first:
+      213: 321770043877711446
+    second: spritesheet_variant_alien_green_8
+  - first:
+      213: -3303512060888616096
+    second: spritesheet_variant_alien_green_9
+  - first:
+      213: -5183791433754902329
+    second: spritesheet_variant_alien_green_10
+  - first:
+      213: -1167508509262135814
+    second: spritesheet_variant_alien_green_11
+  - first:
+      213: -4399914027405636009
+    second: spritesheet_variant_alien_green_12
+  - first:
+      213: 1209245905159153772
+    second: spritesheet_variant_alien_green_13
+  - first:
+      213: -2337693019922381886
+    second: spritesheet_variant_alien_green_14
+  - first:
+      213: 1491287336085605048
+    second: spritesheet_variant_alien_green_15
+  - first:
+      213: -8348764108899243434
+    second: spritesheet_variant_alien_green_16
+  - first:
+      213: -6505570205799362393
+    second: spritesheet_variant_alien_green_17
+  - first:
+      213: 1778200258106708973
+    second: spritesheet_variant_alien_green_18
+  - first:
+      213: -921074967616856307
+    second: spritesheet_variant_alien_green_19
+  - first:
+      213: 5650030950927278217
+    second: spritesheet_variant_alien_green_20
+  - first:
+      213: 1085276944495284329
+    second: spritesheet_variant_alien_green_21
+  - first:
+      213: 9167532608666421339
+    second: spritesheet_variant_alien_green_22
+  - first:
+      213: -6131733973822516592
+    second: spritesheet_variant_alien_green_23
+  - first:
+      213: 1238724113584066846
+    second: spritesheet_variant_alien_green_24
+  - first:
+      213: -3604225447005486611
+    second: spritesheet_variant_alien_green_25
+  - first:
+      213: 4255040529047565696
+    second: spritesheet_variant_alien_green_26
+  - first:
+      213: 8935492645764421746
+    second: spritesheet_variant_alien_green_27
+  - first:
+      213: 3458649346776630754
+    second: spritesheet_variant_alien_green_28
+  - first:
+      213: -8059861960422810842
+    second: spritesheet_variant_alien_green_29
+  - first:
+      213: -3605696539536511501
+    second: spritesheet_variant_alien_green_30
+  - first:
+      213: 8106986300076193512
+    second: spritesheet_variant_alien_green_31
+  - first:
+      213: 3382882596199998637
+    second: spritesheet_variant_alien_green_32
+  - first:
+      213: -5657286480248166418
+    second: spritesheet_variant_alien_green_33
+  - first:
+      213: -4087897390587586895
+    second: spritesheet_variant_alien_green_34
+  - first:
+      213: 211748883402122
+    second: spritesheet_variant_alien_green_35
+  - first:
+      213: -5960740951205313680
+    second: spritesheet_variant_alien_green_36
+  - first:
+      213: 236425480668842667
+    second: spritesheet_variant_alien_green_37
+  - first:
+      213: 3479056712651370215
+    second: spritesheet_variant_alien_green_38
+  - first:
+      213: -8353579061429601887
+    second: spritesheet_variant_alien_green_39
+  - first:
+      213: 4300173186093854255
+    second: spritesheet_variant_alien_green_40
+  - first:
+      213: -5733787217870415480
+    second: spritesheet_variant_alien_green_41
+  - first:
+      213: -5085355647430793625
+    second: spritesheet_variant_alien_green_42
+  - first:
+      213: 1475932919172047292
+    second: spritesheet_variant_alien_green_43
+  - first:
+      213: -498549290659759554
+    second: spritesheet_variant_alien_green_44
+  - first:
+      213: -725021997006007042
+    second: spritesheet_variant_alien_green_45
+  - first:
+      213: 7785149800582100484
+    second: spritesheet_variant_alien_green_46
+  - first:
+      213: -2177730347106910318
+    second: spritesheet_variant_alien_green_47
+  - first:
+      213: -6454547364901138430
+    second: spritesheet_variant_alien_green_48
+  - first:
+      213: 5502000517751345894
+    second: spritesheet_variant_alien_green_49
+  - first:
+      213: 8870618433682180292
+    second: spritesheet_variant_alien_green_50
+  - first:
+      213: 2000103603502054185
+    second: spritesheet_variant_alien_green_51
+  - first:
+      213: 1252527809793270776
+    second: spritesheet_variant_alien_green_52
+  - first:
+      213: 2455259068456299725
+    second: spritesheet_variant_alien_green_53
+  - first:
+      213: 6624262452533885053
+    second: spritesheet_variant_alien_green_54
+  - first:
+      213: -5768733390143310266
+    second: spritesheet_variant_alien_green_55
+  - first:
+      213: 7974696139421397953
+    second: spritesheet_variant_alien_green_56
+  - first:
+      213: -2645305013412921040
+    second: spritesheet_variant_alien_green_57
+  - first:
+      213: -2805794717576705290
+    second: spritesheet_variant_alien_green_58
+  - first:
+      213: -2198691548578082711
+    second: spritesheet_variant_alien_green_59
+  - first:
+      213: -1150320755677078920
+    second: spritesheet_variant_alien_green_60
+  - first:
+      213: -5138394622377952922
+    second: spritesheet_variant_alien_green_61
+  - first:
+      213: -7841510606813212934
+    second: spritesheet_variant_alien_green_62
+  - first:
+      213: -1720758570760807617
+    second: spritesheet_variant_alien_green_63
+  - first:
+      213: -7213844961199956487
+    second: spritesheet_variant_alien_green_64
+  - first:
+      213: -2388162282563519815
+    second: spritesheet_variant_alien_green_65
+  - first:
+      213: 5190051749056338722
+    second: spritesheet_variant_alien_green_66
+  - first:
+      213: -1205392352492445700
+    second: spritesheet_variant_alien_green_67
+  - first:
+      213: 7017743478557702434
+    second: spritesheet_variant_alien_green_68
+  - first:
+      213: 4566984733096053921
+    second: spritesheet_variant_alien_green_69
+  - first:
+      213: -934027597644371775
+    second: spritesheet_variant_alien_green_70
+  - first:
+      213: -7709281385289439584
+    second: spritesheet_variant_alien_green_71
+  - first:
+      213: -8814755327379084770
+    second: spritesheet_variant_alien_green_72
+  - first:
+      213: 6746439333777275144
+    second: spritesheet_variant_alien_green_73
+  - first:
+      213: 6538850686989588127
+    second: spritesheet_variant_alien_green_74
+  - first:
+      213: 1794828860286201980
+    second: spritesheet_variant_alien_green_75
+  - first:
+      213: 5284291839972789940
+    second: spritesheet_variant_alien_green_76
+  - first:
+      213: -1060439928813020810
+    second: spritesheet_variant_alien_green_77
+  - first:
+      213: -3384644663205715951
+    second: spritesheet_variant_alien_green_78
+  - first:
+      213: -3653426500081780281
+    second: spritesheet_variant_alien_green_79
+  - first:
+      213: 117349352678791402
+    second: spritesheet_variant_alien_green_80
+  - first:
+      213: 8039890867581959172
+    second: spritesheet_variant_alien_green_81
+  - first:
+      213: 1154746688469724510
+    second: spritesheet_variant_alien_green_82
+  - first:
+      213: -1535310892185874392
+    second: spritesheet_variant_alien_green_83
+  - first:
+      213: -5979789872985826512
+    second: spritesheet_variant_alien_green_84
+  - first:
+      213: 909074645997904313
+    second: spritesheet_variant_alien_green_85
+  - first:
+      213: -8169541124694836634
+    second: spritesheet_variant_alien_green_86
+  - first:
+      213: 4559950777667815235
+    second: spritesheet_variant_alien_green_87
+  - first:
+      213: 5270723465284440879
+    second: spritesheet_variant_alien_green_88
+  - first:
+      213: 338954320551061774
+    second: spritesheet_variant_alien_green_89
+  - first:
+      213: -594798193108319597
+    second: spritesheet_variant_alien_green_90
+  - first:
+      213: 979255051270534281
+    second: spritesheet_variant_alien_green_91
+  - first:
+      213: -1781271473721863033
+    second: spritesheet_variant_alien_green_92
+  - first:
+      213: 3712940176250558426
+    second: spritesheet_variant_alien_green_93
+  - first:
+      213: -4166415008341166747
+    second: spritesheet_variant_alien_green_94
+  - first:
+      213: -6424505869986048647
+    second: spritesheet_variant_alien_green_95
+  - first:
+      213: -7562590204719552965
+    second: spritesheet_variant_alien_green_96
+  - first:
+      213: 6178875832977457127
+    second: spritesheet_variant_alien_green_97
+  - first:
+      213: 8426316185512412560
+    second: spritesheet_variant_alien_green_98
+  - first:
+      213: -6781222160604051335
+    second: spritesheet_variant_alien_green_99
+  - first:
+      213: 3197450338211053151
+    second: spritesheet_variant_alien_green_100
+  - first:
+      213: -4497497902507384624
+    second: spritesheet_variant_alien_green_101
+  - first:
+      213: -4867126742079891479
+    second: spritesheet_variant_alien_green_102
+  - first:
+      213: -1667947548188033726
+    second: spritesheet_variant_alien_green_103
+  - first:
+      213: -4892343793087911570
+    second: spritesheet_variant_alien_green_104
+  - first:
+      213: 6228285012817114348
+    second: spritesheet_variant_alien_green_105
+  - first:
+      213: -4646894130303314714
+    second: spritesheet_variant_alien_green_106
+  - first:
+      213: 5363350207515775591
+    second: spritesheet_variant_alien_green_107
+  - first:
+      213: -9099697418494996188
+    second: spritesheet_variant_alien_green_108
+  - first:
+      213: -3142978139416468071
+    second: spritesheet_variant_alien_green_109
+  - first:
+      213: 4561992640055154113
+    second: spritesheet_variant_alien_green_110
+  - first:
+      213: 2013822568726261125
+    second: spritesheet_variant_alien_green_111
+  - first:
+      213: 3268618324578960450
+    second: spritesheet_variant_alien_green_112
+  - first:
+      213: 3106051254343496896
+    second: spritesheet_variant_alien_green_113
+  - first:
+      213: 6602399096148194474
+    second: spritesheet_variant_alien_green_114
+  - first:
+      213: 3705506388055399159
+    second: spritesheet_variant_alien_green_115
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ae14bf350c98220800000000000000
+      internalID: 2488731736029129366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b386d318408488d70800000000000000
+      internalID: 9045559035758995515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 704
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a5fa4ca100fba20800000000000000
+      internalID: 3080180785113684576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 704
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3382d5f6b3ec9e6b0800000000000000
+      internalID: -5266451534566315981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 704
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9a9abb78b126a10800000000000000
+      internalID: 1901112262486763958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_5
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 704
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac49d684c5556a10800000000000000
+      internalID: 1902020720198241447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 660
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901f2e97df6e3ef90800000000000000
+      internalID: -6925437825619660535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 663
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e838f5d60bb6bca0800000000000000
+      internalID: -6001403815390594846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 662
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e51bc6628277400800000000000000
+      internalID: 321770043877711446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 660
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063f38b88419722d0800000000000000
+      internalID: -3303512060888616096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 660
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c08359e7297f08b0800000000000000
+      internalID: -5183791433754902329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 663
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd3f21523d2ccfe0800000000000000
+      internalID: -1167508509262135814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 618
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e8a3af08d50f2c0800000000000000
+      internalID: -4399914027405636009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 616
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c686b1f6eba18c010800000000000000
+      internalID: 1209245905159153772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 616
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3cd918598de8fd0800000000000000
+      internalID: -2337693019922381886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 607
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bacb655eed12b410800000000000000
+      internalID: 1491287336085605048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_16
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 616
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65aa78fc64b332c80800000000000000
+      internalID: -8348764108899243434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 616
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0d6f5ad5297b5a0800000000000000
+      internalID: -6505570205799362393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 572
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de355f3a6bf6da810800000000000000
+      internalID: 1778200258106708973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 572
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f51bf623fa733f0800000000000000
+      internalID: -921074967616856307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 572
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980abf7f631f86e40800000000000000
+      internalID: 5650030950927278217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_21
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 572
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960109781adaf0f00800000000000000
+      internalID: 1085276944495284329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 596
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b584f5ef55e993f70800000000000000
+      internalID: 9167532608666421339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_23
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 572
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0925d192074b7eaa0800000000000000
+      internalID: -6131733973822516592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_24
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 569
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1193eca405d03110800000000000000
+      internalID: 1238724113584066846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de180dc4d083bfdc0800000000000000
+      internalID: -3604225447005486611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 528
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08535c621d0fc0b30800000000000000
+      internalID: 4255040529047565696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_27
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 528
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27857e3183f310c70800000000000000
+      internalID: 8935492645764421746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_28
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 530
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5024591479fff20800000000000000
+      internalID: 3458649346776630754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_29
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 563
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b905eff3e952090800000000000000
+      internalID: -8059861960422810842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_30
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 556
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd2211e91ef5fdc0800000000000000
+      internalID: -3605696539536511501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_31
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 557
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6fff6561dc18070800000000000000
+      internalID: 8106986300076193512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_32
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 550
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da42a574cc962fe20800000000000000
+      internalID: 3382882596199998637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_33
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 547
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee720387be74d71b0800000000000000
+      internalID: -5657286480248166418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_34
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 537
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6d7cb5bfed447c0800000000000000
+      internalID: -4087897390587586895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 543
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d0af0a590c00000800000000000000
+      internalID: 211748883402122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_36
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 529
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073884dafa1374da0800000000000000
+      internalID: -5960740951205313680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_37
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 532
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa0e17d8b3f74300800000000000000
+      internalID: 236425480668842667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_38
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 484
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eee507b5a7184030800000000000000
+      internalID: 3479056712651370215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 503
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9f8505a10221c80800000000000000
+      internalID: -8353579061429601887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_40
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 513
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ea8cdbab84dab30800000000000000
+      internalID: 4300173186093854255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 506
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889982d77ee7d60b0800000000000000
+      internalID: -5733787217870415480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_42
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 501
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7666c566bff2d69b0800000000000000
+      internalID: -5085355647430793625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_43
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 491
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb12e8f8b219b7410800000000000000
+      internalID: 1475932919172047292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_44
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 484
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ab333cf0cc419f0800000000000000
+      internalID: -498549290659759554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_45
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 484
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4dc16c55430f5f0800000000000000
+      internalID: -725021997006007042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_46
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 484
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40636e20f786a0c60800000000000000
+      internalID: 7785149800582100484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 503
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fba1499c527c1e0800000000000000
+      internalID: -2177730347106910318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 484
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20052298e57dc66a0800000000000000
+      internalID: -6454547364901138430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_49
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 484
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2959ee1580b5c40800000000000000
+      internalID: 5502000517751345894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c888a58774ca1b70800000000000000
+      internalID: 8870618433682180292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_51
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 440
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bf7b061abc1cb10800000000000000
+      internalID: 2000103603502054185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_52
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 440
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3a606286fd16110800000000000000
+      internalID: 1252527809793270776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_53
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 440
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcce4ee3d15d21220800000000000000
+      internalID: 2455259068456299725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_54
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 440
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d787d3e8a9b1eeb50800000000000000
+      internalID: 6624262452533885053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_55
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 442
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646b294bb8751ffa0800000000000000
+      internalID: -5768733390143310266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_56
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 398
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c334e513efcbae60800000000000000
+      internalID: 7974696139421397953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_57
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 398
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03186f01b1df94bd0800000000000000
+      internalID: -2645305013412921040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_58
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 399
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa4c22f190df09d0800000000000000
+      internalID: -2805794717576705290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 399
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960995c8fadac71e0800000000000000
+      internalID: -2198691548578082711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_60
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 396
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87adb1c0e5d3900f0800000000000000
+      internalID: -1150320755677078920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_61
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 396
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6697269b051c0b8b0800000000000000
+      internalID: -5138394622377952922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 352
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afec07236ab5d2390800000000000000
+      internalID: -7841510606813212934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_63
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 360
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bd7956233ae18e0800000000000000
+      internalID: -1720758570760807617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_64
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 353
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd5fe67a3643eb90800000000000000
+      internalID: -7213844961199956487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_65
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 353
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bab0d99e0b8bded0800000000000000
+      internalID: -2388162282563519815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_66
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 353
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bd5645194c60840800000000000000
+      internalID: 5190051749056338722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_67
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 353
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff17b6ba06954fe0800000000000000
+      internalID: -1205392352492445700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_68
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229fe3c1388046160800000000000000
+      internalID: 7017743478557702434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_69
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac82d6fa60316f30800000000000000
+      internalID: 4566984733096053921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_70
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 309
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8eeff39daa903f0800000000000000
+      internalID: -934027597644371775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_71
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 309
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6aa44fc61230590800000000000000
+      internalID: -7709281385289439584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_72
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 309
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a66997bb2bba580800000000000000
+      internalID: -8814755327379084770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_73
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809748474da20ad50800000000000000
+      internalID: 6746439333777275144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_74
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 265
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9655553e0aaeba50800000000000000
+      internalID: 6538850686989588127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_75
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 265
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c707af9c65388e810800000000000000
+      internalID: 1794828860286201980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_76
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 265
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bec21b5e63955940800000000000000
+      internalID: 5284291839972789940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_77
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 264
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6799571d08f8841f0800000000000000
+      internalID: -1060439928813020810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_78
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 264
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110a3b68c935701d0800000000000000
+      internalID: -3384644663205715951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_79
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 264
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c970a174fb6c4dc0800000000000000
+      internalID: -3653426500081780281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_80
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae89a015d98e0a100800000000000000
+      internalID: 117349352678791402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_81
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c312b952e639f60800000000000000
+      internalID: 8039890867581959172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_82
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 220
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5debcbbefb760010800000000000000
+      internalID: 1154746688469724510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_83
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 220
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8201973c0ea71bae0800000000000000
+      internalID: -1535310892185874392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_84
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 220
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b9335fac4830da0800000000000000
+      internalID: -5979789872985826512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_85
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 220
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1e405f29ead9c00800000000000000
+      internalID: 909074645997904313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_86
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 176
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a7e9491a5ff9e80800000000000000
+      internalID: -8169541124694836634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_87
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34708289213384f30800000000000000
+      internalID: 4559950777667815235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 176
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f235891f01f552940800000000000000
+      internalID: 5270723465284440879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_89
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 176
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09a78f982534b400800000000000000
+      internalID: 338954320551061774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_90
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 176
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3920cbad13adeb7f0800000000000000
+      internalID: -594798193108319597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_91
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984bc73e743079d00800000000000000
+      internalID: 979255051270534281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_92
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78495404807a747e0800000000000000
+      internalID: -1781271473721863033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_93
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 176
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7d0b51b63078330800000000000000
+      internalID: 3712940176250558426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_94
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 132
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565f7f0ef9bed26c0800000000000000
+      internalID: -4166415008341166747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_95
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 132
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975d11223f197d6a0800000000000000
+      internalID: -6424505869986048647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_96
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 132
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36a7d1f6484c0790800000000000000
+      internalID: -7562590204719552965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_97
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 132
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7effddf35d6cfb550800000000000000
+      internalID: 6178875832977457127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 132
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095879a1de940f470800000000000000
+      internalID: 8426316185512412560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_99
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 132
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97840369f5244e1a0800000000000000
+      internalID: -6781222160604051335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_100
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 88
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5eb50c4420af5c20800000000000000
+      internalID: 3197450338211053151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_101
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 88
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0abf68c7da591c0800000000000000
+      internalID: -4497497902507384624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_102
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 88
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e71685e30e747cb0800000000000000
+      internalID: -4867126742079891479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_103
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24db446ca824ad8e0800000000000000
+      internalID: -1667947548188033726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_104
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 88
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6968edad37ea1cb0800000000000000
+      internalID: -4892343793087911570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_105
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 88
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce47ad468305f6650800000000000000
+      internalID: 6228285012817114348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_106
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 48
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e45c66a86ae28fb0800000000000000
+      internalID: -4646894130303314714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 88
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762def4f8927e6a40800000000000000
+      internalID: 5363350207515775591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_108
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 44
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421111ff86167b180800000000000000
+      internalID: -9099697418494996188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_109
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 50
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995634fc806e164d0800000000000000
+      internalID: -3142978139416468071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_110
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 47
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c51f6ab2247f4f30800000000000000
+      internalID: 4561992640055154113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_111
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 46
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58de791e4f882fb10800000000000000
+      internalID: 2013822568726261125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_112
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 50
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2448cde5c077c5d20800000000000000
+      internalID: 3268618324578960450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_113
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4fc45c829ea1b20800000000000000
+      internalID: 3106051254343496896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_114
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4f5473ffe60ab50800000000000000
+      internalID: 6602399096148194474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_alien_green_115
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa9bf46d6a9c6330800000000000000
+      internalID: 3705506388055399159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spritesheet_variant_alien_green_0: 2488731736029129366
+      spritesheet_variant_alien_green_1: 9045559035758995515
+      spritesheet_variant_alien_green_10: -5183791433754902329
+      spritesheet_variant_alien_green_100: 3197450338211053151
+      spritesheet_variant_alien_green_101: -4497497902507384624
+      spritesheet_variant_alien_green_102: -4867126742079891479
+      spritesheet_variant_alien_green_103: -1667947548188033726
+      spritesheet_variant_alien_green_104: -4892343793087911570
+      spritesheet_variant_alien_green_105: 6228285012817114348
+      spritesheet_variant_alien_green_106: -4646894130303314714
+      spritesheet_variant_alien_green_107: 5363350207515775591
+      spritesheet_variant_alien_green_108: -9099697418494996188
+      spritesheet_variant_alien_green_109: -3142978139416468071
+      spritesheet_variant_alien_green_11: -1167508509262135814
+      spritesheet_variant_alien_green_110: 4561992640055154113
+      spritesheet_variant_alien_green_111: 2013822568726261125
+      spritesheet_variant_alien_green_112: 3268618324578960450
+      spritesheet_variant_alien_green_113: 3106051254343496896
+      spritesheet_variant_alien_green_114: 6602399096148194474
+      spritesheet_variant_alien_green_115: 3705506388055399159
+      spritesheet_variant_alien_green_12: -4399914027405636009
+      spritesheet_variant_alien_green_13: 1209245905159153772
+      spritesheet_variant_alien_green_14: -2337693019922381886
+      spritesheet_variant_alien_green_15: 1491287336085605048
+      spritesheet_variant_alien_green_16: -8348764108899243434
+      spritesheet_variant_alien_green_17: -6505570205799362393
+      spritesheet_variant_alien_green_18: 1778200258106708973
+      spritesheet_variant_alien_green_19: -921074967616856307
+      spritesheet_variant_alien_green_2: 3080180785113684576
+      spritesheet_variant_alien_green_20: 5650030950927278217
+      spritesheet_variant_alien_green_21: 1085276944495284329
+      spritesheet_variant_alien_green_22: 9167532608666421339
+      spritesheet_variant_alien_green_23: -6131733973822516592
+      spritesheet_variant_alien_green_24: 1238724113584066846
+      spritesheet_variant_alien_green_25: -3604225447005486611
+      spritesheet_variant_alien_green_26: 4255040529047565696
+      spritesheet_variant_alien_green_27: 8935492645764421746
+      spritesheet_variant_alien_green_28: 3458649346776630754
+      spritesheet_variant_alien_green_29: -8059861960422810842
+      spritesheet_variant_alien_green_3: -5266451534566315981
+      spritesheet_variant_alien_green_30: -3605696539536511501
+      spritesheet_variant_alien_green_31: 8106986300076193512
+      spritesheet_variant_alien_green_32: 3382882596199998637
+      spritesheet_variant_alien_green_33: -5657286480248166418
+      spritesheet_variant_alien_green_34: -4087897390587586895
+      spritesheet_variant_alien_green_35: 211748883402122
+      spritesheet_variant_alien_green_36: -5960740951205313680
+      spritesheet_variant_alien_green_37: 236425480668842667
+      spritesheet_variant_alien_green_38: 3479056712651370215
+      spritesheet_variant_alien_green_39: -8353579061429601887
+      spritesheet_variant_alien_green_4: 1901112262486763958
+      spritesheet_variant_alien_green_40: 4300173186093854255
+      spritesheet_variant_alien_green_41: -5733787217870415480
+      spritesheet_variant_alien_green_42: -5085355647430793625
+      spritesheet_variant_alien_green_43: 1475932919172047292
+      spritesheet_variant_alien_green_44: -498549290659759554
+      spritesheet_variant_alien_green_45: -725021997006007042
+      spritesheet_variant_alien_green_46: 7785149800582100484
+      spritesheet_variant_alien_green_47: -2177730347106910318
+      spritesheet_variant_alien_green_48: -6454547364901138430
+      spritesheet_variant_alien_green_49: 5502000517751345894
+      spritesheet_variant_alien_green_5: 1902020720198241447
+      spritesheet_variant_alien_green_50: 8870618433682180292
+      spritesheet_variant_alien_green_51: 2000103603502054185
+      spritesheet_variant_alien_green_52: 1252527809793270776
+      spritesheet_variant_alien_green_53: 2455259068456299725
+      spritesheet_variant_alien_green_54: 6624262452533885053
+      spritesheet_variant_alien_green_55: -5768733390143310266
+      spritesheet_variant_alien_green_56: 7974696139421397953
+      spritesheet_variant_alien_green_57: -2645305013412921040
+      spritesheet_variant_alien_green_58: -2805794717576705290
+      spritesheet_variant_alien_green_59: -2198691548578082711
+      spritesheet_variant_alien_green_6: -6925437825619660535
+      spritesheet_variant_alien_green_60: -1150320755677078920
+      spritesheet_variant_alien_green_61: -5138394622377952922
+      spritesheet_variant_alien_green_62: -7841510606813212934
+      spritesheet_variant_alien_green_63: -1720758570760807617
+      spritesheet_variant_alien_green_64: -7213844961199956487
+      spritesheet_variant_alien_green_65: -2388162282563519815
+      spritesheet_variant_alien_green_66: 5190051749056338722
+      spritesheet_variant_alien_green_67: -1205392352492445700
+      spritesheet_variant_alien_green_68: 7017743478557702434
+      spritesheet_variant_alien_green_69: 4566984733096053921
+      spritesheet_variant_alien_green_7: -6001403815390594846
+      spritesheet_variant_alien_green_70: -934027597644371775
+      spritesheet_variant_alien_green_71: -7709281385289439584
+      spritesheet_variant_alien_green_72: -8814755327379084770
+      spritesheet_variant_alien_green_73: 6746439333777275144
+      spritesheet_variant_alien_green_74: 6538850686989588127
+      spritesheet_variant_alien_green_75: 1794828860286201980
+      spritesheet_variant_alien_green_76: 5284291839972789940
+      spritesheet_variant_alien_green_77: -1060439928813020810
+      spritesheet_variant_alien_green_78: -3384644663205715951
+      spritesheet_variant_alien_green_79: -3653426500081780281
+      spritesheet_variant_alien_green_8: 321770043877711446
+      spritesheet_variant_alien_green_80: 117349352678791402
+      spritesheet_variant_alien_green_81: 8039890867581959172
+      spritesheet_variant_alien_green_82: 1154746688469724510
+      spritesheet_variant_alien_green_83: -1535310892185874392
+      spritesheet_variant_alien_green_84: -5979789872985826512
+      spritesheet_variant_alien_green_85: 909074645997904313
+      spritesheet_variant_alien_green_86: -8169541124694836634
+      spritesheet_variant_alien_green_87: 4559950777667815235
+      spritesheet_variant_alien_green_88: 5270723465284440879
+      spritesheet_variant_alien_green_89: 338954320551061774
+      spritesheet_variant_alien_green_9: -3303512060888616096
+      spritesheet_variant_alien_green_90: -594798193108319597
+      spritesheet_variant_alien_green_91: 979255051270534281
+      spritesheet_variant_alien_green_92: -1781271473721863033
+      spritesheet_variant_alien_green_93: 3712940176250558426
+      spritesheet_variant_alien_green_94: -4166415008341166747
+      spritesheet_variant_alien_green_95: -6424505869986048647
+      spritesheet_variant_alien_green_96: -7562590204719552965
+      spritesheet_variant_alien_green_97: 6178875832977457127
+      spritesheet_variant_alien_green_98: 8426316185512412560
+      spritesheet_variant_alien_green_99: -6781222160604051335
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

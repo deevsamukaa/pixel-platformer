@@ -30,5 +30,6 @@ public enum SegmentTag
     Vertical,
     Treasure,
     Hazard,
-    Rest
+    Rest,
+    End
 }

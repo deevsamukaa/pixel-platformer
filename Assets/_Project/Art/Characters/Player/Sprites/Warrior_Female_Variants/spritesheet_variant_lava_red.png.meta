@@ -1,0 +1,3159 @@
+fileFormatVersion: 2
+guid: 53fb3bae7cb55f2418a3bf81eca882bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1123339873869742436
+    second: spritesheet_variant_lava_red_0
+  - first:
+      213: -4201700569471770444
+    second: spritesheet_variant_lava_red_1
+  - first:
+      213: 1765515123601698646
+    second: spritesheet_variant_lava_red_2
+  - first:
+      213: 1974335580213174050
+    second: spritesheet_variant_lava_red_3
+  - first:
+      213: -8680670308826010083
+    second: spritesheet_variant_lava_red_4
+  - first:
+      213: 5797823491442284775
+    second: spritesheet_variant_lava_red_5
+  - first:
+      213: -8374192233804423351
+    second: spritesheet_variant_lava_red_6
+  - first:
+      213: -7099598605394562242
+    second: spritesheet_variant_lava_red_7
+  - first:
+      213: 3806821621014710766
+    second: spritesheet_variant_lava_red_8
+  - first:
+      213: 6438349762028693086
+    second: spritesheet_variant_lava_red_9
+  - first:
+      213: -8880913100220014585
+    second: spritesheet_variant_lava_red_10
+  - first:
+      213: 8423235376300994690
+    second: spritesheet_variant_lava_red_11
+  - first:
+      213: 6795453959981207495
+    second: spritesheet_variant_lava_red_12
+  - first:
+      213: -8698088288645164663
+    second: spritesheet_variant_lava_red_13
+  - first:
+      213: -8113393392363569175
+    second: spritesheet_variant_lava_red_14
+  - first:
+      213: 809046856520320652
+    second: spritesheet_variant_lava_red_15
+  - first:
+      213: -5461703024031177426
+    second: spritesheet_variant_lava_red_16
+  - first:
+      213: -2397945006696712022
+    second: spritesheet_variant_lava_red_17
+  - first:
+      213: 1556381065639884151
+    second: spritesheet_variant_lava_red_18
+  - first:
+      213: -1475048908817037630
+    second: spritesheet_variant_lava_red_19
+  - first:
+      213: -5339672336382042129
+    second: spritesheet_variant_lava_red_20
+  - first:
+      213: -8471105641879209057
+    second: spritesheet_variant_lava_red_21
+  - first:
+      213: -933585761658905329
+    second: spritesheet_variant_lava_red_22
+  - first:
+      213: -2674965949042206525
+    second: spritesheet_variant_lava_red_23
+  - first:
+      213: 6434357569921709371
+    second: spritesheet_variant_lava_red_24
+  - first:
+      213: 4148789546005743067
+    second: spritesheet_variant_lava_red_25
+  - first:
+      213: -7799071726817889714
+    second: spritesheet_variant_lava_red_26
+  - first:
+      213: 1788430363517910418
+    second: spritesheet_variant_lava_red_27
+  - first:
+      213: 8057878743800002719
+    second: spritesheet_variant_lava_red_28
+  - first:
+      213: -701596420693478705
+    second: spritesheet_variant_lava_red_29
+  - first:
+      213: 8202752889838639830
+    second: spritesheet_variant_lava_red_30
+  - first:
+      213: 8397893838370202096
+    second: spritesheet_variant_lava_red_31
+  - first:
+      213: 2310267816673404295
+    second: spritesheet_variant_lava_red_32
+  - first:
+      213: -823144798641196063
+    second: spritesheet_variant_lava_red_33
+  - first:
+      213: 8547587110592887679
+    second: spritesheet_variant_lava_red_34
+  - first:
+      213: -5576362973878497869
+    second: spritesheet_variant_lava_red_35
+  - first:
+      213: -1838495584138406331
+    second: spritesheet_variant_lava_red_36
+  - first:
+      213: 7899212226245530474
+    second: spritesheet_variant_lava_red_37
+  - first:
+      213: -2447391030749503112
+    second: spritesheet_variant_lava_red_38
+  - first:
+      213: 5428806968349454976
+    second: spritesheet_variant_lava_red_39
+  - first:
+      213: -815464903701505088
+    second: spritesheet_variant_lava_red_40
+  - first:
+      213: -8781128935148944399
+    second: spritesheet_variant_lava_red_41
+  - first:
+      213: -5858611603022047034
+    second: spritesheet_variant_lava_red_42
+  - first:
+      213: 940479154491457292
+    second: spritesheet_variant_lava_red_43
+  - first:
+      213: -1175979766112585267
+    second: spritesheet_variant_lava_red_44
+  - first:
+      213: 1356073324087670923
+    second: spritesheet_variant_lava_red_45
+  - first:
+      213: 1804875962693383206
+    second: spritesheet_variant_lava_red_46
+  - first:
+      213: -7299022865350132238
+    second: spritesheet_variant_lava_red_47
+  - first:
+      213: 2060502263450237519
+    second: spritesheet_variant_lava_red_48
+  - first:
+      213: 3193302930568303018
+    second: spritesheet_variant_lava_red_49
+  - first:
+      213: -1708511812801886831
+    second: spritesheet_variant_lava_red_50
+  - first:
+      213: 463967310550822002
+    second: spritesheet_variant_lava_red_51
+  - first:
+      213: -1721206329000069950
+    second: spritesheet_variant_lava_red_52
+  - first:
+      213: 435002875920094293
+    second: spritesheet_variant_lava_red_53
+  - first:
+      213: -6773636497892063520
+    second: spritesheet_variant_lava_red_54
+  - first:
+      213: 6820257198175624505
+    second: spritesheet_variant_lava_red_55
+  - first:
+      213: -988547921863343026
+    second: spritesheet_variant_lava_red_56
+  - first:
+      213: -7403562314323298687
+    second: spritesheet_variant_lava_red_57
+  - first:
+      213: 6620352371210180584
+    second: spritesheet_variant_lava_red_58
+  - first:
+      213: 3306236207912921756
+    second: spritesheet_variant_lava_red_59
+  - first:
+      213: 6472211680803245046
+    second: spritesheet_variant_lava_red_60
+  - first:
+      213: 2627032574989085661
+    second: spritesheet_variant_lava_red_61
+  - first:
+      213: -4928781632886728940
+    second: spritesheet_variant_lava_red_62
+  - first:
+      213: -5155669288150230368
+    second: spritesheet_variant_lava_red_63
+  - first:
+      213: 6885473307818639281
+    second: spritesheet_variant_lava_red_64
+  - first:
+      213: 1662702513779562234
+    second: spritesheet_variant_lava_red_65
+  - first:
+      213: 1481317640994158541
+    second: spritesheet_variant_lava_red_66
+  - first:
+      213: 4722964678599708546
+    second: spritesheet_variant_lava_red_67
+  - first:
+      213: 4111865782014689837
+    second: spritesheet_variant_lava_red_68
+  - first:
+      213: 4838542067894083412
+    second: spritesheet_variant_lava_red_69
+  - first:
+      213: 4010649937842201567
+    second: spritesheet_variant_lava_red_70
+  - first:
+      213: 3407154276198894254
+    second: spritesheet_variant_lava_red_71
+  - first:
+      213: 315059599494725502
+    second: spritesheet_variant_lava_red_72
+  - first:
+      213: -9078786387194741565
+    second: spritesheet_variant_lava_red_73
+  - first:
+      213: -692481050329577588
+    second: spritesheet_variant_lava_red_74
+  - first:
+      213: 239447257935421557
+    second: spritesheet_variant_lava_red_75
+  - first:
+      213: 1379040262555501474
+    second: spritesheet_variant_lava_red_76
+  - first:
+      213: 2828925192769593840
+    second: spritesheet_variant_lava_red_77
+  - first:
+      213: 4629290512840001038
+    second: spritesheet_variant_lava_red_78
+  - first:
+      213: -206393182735999960
+    second: spritesheet_variant_lava_red_79
+  - first:
+      213: -848782725786434185
+    second: spritesheet_variant_lava_red_80
+  - first:
+      213: -5211714789255901257
+    second: spritesheet_variant_lava_red_81
+  - first:
+      213: 2663874044420472493
+    second: spritesheet_variant_lava_red_82
+  - first:
+      213: 6282982156678856089
+    second: spritesheet_variant_lava_red_83
+  - first:
+      213: 7846093310826221088
+    second: spritesheet_variant_lava_red_84
+  - first:
+      213: 4854047163735929731
+    second: spritesheet_variant_lava_red_85
+  - first:
+      213: -4168660714625476988
+    second: spritesheet_variant_lava_red_86
+  - first:
+      213: -6881518005165975626
+    second: spritesheet_variant_lava_red_87
+  - first:
+      213: -7572640179247249989
+    second: spritesheet_variant_lava_red_88
+  - first:
+      213: -1753463745273092135
+    second: spritesheet_variant_lava_red_89
+  - first:
+      213: -6529185571750789732
+    second: spritesheet_variant_lava_red_90
+  - first:
+      213: 3736637638159863056
+    second: spritesheet_variant_lava_red_91
+  - first:
+      213: -3867665742704870732
+    second: spritesheet_variant_lava_red_92
+  - first:
+      213: -2117848262717758873
+    second: spritesheet_variant_lava_red_93
+  - first:
+      213: 7093322291703644142
+    second: spritesheet_variant_lava_red_94
+  - first:
+      213: 6876993059431986964
+    second: spritesheet_variant_lava_red_95
+  - first:
+      213: 5332629180573688500
+    second: spritesheet_variant_lava_red_96
+  - first:
+      213: -6897511597876674074
+    second: spritesheet_variant_lava_red_97
+  - first:
+      213: 7409738250608989186
+    second: spritesheet_variant_lava_red_98
+  - first:
+      213: 5452837120492679750
+    second: spritesheet_variant_lava_red_99
+  - first:
+      213: 8690930582390705278
+    second: spritesheet_variant_lava_red_100
+  - first:
+      213: -2354503271480338681
+    second: spritesheet_variant_lava_red_101
+  - first:
+      213: -9110982047450559979
+    second: spritesheet_variant_lava_red_102
+  - first:
+      213: -9027682327740069407
+    second: spritesheet_variant_lava_red_103
+  - first:
+      213: 399417766779818099
+    second: spritesheet_variant_lava_red_104
+  - first:
+      213: 2109117429180947655
+    second: spritesheet_variant_lava_red_105
+  - first:
+      213: -6950409619666489959
+    second: spritesheet_variant_lava_red_106
+  - first:
+      213: 7697654118956114536
+    second: spritesheet_variant_lava_red_107
+  - first:
+      213: -4284187628529709161
+    second: spritesheet_variant_lava_red_108
+  - first:
+      213: 5235928689557939339
+    second: spritesheet_variant_lava_red_109
+  - first:
+      213: -423704011169242078
+    second: spritesheet_variant_lava_red_110
+  - first:
+      213: -5997058500448299390
+    second: spritesheet_variant_lava_red_111
+  - first:
+      213: 5851645713264615461
+    second: spritesheet_variant_lava_red_112
+  - first:
+      213: 5691688515098669824
+    second: spritesheet_variant_lava_red_113
+  - first:
+      213: -1534173045620443454
+    second: spritesheet_variant_lava_red_114
+  - first:
+      213: 6562938328988163831
+    second: spritesheet_variant_lava_red_115
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e36ff16581960f0800000000000000
+      internalID: -1123339873869742436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b02418f79f80b5c0800000000000000
+      internalID: -4201700569471770444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 704
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65febdb96ae508810800000000000000
+      internalID: 1765515123601698646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 704
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f550eefbf366b10800000000000000
+      internalID: 1974335580213174050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 704
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e2526a850188780800000000000000
+      internalID: -8680670308826010083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_5
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 704
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e815dd4fb1067050800000000000000
+      internalID: 5797823491442284775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 660
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f904f1884e8cb80800000000000000
+      internalID: -8374192233804423351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 663
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3339950fa8297d90800000000000000
+      internalID: -7099598605394562242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 662
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9cbdb481c84d430800000000000000
+      internalID: 3806821621014710766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 660
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56e0792ffc995950800000000000000
+      internalID: 6438349762028693086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 660
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700e544a698a0c480800000000000000
+      internalID: -8880913100220014585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 663
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280bcef42f755e470800000000000000
+      internalID: 8423235376300994690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 618
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf833c6f5d4e4e50800000000000000
+      internalID: 6795453959981207495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 616
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981d15239ce2a4780800000000000000
+      internalID: -8698088288645164663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 616
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9effa2d32bf676f80800000000000000
+      internalID: -8113393392363569175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 607
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c864a8954df4a3b00800000000000000
+      internalID: 809046856520320652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_16
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 616
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25e1f779022434b0800000000000000
+      internalID: -5461703024031177426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 616
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8bbe4a8b9c8bed0800000000000000
+      internalID: -2397945006696712022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 572
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775fb984550699510800000000000000
+      internalID: 1556381065639884151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 572
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c602a325d2978be0800000000000000
+      internalID: -1475048908817037630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 572
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefd7f40d4ca5e5b0800000000000000
+      internalID: -5339672336382042129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_21
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 572
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b7bf0fc46907a80800000000000000
+      internalID: -8471105641879209057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 596
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d55f432bc3b03f0800000000000000
+      internalID: -933585761658905329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_23
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 572
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8d21554ac90ead0800000000000000
+      internalID: -2674965949042206525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_24
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 569
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3577018e1e6b4950800000000000000
+      internalID: 6434357569921709371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5c6816c16739930800000000000000
+      internalID: 4148789546005743067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 528
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e423a31f59124c390800000000000000
+      internalID: -7799071726817889714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_27
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 528
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29df10ba0f7c1d810800000000000000
+      internalID: 1788430363517910418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_28
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 530
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98be57660653df60800000000000000
+      internalID: 8057878743800002719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_29
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 563
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc231e8c5cd6346f0800000000000000
+      internalID: -701596420693478705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_30
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 556
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da14231b4806d170800000000000000
+      internalID: 8202752889838639830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_31
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 557
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f16f79b3ff4b8470800000000000000
+      internalID: 8397893838370202096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_32
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 550
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785e5d4c658bf0020800000000000000
+      internalID: 2310267816673404295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_33
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 547
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3f746ba2a9394f0800000000000000
+      internalID: -823144798641196063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_34
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 537
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bb895a0312f9670800000000000000
+      internalID: 8547587110592887679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 543
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdc45b8b67cc92b0800000000000000
+      internalID: -5576362973878497869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_36
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 529
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5465e4ac10a5c76e0800000000000000
+      internalID: -1838495584138406331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_37
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 532
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6399cefaa3af9d60800000000000000
+      internalID: 7899212226245530474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_38
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 484
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871e2b903de190ed0800000000000000
+      internalID: -2447391030749503112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 503
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08272a6bc2ff65b40800000000000000
+      internalID: 5428806968349454976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_40
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 513
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbd2189df2eea4f0800000000000000
+      internalID: -815464903701505088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 506
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f30b8502c9232680800000000000000
+      internalID: -8781128935148944399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_42
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 501
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c893ec89c702bea0800000000000000
+      internalID: -5858611603022047034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_43
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 491
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f7f12eec04d0d00800000000000000
+      internalID: 940479154491457292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_44
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 484
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9ffc122a41eafe0800000000000000
+      internalID: -1175979766112585267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_45
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 484
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88f0a3e08db1d210800000000000000
+      internalID: 1356073324087670923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_46
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 484
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624fafb10253c0910800000000000000
+      internalID: 1804875962693383206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 503
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fdf9573069a4ba90800000000000000
+      internalID: -7299022865350132238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 484
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4af6df34ef589c10800000000000000
+      internalID: 2060502263450237519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_49
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 484
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1dcb4b814e05c20800000000000000
+      internalID: 3193302930568303018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195826fee852a48e0800000000000000
+      internalID: -1708511812801886831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_51
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 440
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c66cc8fc7507600800000000000000
+      internalID: 463967310550822002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_52
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 440
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4fbce86fb0d18e0800000000000000
+      internalID: -1721206329000069950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_53
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 440
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5549d779fc0790600800000000000000
+      internalID: 435002875920094293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_54
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 440
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6c5815e753ff1a0800000000000000
+      internalID: -6773636497892063520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_55
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 442
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d1f0659cb66ae50800000000000000
+      internalID: 6820257198175624505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_56
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 398
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4482e117e8f742f0800000000000000
+      internalID: -988547921863343026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_57
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 398
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1867a460d43414990800000000000000
+      internalID: -7403562314323298687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_58
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 399
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7d5edc76730eb50800000000000000
+      internalID: 6620352371210180584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 399
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a2f2c505c12ed20800000000000000
+      internalID: 3306236207912921756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_60
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 396
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb49618b3ae1d950800000000000000
+      internalID: 6472211680803245046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_61
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 396
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbaa955538157420800000000000000
+      internalID: 2627032574989085661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 352
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417115cf733799bb0800000000000000
+      internalID: -4928781632886728940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_63
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 360
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa1a6c29126378b0800000000000000
+      internalID: -5155669288150230368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_64
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 353
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfb6fe1e7d1e8f50800000000000000
+      internalID: 6885473307818639281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_65
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 353
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6dafc702b131710800000000000000
+      internalID: 1662702513779562234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_66
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 353
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7f9fecb82be8410800000000000000
+      internalID: 1481317640994158541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_67
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 353
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f07a21a575b8140800000000000000
+      internalID: 4722964678599708546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_68
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22c115a428401930800000000000000
+      internalID: 4111865782014689837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_69
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f5c930064f52340800000000000000
+      internalID: 4838542067894083412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_70
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 309
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3e68f7ed0b8a730800000000000000
+      internalID: 4010649937842201567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_71
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 309
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaac9c723c4a84f20800000000000000
+      internalID: 3407154276198894254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_72
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 309
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7fb5f659015f5400800000000000000
+      internalID: 315059599494725502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_73
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccfa9fd1eba10280800000000000000
+      internalID: -9078786387194741565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_74
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 265
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c878a655720d366f0800000000000000
+      internalID: -692481050329577588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_75
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 265
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570aeaf2300b25300800000000000000
+      internalID: 239447257935421557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_76
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 265
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a30594ffc5532310800000000000000
+      internalID: 1379040262555501474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_77
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 264
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f16f2b797c524720800000000000000
+      internalID: 2828925192769593840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_78
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 264
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e060ae3c13b8e3040800000000000000
+      internalID: 4629290512840001038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_79
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 264
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c55fa6e7eb22df0800000000000000
+      internalID: -206393182735999960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_80
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7750302ab948834f0800000000000000
+      internalID: -848782725786434185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_81
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf80c313054ca7b0800000000000000
+      internalID: -5211714789255901257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_82
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 220
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daeb010645bf7f420800000000000000
+      internalID: 2663874044420472493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_83
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 220
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99df5fa9bf2a13750800000000000000
+      internalID: 6282982156678856089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_84
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 220
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e8d5abb4ce2ec60800000000000000
+      internalID: 7846093310826221088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_85
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 220
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383f8757d2a0d5340800000000000000
+      internalID: 4854047163735929731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_86
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 176
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4865f93aa21f526c0800000000000000
+      internalID: -4168660714625476988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_87
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b790aa85dfef70a0800000000000000
+      internalID: -6881518005165975626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 176
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb50e18e0e398e690800000000000000
+      internalID: -7572640179247249989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_89
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 176
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7a87093027aa7e0800000000000000
+      internalID: -1753463745273092135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_90
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 176
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d303bc05ca365a0800000000000000
+      internalID: -6529185571750789732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_91
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d8fd462243bd330800000000000000
+      internalID: 3736637638159863056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_92
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4baf020bf7a435ac0800000000000000
+      internalID: -3867665742704870732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_93
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 176
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762a784d934eb92e0800000000000000
+      internalID: -2117848262717758873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_94
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 132
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeffa52da0b807260800000000000000
+      internalID: 7093322291703644142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_95
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 132
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417354e60ccff6f50800000000000000
+      internalID: 6876993059431986964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_96
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 132
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b22afa7cfd410a40800000000000000
+      internalID: 5332629180573688500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_97
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 132
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e18c6e0fbd1740a0800000000000000
+      internalID: -6897511597876674074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 132
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2045c223eada4d660800000000000000
+      internalID: 7409738250608989186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_99
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 132
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642b701887e5cab40800000000000000
+      internalID: 5452837120492679750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_100
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 88
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c0af271536c9870800000000000000
+      internalID: 8690930582390705278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_101
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 88
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7075be0dfbf135fd0800000000000000
+      internalID: -2354503271480338681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_102
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 88
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a8fb2991a4f8180800000000000000
+      internalID: -9110982047450559979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_103
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e94bfde0ca37b280800000000000000
+      internalID: -9027682327740069407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_104
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 88
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37014e9b7540b8500800000000000000
+      internalID: 399417766779818099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_105
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 88
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc5ae39027154d10800000000000000
+      internalID: 2109117429180947655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_106
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 48
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d2258964f2b8f90800000000000000
+      internalID: -6950409619666489959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 88
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862a33423af83da60800000000000000
+      internalID: 7697654118956114536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_108
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 44
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f0d5aec028b84c0800000000000000
+      internalID: -4284187628529709161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_109
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 50
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84a06ae661c9a840800000000000000
+      internalID: 5235928689557939339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_110
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 47
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224695c5273be1af0800000000000000
+      internalID: -423704011169242078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_111
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 46
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286da8f411b26cca0800000000000000
+      internalID: -5997058500448299390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_112
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 50
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520239ad5c8353150800000000000000
+      internalID: 5851645713264615461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_113
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00370a27c80fcfe40800000000000000
+      internalID: 5691688515098669824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_114
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c670df4eb585bae0800000000000000
+      internalID: -1534173045620443454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_lava_red_115
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe922663ad341b50800000000000000
+      internalID: 6562938328988163831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spritesheet_variant_lava_red_0: -1123339873869742436
+      spritesheet_variant_lava_red_1: -4201700569471770444
+      spritesheet_variant_lava_red_10: -8880913100220014585
+      spritesheet_variant_lava_red_100: 8690930582390705278
+      spritesheet_variant_lava_red_101: -2354503271480338681
+      spritesheet_variant_lava_red_102: -9110982047450559979
+      spritesheet_variant_lava_red_103: -9027682327740069407
+      spritesheet_variant_lava_red_104: 399417766779818099
+      spritesheet_variant_lava_red_105: 2109117429180947655
+      spritesheet_variant_lava_red_106: -6950409619666489959
+      spritesheet_variant_lava_red_107: 7697654118956114536
+      spritesheet_variant_lava_red_108: -4284187628529709161
+      spritesheet_variant_lava_red_109: 5235928689557939339
+      spritesheet_variant_lava_red_11: 8423235376300994690
+      spritesheet_variant_lava_red_110: -423704011169242078
+      spritesheet_variant_lava_red_111: -5997058500448299390
+      spritesheet_variant_lava_red_112: 5851645713264615461
+      spritesheet_variant_lava_red_113: 5691688515098669824
+      spritesheet_variant_lava_red_114: -1534173045620443454
+      spritesheet_variant_lava_red_115: 6562938328988163831
+      spritesheet_variant_lava_red_12: 6795453959981207495
+      spritesheet_variant_lava_red_13: -8698088288645164663
+      spritesheet_variant_lava_red_14: -8113393392363569175
+      spritesheet_variant_lava_red_15: 809046856520320652
+      spritesheet_variant_lava_red_16: -5461703024031177426
+      spritesheet_variant_lava_red_17: -2397945006696712022
+      spritesheet_variant_lava_red_18: 1556381065639884151
+      spritesheet_variant_lava_red_19: -1475048908817037630
+      spritesheet_variant_lava_red_2: 1765515123601698646
+      spritesheet_variant_lava_red_20: -5339672336382042129
+      spritesheet_variant_lava_red_21: -8471105641879209057
+      spritesheet_variant_lava_red_22: -933585761658905329
+      spritesheet_variant_lava_red_23: -2674965949042206525
+      spritesheet_variant_lava_red_24: 6434357569921709371
+      spritesheet_variant_lava_red_25: 4148789546005743067
+      spritesheet_variant_lava_red_26: -7799071726817889714
+      spritesheet_variant_lava_red_27: 1788430363517910418
+      spritesheet_variant_lava_red_28: 8057878743800002719
+      spritesheet_variant_lava_red_29: -701596420693478705
+      spritesheet_variant_lava_red_3: 1974335580213174050
+      spritesheet_variant_lava_red_30: 8202752889838639830
+      spritesheet_variant_lava_red_31: 8397893838370202096
+      spritesheet_variant_lava_red_32: 2310267816673404295
+      spritesheet_variant_lava_red_33: -823144798641196063
+      spritesheet_variant_lava_red_34: 8547587110592887679
+      spritesheet_variant_lava_red_35: -5576362973878497869
+      spritesheet_variant_lava_red_36: -1838495584138406331
+      spritesheet_variant_lava_red_37: 7899212226245530474
+      spritesheet_variant_lava_red_38: -2447391030749503112
+      spritesheet_variant_lava_red_39: 5428806968349454976
+      spritesheet_variant_lava_red_4: -8680670308826010083
+      spritesheet_variant_lava_red_40: -815464903701505088
+      spritesheet_variant_lava_red_41: -8781128935148944399
+      spritesheet_variant_lava_red_42: -5858611603022047034
+      spritesheet_variant_lava_red_43: 940479154491457292
+      spritesheet_variant_lava_red_44: -1175979766112585267
+      spritesheet_variant_lava_red_45: 1356073324087670923
+      spritesheet_variant_lava_red_46: 1804875962693383206
+      spritesheet_variant_lava_red_47: -7299022865350132238
+      spritesheet_variant_lava_red_48: 2060502263450237519
+      spritesheet_variant_lava_red_49: 3193302930568303018
+      spritesheet_variant_lava_red_5: 5797823491442284775
+      spritesheet_variant_lava_red_50: -1708511812801886831
+      spritesheet_variant_lava_red_51: 463967310550822002
+      spritesheet_variant_lava_red_52: -1721206329000069950
+      spritesheet_variant_lava_red_53: 435002875920094293
+      spritesheet_variant_lava_red_54: -6773636497892063520
+      spritesheet_variant_lava_red_55: 6820257198175624505
+      spritesheet_variant_lava_red_56: -988547921863343026
+      spritesheet_variant_lava_red_57: -7403562314323298687
+      spritesheet_variant_lava_red_58: 6620352371210180584
+      spritesheet_variant_lava_red_59: 3306236207912921756
+      spritesheet_variant_lava_red_6: -8374192233804423351
+      spritesheet_variant_lava_red_60: 6472211680803245046
+      spritesheet_variant_lava_red_61: 2627032574989085661
+      spritesheet_variant_lava_red_62: -4928781632886728940
+      spritesheet_variant_lava_red_63: -5155669288150230368
+      spritesheet_variant_lava_red_64: 6885473307818639281
+      spritesheet_variant_lava_red_65: 1662702513779562234
+      spritesheet_variant_lava_red_66: 1481317640994158541
+      spritesheet_variant_lava_red_67: 4722964678599708546
+      spritesheet_variant_lava_red_68: 4111865782014689837
+      spritesheet_variant_lava_red_69: 4838542067894083412
+      spritesheet_variant_lava_red_7: -7099598605394562242
+      spritesheet_variant_lava_red_70: 4010649937842201567
+      spritesheet_variant_lava_red_71: 3407154276198894254
+      spritesheet_variant_lava_red_72: 315059599494725502
+      spritesheet_variant_lava_red_73: -9078786387194741565
+      spritesheet_variant_lava_red_74: -692481050329577588
+      spritesheet_variant_lava_red_75: 239447257935421557
+      spritesheet_variant_lava_red_76: 1379040262555501474
+      spritesheet_variant_lava_red_77: 2828925192769593840
+      spritesheet_variant_lava_red_78: 4629290512840001038
+      spritesheet_variant_lava_red_79: -206393182735999960
+      spritesheet_variant_lava_red_8: 3806821621014710766
+      spritesheet_variant_lava_red_80: -848782725786434185
+      spritesheet_variant_lava_red_81: -5211714789255901257
+      spritesheet_variant_lava_red_82: 2663874044420472493
+      spritesheet_variant_lava_red_83: 6282982156678856089
+      spritesheet_variant_lava_red_84: 7846093310826221088
+      spritesheet_variant_lava_red_85: 4854047163735929731
+      spritesheet_variant_lava_red_86: -4168660714625476988
+      spritesheet_variant_lava_red_87: -6881518005165975626
+      spritesheet_variant_lava_red_88: -7572640179247249989
+      spritesheet_variant_lava_red_89: -1753463745273092135
+      spritesheet_variant_lava_red_9: 6438349762028693086
+      spritesheet_variant_lava_red_90: -6529185571750789732
+      spritesheet_variant_lava_red_91: 3736637638159863056
+      spritesheet_variant_lava_red_92: -3867665742704870732
+      spritesheet_variant_lava_red_93: -2117848262717758873
+      spritesheet_variant_lava_red_94: 7093322291703644142
+      spritesheet_variant_lava_red_95: 6876993059431986964
+      spritesheet_variant_lava_red_96: 5332629180573688500
+      spritesheet_variant_lava_red_97: -6897511597876674074
+      spritesheet_variant_lava_red_98: 7409738250608989186
+      spritesheet_variant_lava_red_99: 5452837120492679750
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

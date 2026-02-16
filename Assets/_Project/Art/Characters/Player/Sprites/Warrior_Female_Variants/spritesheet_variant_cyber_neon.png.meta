@@ -1,0 +1,3159 @@
+fileFormatVersion: 2
+guid: 22f9c8ad85a3bfe418411b7c6a9154e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4610783480185800620
+    second: spritesheet_variant_cyber_neon_0
+  - first:
+      213: -7993511936281391364
+    second: spritesheet_variant_cyber_neon_1
+  - first:
+      213: 1291472209413318528
+    second: spritesheet_variant_cyber_neon_2
+  - first:
+      213: 2447493777153534026
+    second: spritesheet_variant_cyber_neon_3
+  - first:
+      213: 1261576953860271225
+    second: spritesheet_variant_cyber_neon_4
+  - first:
+      213: -3815252104083445933
+    second: spritesheet_variant_cyber_neon_5
+  - first:
+      213: 9087549396698879204
+    second: spritesheet_variant_cyber_neon_6
+  - first:
+      213: 393723025586362125
+    second: spritesheet_variant_cyber_neon_7
+  - first:
+      213: 5443368578932135025
+    second: spritesheet_variant_cyber_neon_8
+  - first:
+      213: 57310129166917534
+    second: spritesheet_variant_cyber_neon_9
+  - first:
+      213: -8823949953051070187
+    second: spritesheet_variant_cyber_neon_10
+  - first:
+      213: -2491772757738279910
+    second: spritesheet_variant_cyber_neon_11
+  - first:
+      213: 2477080370094505447
+    second: spritesheet_variant_cyber_neon_12
+  - first:
+      213: -6012253635953997949
+    second: spritesheet_variant_cyber_neon_13
+  - first:
+      213: 1410712678098697810
+    second: spritesheet_variant_cyber_neon_14
+  - first:
+      213: 1836241380647133347
+    second: spritesheet_variant_cyber_neon_15
+  - first:
+      213: -6409745555294662222
+    second: spritesheet_variant_cyber_neon_16
+  - first:
+      213: -7472129468980005727
+    second: spritesheet_variant_cyber_neon_17
+  - first:
+      213: 7262229721845553067
+    second: spritesheet_variant_cyber_neon_18
+  - first:
+      213: -340007677327380757
+    second: spritesheet_variant_cyber_neon_19
+  - first:
+      213: -5083195292865179097
+    second: spritesheet_variant_cyber_neon_20
+  - first:
+      213: -8286678544339396329
+    second: spritesheet_variant_cyber_neon_21
+  - first:
+      213: -7434343255078978517
+    second: spritesheet_variant_cyber_neon_22
+  - first:
+      213: -7528697607745006801
+    second: spritesheet_variant_cyber_neon_23
+  - first:
+      213: -7529043457469434167
+    second: spritesheet_variant_cyber_neon_24
+  - first:
+      213: 5572985829759100450
+    second: spritesheet_variant_cyber_neon_25
+  - first:
+      213: 1880032833426361399
+    second: spritesheet_variant_cyber_neon_26
+  - first:
+      213: -7778135420483523236
+    second: spritesheet_variant_cyber_neon_27
+  - first:
+      213: -581021385971006204
+    second: spritesheet_variant_cyber_neon_28
+  - first:
+      213: -4010222230366229600
+    second: spritesheet_variant_cyber_neon_29
+  - first:
+      213: 5561063401316881039
+    second: spritesheet_variant_cyber_neon_30
+  - first:
+      213: 4283420391437009446
+    second: spritesheet_variant_cyber_neon_31
+  - first:
+      213: -8105306761281387447
+    second: spritesheet_variant_cyber_neon_32
+  - first:
+      213: -7362102482999553279
+    second: spritesheet_variant_cyber_neon_33
+  - first:
+      213: -1903415224334384918
+    second: spritesheet_variant_cyber_neon_34
+  - first:
+      213: -892936754423679241
+    second: spritesheet_variant_cyber_neon_35
+  - first:
+      213: -8459244933185922540
+    second: spritesheet_variant_cyber_neon_36
+  - first:
+      213: -422296640114529829
+    second: spritesheet_variant_cyber_neon_37
+  - first:
+      213: -1540069137509247456
+    second: spritesheet_variant_cyber_neon_38
+  - first:
+      213: 8880785228955821939
+    second: spritesheet_variant_cyber_neon_39
+  - first:
+      213: -2956467620482308492
+    second: spritesheet_variant_cyber_neon_40
+  - first:
+      213: 492738258872440346
+    second: spritesheet_variant_cyber_neon_41
+  - first:
+      213: -9193510187434536996
+    second: spritesheet_variant_cyber_neon_42
+  - first:
+      213: -9136215156207380757
+    second: spritesheet_variant_cyber_neon_43
+  - first:
+      213: -6663210688975403254
+    second: spritesheet_variant_cyber_neon_44
+  - first:
+      213: 4614265990065528157
+    second: spritesheet_variant_cyber_neon_45
+  - first:
+      213: 4242941994872131360
+    second: spritesheet_variant_cyber_neon_46
+  - first:
+      213: -7559126187156057455
+    second: spritesheet_variant_cyber_neon_47
+  - first:
+      213: 4146881809309643348
+    second: spritesheet_variant_cyber_neon_48
+  - first:
+      213: 7037414796487643856
+    second: spritesheet_variant_cyber_neon_49
+  - first:
+      213: -1523614108688229958
+    second: spritesheet_variant_cyber_neon_50
+  - first:
+      213: 54960286743140120
+    second: spritesheet_variant_cyber_neon_51
+  - first:
+      213: -5498441730393531629
+    second: spritesheet_variant_cyber_neon_52
+  - first:
+      213: 964885161572949002
+    second: spritesheet_variant_cyber_neon_53
+  - first:
+      213: 8470615143923422280
+    second: spritesheet_variant_cyber_neon_54
+  - first:
+      213: 6672298767393250283
+    second: spritesheet_variant_cyber_neon_55
+  - first:
+      213: -93251699136749243
+    second: spritesheet_variant_cyber_neon_56
+  - first:
+      213: -3288566044848112609
+    second: spritesheet_variant_cyber_neon_57
+  - first:
+      213: 878279776213589171
+    second: spritesheet_variant_cyber_neon_58
+  - first:
+      213: -2925812421789329172
+    second: spritesheet_variant_cyber_neon_59
+  - first:
+      213: 5804791860936900666
+    second: spritesheet_variant_cyber_neon_60
+  - first:
+      213: -1192949130777055585
+    second: spritesheet_variant_cyber_neon_61
+  - first:
+      213: -6428183146225741917
+    second: spritesheet_variant_cyber_neon_62
+  - first:
+      213: -2565565088218843459
+    second: spritesheet_variant_cyber_neon_63
+  - first:
+      213: -6447673091131261546
+    second: spritesheet_variant_cyber_neon_64
+  - first:
+      213: 9217599354860858330
+    second: spritesheet_variant_cyber_neon_65
+  - first:
+      213: 4073795266644068999
+    second: spritesheet_variant_cyber_neon_66
+  - first:
+      213: -7359147887537515342
+    second: spritesheet_variant_cyber_neon_67
+  - first:
+      213: 5481546522060973349
+    second: spritesheet_variant_cyber_neon_68
+  - first:
+      213: -1017664977369546456
+    second: spritesheet_variant_cyber_neon_69
+  - first:
+      213: -2654252607839593828
+    second: spritesheet_variant_cyber_neon_70
+  - first:
+      213: -1603524372628848991
+    second: spritesheet_variant_cyber_neon_71
+  - first:
+      213: -7398772469348760764
+    second: spritesheet_variant_cyber_neon_72
+  - first:
+      213: -7877608503088586640
+    second: spritesheet_variant_cyber_neon_73
+  - first:
+      213: -1996170302002597546
+    second: spritesheet_variant_cyber_neon_74
+  - first:
+      213: 8381765779347299677
+    second: spritesheet_variant_cyber_neon_75
+  - first:
+      213: 6942396762536199847
+    second: spritesheet_variant_cyber_neon_76
+  - first:
+      213: 4194595050637967563
+    second: spritesheet_variant_cyber_neon_77
+  - first:
+      213: 5317907545258406563
+    second: spritesheet_variant_cyber_neon_78
+  - first:
+      213: 8217009995456076362
+    second: spritesheet_variant_cyber_neon_79
+  - first:
+      213: -7398944403782179802
+    second: spritesheet_variant_cyber_neon_80
+  - first:
+      213: -5266386657826520165
+    second: spritesheet_variant_cyber_neon_81
+  - first:
+      213: -6222188697505337731
+    second: spritesheet_variant_cyber_neon_82
+  - first:
+      213: 5955901464097143049
+    second: spritesheet_variant_cyber_neon_83
+  - first:
+      213: 6827396815573648860
+    second: spritesheet_variant_cyber_neon_84
+  - first:
+      213: 8476942939605876982
+    second: spritesheet_variant_cyber_neon_85
+  - first:
+      213: 6221278547359106036
+    second: spritesheet_variant_cyber_neon_86
+  - first:
+      213: -6263512694020579761
+    second: spritesheet_variant_cyber_neon_87
+  - first:
+      213: -1888029491926538994
+    second: spritesheet_variant_cyber_neon_88
+  - first:
+      213: 8816250751872227853
+    second: spritesheet_variant_cyber_neon_89
+  - first:
+      213: 4081093758588223911
+    second: spritesheet_variant_cyber_neon_90
+  - first:
+      213: -7025543986714090899
+    second: spritesheet_variant_cyber_neon_91
+  - first:
+      213: -7665203378241842508
+    second: spritesheet_variant_cyber_neon_92
+  - first:
+      213: -1970550077164760943
+    second: spritesheet_variant_cyber_neon_93
+  - first:
+      213: 1327522635225213870
+    second: spritesheet_variant_cyber_neon_94
+  - first:
+      213: 5002210470321300100
+    second: spritesheet_variant_cyber_neon_95
+  - first:
+      213: 6066060878364501900
+    second: spritesheet_variant_cyber_neon_96
+  - first:
+      213: -102427557303158948
+    second: spritesheet_variant_cyber_neon_97
+  - first:
+      213: -462912599996764696
+    second: spritesheet_variant_cyber_neon_98
+  - first:
+      213: -6983689941901039020
+    second: spritesheet_variant_cyber_neon_99
+  - first:
+      213: 7834489907348236165
+    second: spritesheet_variant_cyber_neon_100
+  - first:
+      213: -3395879993734553199
+    second: spritesheet_variant_cyber_neon_101
+  - first:
+      213: 4249998028506873824
+    second: spritesheet_variant_cyber_neon_102
+  - first:
+      213: 5713579973655796364
+    second: spritesheet_variant_cyber_neon_103
+  - first:
+      213: -3939879454892132841
+    second: spritesheet_variant_cyber_neon_104
+  - first:
+      213: -5078831609132328992
+    second: spritesheet_variant_cyber_neon_105
+  - first:
+      213: 5986445362189559421
+    second: spritesheet_variant_cyber_neon_106
+  - first:
+      213: -879918162194380452
+    second: spritesheet_variant_cyber_neon_107
+  - first:
+      213: -1240433491170784632
+    second: spritesheet_variant_cyber_neon_108
+  - first:
+      213: -4655820074459902750
+    second: spritesheet_variant_cyber_neon_109
+  - first:
+      213: 6951816958602253012
+    second: spritesheet_variant_cyber_neon_110
+  - first:
+      213: 2266449593656681172
+    second: spritesheet_variant_cyber_neon_111
+  - first:
+      213: 6930692492868965702
+    second: spritesheet_variant_cyber_neon_112
+  - first:
+      213: 6503873724996611207
+    second: spritesheet_variant_cyber_neon_113
+  - first:
+      213: 1256461517490667250
+    second: spritesheet_variant_cyber_neon_114
+  - first:
+      213: -617429809368651406
+    second: spritesheet_variant_cyber_neon_115
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458394f8ad43300c0800000000000000
+      internalID: -4610783480185800620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe4a12de37511190800000000000000
+      internalID: -7993511936281391364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 704
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087ae57c12b3ce110800000000000000
+      internalID: 1291472209413318528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 704
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4827397f9e37f120800000000000000
+      internalID: 2447493777153534026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 704
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c29af2e85028110800000000000000
+      internalID: 1261576953860271225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_5
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 704
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3576b87ec608d0bc0800000000000000
+      internalID: -3815252104083445933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 660
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e45d0547067d1e70800000000000000
+      internalID: 9087549396698879204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 663
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0797f77109c67500800000000000000
+      internalID: 393723025586362125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 662
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174d5c0e1eaba8b40800000000000000
+      internalID: 5443368578932135025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 660
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f9603424b9bc000800000000000000
+      internalID: 57310129166917534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 660
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511f09cd4480b8580800000000000000
+      internalID: -8823949953051070187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 663
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ca30af0e17b6dd0800000000000000
+      internalID: -2491772757738279910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 618
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed7393f87b506220800000000000000
+      internalID: 2477080370094505447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 616
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38749612c2f209ca0800000000000000
+      internalID: -6012253635953997949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 616
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e763ad4bbd39310800000000000000
+      internalID: 1410712678098697810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 607
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0685f8ec3ab7910800000000000000
+      internalID: 1836241380647133347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_16
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 616
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1d504b0620c07a0800000000000000
+      internalID: -6409745555294662222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 616
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4f7b546d9ad4890800000000000000
+      internalID: -7472129468980005727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 572
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba753ef747f98c460800000000000000
+      internalID: 7262229721845553067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 572
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beeeef3a1dc084bf0800000000000000
+      internalID: -340007677327380757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 572
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72255d420dcd479b0800000000000000
+      internalID: -5083195292865179097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_21
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 572
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7199cc4c4cdcffc80800000000000000
+      internalID: -8286678544339396329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 596
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c32b6c238e3d890800000000000000
+      internalID: -7434343255078978517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_23
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 572
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23960d1a61b48790800000000000000
+      internalID: -7528697607745006801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_24
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 569
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c63e03bdd6738790800000000000000
+      internalID: -7529043457469434167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226a311d519375d40800000000000000
+      internalID: 5572985829759100450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 528
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c0372b6e7371a10800000000000000
+      internalID: 1880032833426361399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_27
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 528
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d223f9b038e0490800000000000000
+      internalID: -7778135420483523236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_28
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 530
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4050b4ab02ccfe7f0800000000000000
+      internalID: -581021385971006204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_29
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 563
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab65a8e024d858c0800000000000000
+      internalID: -4010222230366229600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_30
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 556
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f821be023bddc2d40800000000000000
+      internalID: 5561063401316881039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_31
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 557
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6228447c624c17b30800000000000000
+      internalID: 4283420391437009446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_32
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 550
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9444042c17a248f80800000000000000
+      internalID: -8105306761281387447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_33
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 547
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1035acc3cce84d990800000000000000
+      internalID: -7362102482999553279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_34
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 537
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae08a7d20f5b595e0800000000000000
+      internalID: -1903415224334384918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 543
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6bfa9b0c6ab93f0800000000000000
+      internalID: -892936754423679241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_36
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 529
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a1e616d89ba9a80800000000000000
+      internalID: -8459244933185922540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_37
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 532
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9e1287173b32af0800000000000000
+      internalID: -422296640114529829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_38
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 484
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0261831774390aae0800000000000000
+      internalID: -1540069137509247456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 503
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377a2720d13ee3b70800000000000000
+      internalID: 8880785228955821939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_40
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 513
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476253bfc5488f6d0800000000000000
+      internalID: -2956467620482308492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 506
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a161657f5de86d600800000000000000
+      internalID: 492738258872440346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_42
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 501
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf870f91371a6080800000000000000
+      internalID: -9193510187434536996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_43
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 491
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be618be98b4a53180800000000000000
+      internalID: -9136215156207380757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_44
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 484
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07090c7e258783a0800000000000000
+      internalID: -6663210688975403254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_45
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 484
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d9505787a290040800000000000000
+      internalID: 4614265990065528157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_46
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 484
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fc0f6a345f1ea30800000000000000
+      internalID: 4242941994872131360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 503
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192d53268c6981790800000000000000
+      internalID: -7559126187156057455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 484
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4523e61d80fac8930800000000000000
+      internalID: 4146881809309643348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_49
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 484
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d259b9b87be9a160800000000000000
+      internalID: 7037414796487643856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab95dd46a090bdae0800000000000000
+      internalID: -1523614108688229958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_51
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 440
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8171410f61243c000800000000000000
+      internalID: 54960286743140120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_52
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 440
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b95b1d06c91b3b0800000000000000
+      internalID: -5498441730393531629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_53
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 440
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0cd99831f5f36d00800000000000000
+      internalID: 964885161572949002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_54
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 440
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844999a189bad8570800000000000000
+      internalID: 8470615143923422280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_55
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 442
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb50c9a064c89c50800000000000000
+      internalID: 6672298767393250283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_56
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 398
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541a04ed214b4bef0800000000000000
+      internalID: -93251699136749243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_57
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 398
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cba641b9aac52d0800000000000000
+      internalID: -3288566044848112609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_58
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 399
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcde9a9dc6403c00800000000000000
+      internalID: 878279776213589171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 399
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce852df9a1d6567d0800000000000000
+      internalID: -2925812421789329172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_60
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 396
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3009324173ce8050800000000000000
+      internalID: 5804791860936900666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_61
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 396
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e2ce8061bc17fe0800000000000000
+      internalID: -1192949130777055585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 352
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afcf0a8c718ac6a0800000000000000
+      internalID: -6428183146225741917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_63
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 360
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6729c2528456cd0800000000000000
+      internalID: -2565565088218843459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_64
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 353
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69db64f1c734586a0800000000000000
+      internalID: -6447673091131261546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_65
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 353
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbe95cb6cd7bef70800000000000000
+      internalID: 9217599354860858330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_66
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 353
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78accfb0637098830800000000000000
+      internalID: 4073795266644068999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_67
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 353
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b492c99cfd0fd990800000000000000
+      internalID: -7359147887537515342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_68
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525e833f48d521c40800000000000000
+      internalID: 5481546522060973349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_69
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821488b481780e1f0800000000000000
+      internalID: -1017664977369546456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_70
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 309
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a1195e0533a2bd0800000000000000
+      internalID: -2654252607839593828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_71
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 309
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aeb6c434132fb9e0800000000000000
+      internalID: -1603524372628848991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_72
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 309
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4430786b3a7425990800000000000000
+      internalID: -7398772469348760764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_73
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070eec5cdcc1da290800000000000000
+      internalID: -7877608503088586640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_74
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 265
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65173fdbfad2c44e0800000000000000
+      internalID: -1996170302002597546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_75
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 265
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d558c5193025470800000000000000
+      internalID: 8381765779347299677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_76
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 265
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6cac8b219585060800000000000000
+      internalID: 6942396762536199847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_77
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 264
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc043e189f1363a30800000000000000
+      internalID: 4194595050637967563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_78
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 264
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a23f77acb00dc940800000000000000
+      internalID: 5317907545258406563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_79
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 264
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a5ef62e0fa80270800000000000000
+      internalID: 8217009995456076362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_80
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624e2bb144ba15990800000000000000
+      internalID: -7398944403782179802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_81
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93c46abc390ae6b0800000000000000
+      internalID: -5266386657826520165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_82
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 220
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e6ebf985856a9a0800000000000000
+      internalID: -6222188697505337731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_83
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 220
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9093dbc63dc97a250800000000000000
+      internalID: 5955901464097143049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_84
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 220
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd586ec0b39cfbe50800000000000000
+      internalID: 6827396815573648860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_85
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 220
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0c678d0b624a570800000000000000
+      internalID: 8476942939605876982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_86
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 176
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3091880eb665650800000000000000
+      internalID: 6221278547359106036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_87
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ed0cae3688319a0800000000000000
+      internalID: -6263512694020579761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 176
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05e1482e2f5cc5e0800000000000000
+      internalID: -1888029491926538994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_89
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 176
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a5d1c295d995a70800000000000000
+      internalID: 8816250751872227853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_90
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 176
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a107bf9625f2a830800000000000000
+      internalID: 4081093758588223911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_91
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62660e87f0408e90800000000000000
+      internalID: -7025543986714090899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_92
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b255c4b32abf9590800000000000000
+      internalID: -7665203378241842508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_93
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 176
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190d97e252337a4e0800000000000000
+      internalID: -1970550077164760943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_94
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 132
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaba3ef9dce4c6210800000000000000
+      internalID: 1327522635225213870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_95
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 132
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482ad3f7beb6b6540800000000000000
+      internalID: 5002210470321300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_96
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 132
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c876fc0ca3afe2450800000000000000
+      internalID: 6066060878364501900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_97
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 132
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57fbb7edaa149ef0800000000000000
+      internalID: -102427557303158948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 132
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ede32361776399f0800000000000000
+      internalID: -462912599996764696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_99
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 132
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a258fbff2f41f90800000000000000
+      internalID: -6983689941901039020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_100
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 88
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587efd3df03b9bc60800000000000000
+      internalID: 7834489907348236165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_101
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 88
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191a89943296fd0d0800000000000000
+      internalID: -3395879993734553199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_102
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 88
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef334180b60bfa30800000000000000
+      internalID: 4249998028506873824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_103
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a1a85d6b6ba4f40800000000000000
+      internalID: 5713579973655796364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_104
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 88
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7167b49928cb259c0800000000000000
+      internalID: -3939879454892132841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_105
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 88
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e754af6f8d5489b0800000000000000
+      internalID: -5078831609132328992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_106
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 48
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76e790e650241350800000000000000
+      internalID: 5986445362189559421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 88
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c594dfee717e9c3f0800000000000000
+      internalID: -879918162194380452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_108
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 44
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a8447df4819cee0800000000000000
+      internalID: -1240433491170784632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_109
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 50
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec4fa35f44336fb0800000000000000
+      internalID: -4655820074459902750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_110
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 47
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2160901b0d97060800000000000000
+      internalID: 6951816958602253012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_111
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 46
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d22c33b5eb047f10800000000000000
+      internalID: 2266449593656681172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_112
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 50
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645dbe41a14ce2060800000000000000
+      internalID: 6930692492868965702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_113
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c6b62a1b6624a50800000000000000
+      internalID: 6503873724996611207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_114
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2febaf7d719df6110800000000000000
+      internalID: 1256461517490667250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_cyber_neon_115
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27928d21cd27e67f0800000000000000
+      internalID: -617429809368651406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spritesheet_variant_cyber_neon_0: -4610783480185800620
+      spritesheet_variant_cyber_neon_1: -7993511936281391364
+      spritesheet_variant_cyber_neon_10: -8823949953051070187
+      spritesheet_variant_cyber_neon_100: 7834489907348236165
+      spritesheet_variant_cyber_neon_101: -3395879993734553199
+      spritesheet_variant_cyber_neon_102: 4249998028506873824
+      spritesheet_variant_cyber_neon_103: 5713579973655796364
+      spritesheet_variant_cyber_neon_104: -3939879454892132841
+      spritesheet_variant_cyber_neon_105: -5078831609132328992
+      spritesheet_variant_cyber_neon_106: 5986445362189559421
+      spritesheet_variant_cyber_neon_107: -879918162194380452
+      spritesheet_variant_cyber_neon_108: -1240433491170784632
+      spritesheet_variant_cyber_neon_109: -4655820074459902750
+      spritesheet_variant_cyber_neon_11: -2491772757738279910
+      spritesheet_variant_cyber_neon_110: 6951816958602253012
+      spritesheet_variant_cyber_neon_111: 2266449593656681172
+      spritesheet_variant_cyber_neon_112: 6930692492868965702
+      spritesheet_variant_cyber_neon_113: 6503873724996611207
+      spritesheet_variant_cyber_neon_114: 1256461517490667250
+      spritesheet_variant_cyber_neon_115: -617429809368651406
+      spritesheet_variant_cyber_neon_12: 2477080370094505447
+      spritesheet_variant_cyber_neon_13: -6012253635953997949
+      spritesheet_variant_cyber_neon_14: 1410712678098697810
+      spritesheet_variant_cyber_neon_15: 1836241380647133347
+      spritesheet_variant_cyber_neon_16: -6409745555294662222
+      spritesheet_variant_cyber_neon_17: -7472129468980005727
+      spritesheet_variant_cyber_neon_18: 7262229721845553067
+      spritesheet_variant_cyber_neon_19: -340007677327380757
+      spritesheet_variant_cyber_neon_2: 1291472209413318528
+      spritesheet_variant_cyber_neon_20: -5083195292865179097
+      spritesheet_variant_cyber_neon_21: -8286678544339396329
+      spritesheet_variant_cyber_neon_22: -7434343255078978517
+      spritesheet_variant_cyber_neon_23: -7528697607745006801
+      spritesheet_variant_cyber_neon_24: -7529043457469434167
+      spritesheet_variant_cyber_neon_25: 5572985829759100450
+      spritesheet_variant_cyber_neon_26: 1880032833426361399
+      spritesheet_variant_cyber_neon_27: -7778135420483523236
+      spritesheet_variant_cyber_neon_28: -581021385971006204
+      spritesheet_variant_cyber_neon_29: -4010222230366229600
+      spritesheet_variant_cyber_neon_3: 2447493777153534026
+      spritesheet_variant_cyber_neon_30: 5561063401316881039
+      spritesheet_variant_cyber_neon_31: 4283420391437009446
+      spritesheet_variant_cyber_neon_32: -8105306761281387447
+      spritesheet_variant_cyber_neon_33: -7362102482999553279
+      spritesheet_variant_cyber_neon_34: -1903415224334384918
+      spritesheet_variant_cyber_neon_35: -892936754423679241
+      spritesheet_variant_cyber_neon_36: -8459244933185922540
+      spritesheet_variant_cyber_neon_37: -422296640114529829
+      spritesheet_variant_cyber_neon_38: -1540069137509247456
+      spritesheet_variant_cyber_neon_39: 8880785228955821939
+      spritesheet_variant_cyber_neon_4: 1261576953860271225
+      spritesheet_variant_cyber_neon_40: -2956467620482308492
+      spritesheet_variant_cyber_neon_41: 492738258872440346
+      spritesheet_variant_cyber_neon_42: -9193510187434536996
+      spritesheet_variant_cyber_neon_43: -9136215156207380757
+      spritesheet_variant_cyber_neon_44: -6663210688975403254
+      spritesheet_variant_cyber_neon_45: 4614265990065528157
+      spritesheet_variant_cyber_neon_46: 4242941994872131360
+      spritesheet_variant_cyber_neon_47: -7559126187156057455
+      spritesheet_variant_cyber_neon_48: 4146881809309643348
+      spritesheet_variant_cyber_neon_49: 7037414796487643856
+      spritesheet_variant_cyber_neon_5: -3815252104083445933
+      spritesheet_variant_cyber_neon_50: -1523614108688229958
+      spritesheet_variant_cyber_neon_51: 54960286743140120
+      spritesheet_variant_cyber_neon_52: -5498441730393531629
+      spritesheet_variant_cyber_neon_53: 964885161572949002
+      spritesheet_variant_cyber_neon_54: 8470615143923422280
+      spritesheet_variant_cyber_neon_55: 6672298767393250283
+      spritesheet_variant_cyber_neon_56: -93251699136749243
+      spritesheet_variant_cyber_neon_57: -3288566044848112609
+      spritesheet_variant_cyber_neon_58: 878279776213589171
+      spritesheet_variant_cyber_neon_59: -2925812421789329172
+      spritesheet_variant_cyber_neon_6: 9087549396698879204
+      spritesheet_variant_cyber_neon_60: 5804791860936900666
+      spritesheet_variant_cyber_neon_61: -1192949130777055585
+      spritesheet_variant_cyber_neon_62: -6428183146225741917
+      spritesheet_variant_cyber_neon_63: -2565565088218843459
+      spritesheet_variant_cyber_neon_64: -6447673091131261546
+      spritesheet_variant_cyber_neon_65: 9217599354860858330
+      spritesheet_variant_cyber_neon_66: 4073795266644068999
+      spritesheet_variant_cyber_neon_67: -7359147887537515342
+      spritesheet_variant_cyber_neon_68: 5481546522060973349
+      spritesheet_variant_cyber_neon_69: -1017664977369546456
+      spritesheet_variant_cyber_neon_7: 393723025586362125
+      spritesheet_variant_cyber_neon_70: -2654252607839593828
+      spritesheet_variant_cyber_neon_71: -1603524372628848991
+      spritesheet_variant_cyber_neon_72: -7398772469348760764
+      spritesheet_variant_cyber_neon_73: -7877608503088586640
+      spritesheet_variant_cyber_neon_74: -1996170302002597546
+      spritesheet_variant_cyber_neon_75: 8381765779347299677
+      spritesheet_variant_cyber_neon_76: 6942396762536199847
+      spritesheet_variant_cyber_neon_77: 4194595050637967563
+      spritesheet_variant_cyber_neon_78: 5317907545258406563
+      spritesheet_variant_cyber_neon_79: 8217009995456076362
+      spritesheet_variant_cyber_neon_8: 5443368578932135025
+      spritesheet_variant_cyber_neon_80: -7398944403782179802
+      spritesheet_variant_cyber_neon_81: -5266386657826520165
+      spritesheet_variant_cyber_neon_82: -6222188697505337731
+      spritesheet_variant_cyber_neon_83: 5955901464097143049
+      spritesheet_variant_cyber_neon_84: 6827396815573648860
+      spritesheet_variant_cyber_neon_85: 8476942939605876982
+      spritesheet_variant_cyber_neon_86: 6221278547359106036
+      spritesheet_variant_cyber_neon_87: -6263512694020579761
+      spritesheet_variant_cyber_neon_88: -1888029491926538994
+      spritesheet_variant_cyber_neon_89: 8816250751872227853
+      spritesheet_variant_cyber_neon_9: 57310129166917534
+      spritesheet_variant_cyber_neon_90: 4081093758588223911
+      spritesheet_variant_cyber_neon_91: -7025543986714090899
+      spritesheet_variant_cyber_neon_92: -7665203378241842508
+      spritesheet_variant_cyber_neon_93: -1970550077164760943
+      spritesheet_variant_cyber_neon_94: 1327522635225213870
+      spritesheet_variant_cyber_neon_95: 5002210470321300100
+      spritesheet_variant_cyber_neon_96: 6066060878364501900
+      spritesheet_variant_cyber_neon_97: -102427557303158948
+      spritesheet_variant_cyber_neon_98: -462912599996764696
+      spritesheet_variant_cyber_neon_99: -6983689941901039020
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

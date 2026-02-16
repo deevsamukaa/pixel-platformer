@@ -2,18 +2,9 @@ using UnityEngine;
 
 public class MainMenuUI : MonoBehaviour
 {
-    public void StartCasualRun()
-    {
-        RunManager.I.StartNewRun(RunMode.Casual5);
-    }
+    public void StartCasualRun() => RunManager.I.StartCasualRun();
+    public void StartFullRun() => RunManager.I.StartFullRun();
+    public void StartInfinityRun() => RunManager.I.StartInfinityRun();
 
-    public void StartLongRun()
-    {
-        RunManager.I.StartNewRun(RunMode.Long10);
-    }
-
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
+    public void QuitGame() => Application.Quit();
 }

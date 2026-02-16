@@ -59,20 +59,21 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         if (iFrameRoutine != null) StopCoroutine(iFrameRoutine);
         iFrameRoutine = StartCoroutine(IFrames());
 
-        // morte (usa teu fluxo atual)
         if (currentHP <= 0)
         {
+            // ✅ Fonte única do fluxo de morte: PlayerController.Die()
             if (controller != null) controller.Die();
             else
             {
 #if UNITY_6000_0_OR_NEWER
                 rb.linearVelocity = Vector2.zero;
 #else
-                rb.velocity = Vector2.zero;
+        rb.velocity = Vector2.zero;
 #endif
                 rb.simulated = false;
             }
         }
+
 
         return true;
     }
@@ -129,4 +130,23 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         if (iFrameRoutine != null) StopCoroutine(iFrameRoutine);
         if (sprite != null) sprite.enabled = true;
     }
+
+    public void GrantInvulnerability(float seconds)
+    {
+        if (seconds <= 0f) return;
+
+        if (iFrameRoutine != null) StopCoroutine(iFrameRoutine);
+        iFrameRoutine = StartCoroutine(InvulnRoutine(seconds));
+    }
+
+    private IEnumerator InvulnRoutine(float seconds)
+    {
+        invulnerable = true;
+
+        // opcional: pode piscar ou não; aqui eu NÃO pisco pra não irritar
+        yield return new WaitForSeconds(seconds);
+
+        invulnerable = false;
+    }
+
 }

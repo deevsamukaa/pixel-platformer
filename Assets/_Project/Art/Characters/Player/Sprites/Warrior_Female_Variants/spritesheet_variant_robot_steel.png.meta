@@ -1,0 +1,3159 @@
+fileFormatVersion: 2
+guid: b7e4b02babc5b9343a992b4956e5fff7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2108270262177753506
+    second: spritesheet_variant_robot_steel_0
+  - first:
+      213: -85274313328336274
+    second: spritesheet_variant_robot_steel_1
+  - first:
+      213: -5714223165054236251
+    second: spritesheet_variant_robot_steel_2
+  - first:
+      213: -4791364807926817236
+    second: spritesheet_variant_robot_steel_3
+  - first:
+      213: -3806334746597976132
+    second: spritesheet_variant_robot_steel_4
+  - first:
+      213: 7067354627385012993
+    second: spritesheet_variant_robot_steel_5
+  - first:
+      213: -1451726277756412056
+    second: spritesheet_variant_robot_steel_6
+  - first:
+      213: 3400246114101283846
+    second: spritesheet_variant_robot_steel_7
+  - first:
+      213: 8779759689849329156
+    second: spritesheet_variant_robot_steel_8
+  - first:
+      213: 3923682256604213840
+    second: spritesheet_variant_robot_steel_9
+  - first:
+      213: 3018725044674946088
+    second: spritesheet_variant_robot_steel_10
+  - first:
+      213: -4282279767621020566
+    second: spritesheet_variant_robot_steel_11
+  - first:
+      213: 6200749580997774410
+    second: spritesheet_variant_robot_steel_12
+  - first:
+      213: -6049760779398761095
+    second: spritesheet_variant_robot_steel_13
+  - first:
+      213: -7465505338706426273
+    second: spritesheet_variant_robot_steel_14
+  - first:
+      213: 8514420975520064262
+    second: spritesheet_variant_robot_steel_15
+  - first:
+      213: -4248615653868418147
+    second: spritesheet_variant_robot_steel_16
+  - first:
+      213: 61077554968170419
+    second: spritesheet_variant_robot_steel_17
+  - first:
+      213: 4482884329868154470
+    second: spritesheet_variant_robot_steel_18
+  - first:
+      213: 8292474084792400095
+    second: spritesheet_variant_robot_steel_19
+  - first:
+      213: -866965350549329827
+    second: spritesheet_variant_robot_steel_20
+  - first:
+      213: -3903483134283444869
+    second: spritesheet_variant_robot_steel_21
+  - first:
+      213: -6960792082728930328
+    second: spritesheet_variant_robot_steel_22
+  - first:
+      213: 2889508983225348152
+    second: spritesheet_variant_robot_steel_23
+  - first:
+      213: 7130530771055751259
+    second: spritesheet_variant_robot_steel_24
+  - first:
+      213: 5898282505760251759
+    second: spritesheet_variant_robot_steel_25
+  - first:
+      213: 8292390874179706930
+    second: spritesheet_variant_robot_steel_26
+  - first:
+      213: 6553365802406507084
+    second: spritesheet_variant_robot_steel_27
+  - first:
+      213: 4062120744999291384
+    second: spritesheet_variant_robot_steel_28
+  - first:
+      213: 4242907644421170945
+    second: spritesheet_variant_robot_steel_29
+  - first:
+      213: 1933565994369833988
+    second: spritesheet_variant_robot_steel_30
+  - first:
+      213: 4493926108177442549
+    second: spritesheet_variant_robot_steel_31
+  - first:
+      213: -6915025053701285864
+    second: spritesheet_variant_robot_steel_32
+  - first:
+      213: -5161533984663132989
+    second: spritesheet_variant_robot_steel_33
+  - first:
+      213: 3811621513977500718
+    second: spritesheet_variant_robot_steel_34
+  - first:
+      213: -8638818273825830753
+    second: spritesheet_variant_robot_steel_35
+  - first:
+      213: 2982093419173164078
+    second: spritesheet_variant_robot_steel_36
+  - first:
+      213: 2702872149581267418
+    second: spritesheet_variant_robot_steel_37
+  - first:
+      213: 2596503351095176853
+    second: spritesheet_variant_robot_steel_38
+  - first:
+      213: 6433730795409724081
+    second: spritesheet_variant_robot_steel_39
+  - first:
+      213: -7175588143920778692
+    second: spritesheet_variant_robot_steel_40
+  - first:
+      213: -5153204687226954355
+    second: spritesheet_variant_robot_steel_41
+  - first:
+      213: -8185814253478380673
+    second: spritesheet_variant_robot_steel_42
+  - first:
+      213: 7143320493246136550
+    second: spritesheet_variant_robot_steel_43
+  - first:
+      213: 7068203563402141470
+    second: spritesheet_variant_robot_steel_44
+  - first:
+      213: 5566456112980131715
+    second: spritesheet_variant_robot_steel_45
+  - first:
+      213: 5527820255901706268
+    second: spritesheet_variant_robot_steel_46
+  - first:
+      213: 6520948071150770320
+    second: spritesheet_variant_robot_steel_47
+  - first:
+      213: -3454885298693361114
+    second: spritesheet_variant_robot_steel_48
+  - first:
+      213: -2144576125023378150
+    second: spritesheet_variant_robot_steel_49
+  - first:
+      213: -6196102139856679340
+    second: spritesheet_variant_robot_steel_50
+  - first:
+      213: 5858754762792080106
+    second: spritesheet_variant_robot_steel_51
+  - first:
+      213: -8463433296734635896
+    second: spritesheet_variant_robot_steel_52
+  - first:
+      213: -6684010552606860108
+    second: spritesheet_variant_robot_steel_53
+  - first:
+      213: -8825246194276092124
+    second: spritesheet_variant_robot_steel_54
+  - first:
+      213: 5721126430375267561
+    second: spritesheet_variant_robot_steel_55
+  - first:
+      213: -3866736502229665893
+    second: spritesheet_variant_robot_steel_56
+  - first:
+      213: 5384585166060383708
+    second: spritesheet_variant_robot_steel_57
+  - first:
+      213: 6598875486336408782
+    second: spritesheet_variant_robot_steel_58
+  - first:
+      213: 408249288297019053
+    second: spritesheet_variant_robot_steel_59
+  - first:
+      213: 8150159181816660226
+    second: spritesheet_variant_robot_steel_60
+  - first:
+      213: -5139087301257350389
+    second: spritesheet_variant_robot_steel_61
+  - first:
+      213: 3333477278318212317
+    second: spritesheet_variant_robot_steel_62
+  - first:
+      213: -6343726974954108387
+    second: spritesheet_variant_robot_steel_63
+  - first:
+      213: -6465529203945510743
+    second: spritesheet_variant_robot_steel_64
+  - first:
+      213: 8394044963713173488
+    second: spritesheet_variant_robot_steel_65
+  - first:
+      213: -3355973971199562637
+    second: spritesheet_variant_robot_steel_66
+  - first:
+      213: 2078163346809213221
+    second: spritesheet_variant_robot_steel_67
+  - first:
+      213: 3057588884034654600
+    second: spritesheet_variant_robot_steel_68
+  - first:
+      213: 2169022158211260572
+    second: spritesheet_variant_robot_steel_69
+  - first:
+      213: 5309975979363908378
+    second: spritesheet_variant_robot_steel_70
+  - first:
+      213: -6935912893688231457
+    second: spritesheet_variant_robot_steel_71
+  - first:
+      213: 8139282981607043680
+    second: spritesheet_variant_robot_steel_72
+  - first:
+      213: -3804646166507984582
+    second: spritesheet_variant_robot_steel_73
+  - first:
+      213: -947305350306008220
+    second: spritesheet_variant_robot_steel_74
+  - first:
+      213: -7923740009884809643
+    second: spritesheet_variant_robot_steel_75
+  - first:
+      213: 716856433080291630
+    second: spritesheet_variant_robot_steel_76
+  - first:
+      213: -5328927145546914973
+    second: spritesheet_variant_robot_steel_77
+  - first:
+      213: 6661023396653962742
+    second: spritesheet_variant_robot_steel_78
+  - first:
+      213: -741715115337641821
+    second: spritesheet_variant_robot_steel_79
+  - first:
+      213: -6017703316835703946
+    second: spritesheet_variant_robot_steel_80
+  - first:
+      213: 7379043369744284211
+    second: spritesheet_variant_robot_steel_81
+  - first:
+      213: 3116946472398801565
+    second: spritesheet_variant_robot_steel_82
+  - first:
+      213: -6273953499601484348
+    second: spritesheet_variant_robot_steel_83
+  - first:
+      213: 1051131122851620732
+    second: spritesheet_variant_robot_steel_84
+  - first:
+      213: -7749949928722078636
+    second: spritesheet_variant_robot_steel_85
+  - first:
+      213: 4975984862772077596
+    second: spritesheet_variant_robot_steel_86
+  - first:
+      213: 8694718702139090642
+    second: spritesheet_variant_robot_steel_87
+  - first:
+      213: 667314194631367689
+    second: spritesheet_variant_robot_steel_88
+  - first:
+      213: -8582334588634717246
+    second: spritesheet_variant_robot_steel_89
+  - first:
+      213: -3016401451552697341
+    second: spritesheet_variant_robot_steel_90
+  - first:
+      213: 2237722830025125202
+    second: spritesheet_variant_robot_steel_91
+  - first:
+      213: 1937645939395325395
+    second: spritesheet_variant_robot_steel_92
+  - first:
+      213: -7208115489114426748
+    second: spritesheet_variant_robot_steel_93
+  - first:
+      213: -9125243459875881892
+    second: spritesheet_variant_robot_steel_94
+  - first:
+      213: 4345824206919546622
+    second: spritesheet_variant_robot_steel_95
+  - first:
+      213: -233565586005619103
+    second: spritesheet_variant_robot_steel_96
+  - first:
+      213: 3754048621728908210
+    second: spritesheet_variant_robot_steel_97
+  - first:
+      213: -686785965709783634
+    second: spritesheet_variant_robot_steel_98
+  - first:
+      213: 5834727948749172516
+    second: spritesheet_variant_robot_steel_99
+  - first:
+      213: 2271717326708124975
+    second: spritesheet_variant_robot_steel_100
+  - first:
+      213: 2362676806650681984
+    second: spritesheet_variant_robot_steel_101
+  - first:
+      213: -3865824037106066646
+    second: spritesheet_variant_robot_steel_102
+  - first:
+      213: -1072292505831107896
+    second: spritesheet_variant_robot_steel_103
+  - first:
+      213: -4124478286747592718
+    second: spritesheet_variant_robot_steel_104
+  - first:
+      213: 5948275925664519841
+    second: spritesheet_variant_robot_steel_105
+  - first:
+      213: 5800090628138731676
+    second: spritesheet_variant_robot_steel_106
+  - first:
+      213: -1749108026896674977
+    second: spritesheet_variant_robot_steel_107
+  - first:
+      213: 5256873166864184107
+    second: spritesheet_variant_robot_steel_108
+  - first:
+      213: -6267638572340174864
+    second: spritesheet_variant_robot_steel_109
+  - first:
+      213: 5028598445329303412
+    second: spritesheet_variant_robot_steel_110
+  - first:
+      213: -5993582608939664428
+    second: spritesheet_variant_robot_steel_111
+  - first:
+      213: -1465065739710441740
+    second: spritesheet_variant_robot_steel_112
+  - first:
+      213: 7812806550016028957
+    second: spritesheet_variant_robot_steel_113
+  - first:
+      213: -4714759046411191098
+    second: spritesheet_variant_robot_steel_114
+  - first:
+      213: 3259510902626076914
+    second: spritesheet_variant_robot_steel_115
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9ef9322a4124d10800000000000000
+      internalID: 2108270262177753506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62699db67b01def0800000000000000
+      internalID: -85274313328336274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 704
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a942af7e4003b0b0800000000000000
+      internalID: -5714223165054236251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 704
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ed63ac717a18db0800000000000000
+      internalID: -4791364807926817236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 704
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb71dccf6be2d2bc0800000000000000
+      internalID: -3806334746597976132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_5
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 704
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1033ff2d699441260800000000000000
+      internalID: 7067354627385012993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 660
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f9a3754ae6adbe0800000000000000
+      internalID: -1451726277756412056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 663
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cc8e353d9103f20800000000000000
+      internalID: 3400246114101283846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 662
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40653c6bbe8f7d970800000000000000
+      internalID: 8779759689849329156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 660
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052b56c4938b37630800000000000000
+      internalID: 3923682256604213840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 660
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824ec6a2f6aa4e920800000000000000
+      internalID: 3018725044674946088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 663
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a645b166d394294c0800000000000000
+      internalID: -4282279767621020566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 618
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c468414ec7d0650800000000000000
+      internalID: 6200749580997774410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 616
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975b8d7cf9eea0ca0800000000000000
+      internalID: -6049760779398761095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 616
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f560f99c272356890800000000000000
+      internalID: -7465505338706426273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 607
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603220214cc492670800000000000000
+      internalID: 8514420975520064262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_16
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 616
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b420ca292e905c0800000000000000
+      internalID: -4248615653868418147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 616
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf80af66bdf8d000800000000000000
+      internalID: 61077554968170419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 572
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666d4f2fb87663e30800000000000000
+      internalID: 4482884329868154470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 572
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8fe25ae39c41370800000000000000
+      internalID: 8292474084792400095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 572
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d586fe76b9be7f3f0800000000000000
+      internalID: -866965350549329827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_21
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 572
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d8e4a55ca04d9c0800000000000000
+      internalID: -3903483134283444869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 596
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e337990b7c466f90800000000000000
+      internalID: -6960792082728930328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_23
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 572
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83072786c19991820800000000000000
+      internalID: 2889508983225348152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_24
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 569
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5035c405fbb4f260800000000000000
+      internalID: 7130530771055751259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f9db440b8ead150800000000000000
+      internalID: 5898282505760251759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 528
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2302c2aa09d741370800000000000000
+      internalID: 8292390874179706930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_27
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 528
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42f1afd97b32fa50800000000000000
+      internalID: 6553365802406507084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_28
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 530
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f98d68ab4d8f5830800000000000000
+      internalID: 4062120744999291384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_29
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 563
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1076380d506d1ea30800000000000000
+      internalID: 4242907644421170945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_30
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 556
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c5034070865da10800000000000000
+      internalID: 1933565994369833988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_31
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 557
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f625cc4cf1ad5e30800000000000000
+      internalID: 4493926108177442549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_32
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 550
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818553dd955e800a0800000000000000
+      internalID: -6915025053701285864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_33
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 547
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c42c0c103c8e58b0800000000000000
+      internalID: -5161533984663132989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_34
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 537
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e249dd6729995e430800000000000000
+      internalID: 3811621513977500718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 543
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f984575ec80cc1880800000000000000
+      internalID: -8638818273825830753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_36
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 529
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24b8d83a26826920800000000000000
+      internalID: 2982093419173164078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_37
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 532
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1861d46e7828520800000000000000
+      internalID: 2702872149581267418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_38
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 484
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ea32c7a02a80420800000000000000
+      internalID: 2596503351095176853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 503
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b253e03214394950800000000000000
+      internalID: 6433730795409724081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_40
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 513
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32f81bd9903b6c90800000000000000
+      internalID: -7175588143920778692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 506
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d95fac3a32c78b0800000000000000
+      internalID: -5153204687226954355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_42
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 501
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b77188e45266e80800000000000000
+      internalID: -8185814253478380673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_43
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 491
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e044b4442c222360800000000000000
+      internalID: 7143320493246136550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_44
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 484
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f1cb421bd471260800000000000000
+      internalID: 7068203563402141470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_45
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 484
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f7bf7a756004d40800000000000000
+      internalID: 5566456112980131715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_46
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 484
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18ea3f2c33c6bc40800000000000000
+      internalID: 5527820255901706268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 503
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098d5b3a8bf0f7a50800000000000000
+      internalID: 6520948071150770320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 484
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622b9a72028cd00d0800000000000000
+      internalID: -3454885298693361114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_49
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 484
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15a232706fec32e0800000000000000
+      internalID: -2144576125023378150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e0ec1aee5030aa0800000000000000
+      internalID: -6196102139856679340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_51
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 440
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2995e6a6a7e4150800000000000000
+      internalID: 5858754762792080106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_52
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 440
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8883beff148db8a80800000000000000
+      internalID: -8463433296734635896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_53
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 440
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcd7e8d0df9d33a0800000000000000
+      internalID: -6684010552606860108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_54
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 440
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4273ece285d668580800000000000000
+      internalID: -8825246194276092124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_55
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 442
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eccd953d26856f40800000000000000
+      internalID: 5721126430375267561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_56
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 398
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97709853a7965ac0800000000000000
+      internalID: -3866736502229665893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_57
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 398
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddedd50ea3e9ba40800000000000000
+      internalID: 5384585166060383708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_58
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 399
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc5d10ea4ae39b50800000000000000
+      internalID: 6598875486336408782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 399
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6ffb090946aa500800000000000000
+      internalID: 408249288297019053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_60
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 396
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201021f289e2b1170800000000000000
+      internalID: 8150159181816660226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_61
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 396
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03b5dad35b4ea8b0800000000000000
+      internalID: -5139087301257350389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 352
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd43ef05ce3e24e20800000000000000
+      internalID: 3333477278318212317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_63
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 360
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a0cc14ded86f7a0800000000000000
+      internalID: -6343726974954108387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_64
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 353
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8e9e1e173d546a0800000000000000
+      internalID: -6465529203945510743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_65
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 353
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7c7c2cb63ad7470800000000000000
+      internalID: 8394044963713173488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_66
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 353
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c6133347f2d61d0800000000000000
+      internalID: -3355973971199562637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_67
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 353
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521dcc7ad8e17dc10800000000000000
+      internalID: 2078163346809213221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_68
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8819116e3ecbe6a20800000000000000
+      internalID: 3057588884034654600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_69
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c902222392ae91e10800000000000000
+      internalID: 2169022158211260572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_70
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 309
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bb7df0503d0b940800000000000000
+      internalID: 5309975979363908378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_71
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 309
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd949a2a8ffaebf90800000000000000
+      internalID: -6935912893688231457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_72
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 309
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062f11d7fba84f070800000000000000
+      internalID: 8139282981607043680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_73
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a396d3d287e233bc0800000000000000
+      internalID: -3804646166507984582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_74
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 265
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463fe2d8dce7ad2f0800000000000000
+      internalID: -947305350306008220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_75
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 265
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556044a5178390290800000000000000
+      internalID: -7923740009884809643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_76
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 265
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2154b8b029c2f900800000000000000
+      internalID: 716856433080291630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_77
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 264
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3636db7bef8db06b0800000000000000
+      internalID: -5328927145546914973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_78
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 264
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f51026dc75b07c50800000000000000
+      internalID: 6661023396653962742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_79
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 264
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a013c94806e4b5f0800000000000000
+      internalID: -741715115337641821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_80
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673615c67b2dc7ca0800000000000000
+      internalID: -6017703316835703946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_81
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a3fc359d0a76660800000000000000
+      internalID: 7379043369744284211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_82
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 220
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9acc376d4e914b20800000000000000
+      internalID: 3116946472398801565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_83
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 220
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c54fee68807ee8a0800000000000000
+      internalID: -6273953499601484348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_84
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 220
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77ade5ef2e569e00800000000000000
+      internalID: 1051131122851620732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_85
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 220
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454e47fc995a27490800000000000000
+      internalID: -7749949928722078636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_86
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 176
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1420496edf3e0540800000000000000
+      internalID: 4975984862772077596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_87
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d622fec798d9a870800000000000000
+      internalID: 8694718702139090642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 176
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c149479b6c24900800000000000000
+      internalID: 667314194631367689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_89
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 176
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c321eca92c65e880800000000000000
+      internalID: -8582334588634717246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_90
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 176
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3049a348cd69326d0800000000000000
+      internalID: -3016401451552697341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_91
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ded65de0dfd0f10800000000000000
+      internalID: 2237722830025125202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_92
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dde22e37b6e3ea10800000000000000
+      internalID: 1937645939395325395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_93
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 176
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482f7532721a7fb90800000000000000
+      internalID: -7208115489114426748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_94
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 132
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c342dbb6f9c5180800000000000000
+      internalID: -9125243459875881892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_95
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 132
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6bbbd47187f4c30800000000000000
+      internalID: 4345824206919546622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_96
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 132
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e0166465532ccf0800000000000000
+      internalID: -233565586005619103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_97
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 132
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b342b7e45f091430800000000000000
+      internalID: 3754048621728908210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 132
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead052d8dcb0876f0800000000000000
+      internalID: -686785965709783634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_99
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 132
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fec3ad72e19f050800000000000000
+      internalID: 5834727948749172516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_100
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 88
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2da9806fd2c68f10800000000000000
+      internalID: 2271717326708124975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_101
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 88
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ad773a90ae9c020800000000000000
+      internalID: 2362676806650681984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_102
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 88
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b50203585d95ac0800000000000000
+      internalID: -3865824037106066646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_103
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c29f9ea5a37e11f0800000000000000
+      internalID: -1072292505831107896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_104
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 88
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f71992c9d8e2c6c0800000000000000
+      internalID: -4124478286747592718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_105
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 88
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6dd3760758c8250800000000000000
+      internalID: 5948275925664519841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_106
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 48
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98084332bf0e7050800000000000000
+      internalID: 5800090628138731676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 88
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f0a07448be9b7e0800000000000000
+      internalID: -1749108026896674977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_108
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 44
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23f83c0b4a24f840800000000000000
+      internalID: 5256873166864184107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_109
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 50
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff90230defd409a0800000000000000
+      internalID: -6267638572340174864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_110
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 47
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4774fe3b4ab29c540800000000000000
+      internalID: 5028598445329303412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_111
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 46
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db313e5f5482dca0800000000000000
+      internalID: -5993582608939664428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_112
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 50
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6d6f3d87a0babe0800000000000000
+      internalID: -1465065739710441740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_113
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11fc88c92aac6c60800000000000000
+      internalID: 7812806550016028957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_114
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccf91d80afc19eb0800000000000000
+      internalID: -4714759046411191098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_robot_steel_115
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f84a8475eb1c3d20800000000000000
+      internalID: 3259510902626076914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spritesheet_variant_robot_steel_0: 2108270262177753506
+      spritesheet_variant_robot_steel_1: -85274313328336274
+      spritesheet_variant_robot_steel_10: 3018725044674946088
+      spritesheet_variant_robot_steel_100: 2271717326708124975
+      spritesheet_variant_robot_steel_101: 2362676806650681984
+      spritesheet_variant_robot_steel_102: -3865824037106066646
+      spritesheet_variant_robot_steel_103: -1072292505831107896
+      spritesheet_variant_robot_steel_104: -4124478286747592718
+      spritesheet_variant_robot_steel_105: 5948275925664519841
+      spritesheet_variant_robot_steel_106: 5800090628138731676
+      spritesheet_variant_robot_steel_107: -1749108026896674977
+      spritesheet_variant_robot_steel_108: 5256873166864184107
+      spritesheet_variant_robot_steel_109: -6267638572340174864
+      spritesheet_variant_robot_steel_11: -4282279767621020566
+      spritesheet_variant_robot_steel_110: 5028598445329303412
+      spritesheet_variant_robot_steel_111: -5993582608939664428
+      spritesheet_variant_robot_steel_112: -1465065739710441740
+      spritesheet_variant_robot_steel_113: 7812806550016028957
+      spritesheet_variant_robot_steel_114: -4714759046411191098
+      spritesheet_variant_robot_steel_115: 3259510902626076914
+      spritesheet_variant_robot_steel_12: 6200749580997774410
+      spritesheet_variant_robot_steel_13: -6049760779398761095
+      spritesheet_variant_robot_steel_14: -7465505338706426273
+      spritesheet_variant_robot_steel_15: 8514420975520064262
+      spritesheet_variant_robot_steel_16: -4248615653868418147
+      spritesheet_variant_robot_steel_17: 61077554968170419
+      spritesheet_variant_robot_steel_18: 4482884329868154470
+      spritesheet_variant_robot_steel_19: 8292474084792400095
+      spritesheet_variant_robot_steel_2: -5714223165054236251
+      spritesheet_variant_robot_steel_20: -866965350549329827
+      spritesheet_variant_robot_steel_21: -3903483134283444869
+      spritesheet_variant_robot_steel_22: -6960792082728930328
+      spritesheet_variant_robot_steel_23: 2889508983225348152
+      spritesheet_variant_robot_steel_24: 7130530771055751259
+      spritesheet_variant_robot_steel_25: 5898282505760251759
+      spritesheet_variant_robot_steel_26: 8292390874179706930
+      spritesheet_variant_robot_steel_27: 6553365802406507084
+      spritesheet_variant_robot_steel_28: 4062120744999291384
+      spritesheet_variant_robot_steel_29: 4242907644421170945
+      spritesheet_variant_robot_steel_3: -4791364807926817236
+      spritesheet_variant_robot_steel_30: 1933565994369833988
+      spritesheet_variant_robot_steel_31: 4493926108177442549
+      spritesheet_variant_robot_steel_32: -6915025053701285864
+      spritesheet_variant_robot_steel_33: -5161533984663132989
+      spritesheet_variant_robot_steel_34: 3811621513977500718
+      spritesheet_variant_robot_steel_35: -8638818273825830753
+      spritesheet_variant_robot_steel_36: 2982093419173164078
+      spritesheet_variant_robot_steel_37: 2702872149581267418
+      spritesheet_variant_robot_steel_38: 2596503351095176853
+      spritesheet_variant_robot_steel_39: 6433730795409724081
+      spritesheet_variant_robot_steel_4: -3806334746597976132
+      spritesheet_variant_robot_steel_40: -7175588143920778692
+      spritesheet_variant_robot_steel_41: -5153204687226954355
+      spritesheet_variant_robot_steel_42: -8185814253478380673
+      spritesheet_variant_robot_steel_43: 7143320493246136550
+      spritesheet_variant_robot_steel_44: 7068203563402141470
+      spritesheet_variant_robot_steel_45: 5566456112980131715
+      spritesheet_variant_robot_steel_46: 5527820255901706268
+      spritesheet_variant_robot_steel_47: 6520948071150770320
+      spritesheet_variant_robot_steel_48: -3454885298693361114
+      spritesheet_variant_robot_steel_49: -2144576125023378150
+      spritesheet_variant_robot_steel_5: 7067354627385012993
+      spritesheet_variant_robot_steel_50: -6196102139856679340
+      spritesheet_variant_robot_steel_51: 5858754762792080106
+      spritesheet_variant_robot_steel_52: -8463433296734635896
+      spritesheet_variant_robot_steel_53: -6684010552606860108
+      spritesheet_variant_robot_steel_54: -8825246194276092124
+      spritesheet_variant_robot_steel_55: 5721126430375267561
+      spritesheet_variant_robot_steel_56: -3866736502229665893
+      spritesheet_variant_robot_steel_57: 5384585166060383708
+      spritesheet_variant_robot_steel_58: 6598875486336408782
+      spritesheet_variant_robot_steel_59: 408249288297019053
+      spritesheet_variant_robot_steel_6: -1451726277756412056
+      spritesheet_variant_robot_steel_60: 8150159181816660226
+      spritesheet_variant_robot_steel_61: -5139087301257350389
+      spritesheet_variant_robot_steel_62: 3333477278318212317
+      spritesheet_variant_robot_steel_63: -6343726974954108387
+      spritesheet_variant_robot_steel_64: -6465529203945510743
+      spritesheet_variant_robot_steel_65: 8394044963713173488
+      spritesheet_variant_robot_steel_66: -3355973971199562637
+      spritesheet_variant_robot_steel_67: 2078163346809213221
+      spritesheet_variant_robot_steel_68: 3057588884034654600
+      spritesheet_variant_robot_steel_69: 2169022158211260572
+      spritesheet_variant_robot_steel_7: 3400246114101283846
+      spritesheet_variant_robot_steel_70: 5309975979363908378
+      spritesheet_variant_robot_steel_71: -6935912893688231457
+      spritesheet_variant_robot_steel_72: 8139282981607043680
+      spritesheet_variant_robot_steel_73: -3804646166507984582
+      spritesheet_variant_robot_steel_74: -947305350306008220
+      spritesheet_variant_robot_steel_75: -7923740009884809643
+      spritesheet_variant_robot_steel_76: 716856433080291630
+      spritesheet_variant_robot_steel_77: -5328927145546914973
+      spritesheet_variant_robot_steel_78: 6661023396653962742
+      spritesheet_variant_robot_steel_79: -741715115337641821
+      spritesheet_variant_robot_steel_8: 8779759689849329156
+      spritesheet_variant_robot_steel_80: -6017703316835703946
+      spritesheet_variant_robot_steel_81: 7379043369744284211
+      spritesheet_variant_robot_steel_82: 3116946472398801565
+      spritesheet_variant_robot_steel_83: -6273953499601484348
+      spritesheet_variant_robot_steel_84: 1051131122851620732
+      spritesheet_variant_robot_steel_85: -7749949928722078636
+      spritesheet_variant_robot_steel_86: 4975984862772077596
+      spritesheet_variant_robot_steel_87: 8694718702139090642
+      spritesheet_variant_robot_steel_88: 667314194631367689
+      spritesheet_variant_robot_steel_89: -8582334588634717246
+      spritesheet_variant_robot_steel_9: 3923682256604213840
+      spritesheet_variant_robot_steel_90: -3016401451552697341
+      spritesheet_variant_robot_steel_91: 2237722830025125202
+      spritesheet_variant_robot_steel_92: 1937645939395325395
+      spritesheet_variant_robot_steel_93: -7208115489114426748
+      spritesheet_variant_robot_steel_94: -9125243459875881892
+      spritesheet_variant_robot_steel_95: 4345824206919546622
+      spritesheet_variant_robot_steel_96: -233565586005619103
+      spritesheet_variant_robot_steel_97: 3754048621728908210
+      spritesheet_variant_robot_steel_98: -686785965709783634
+      spritesheet_variant_robot_steel_99: 5834727948749172516
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

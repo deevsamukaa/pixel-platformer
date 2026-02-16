@@ -711,7 +711,6 @@ public class PlayerController : MonoBehaviour
     public void Die()
     {
         if (isDead) return;
-
         isDead = true;
 
         rb.linearVelocity = Vector2.zero;
@@ -727,6 +726,14 @@ public class PlayerController : MonoBehaviour
         CancelInvoke(nameof(Respawn));
         StopAllCoroutines();
 
+        // ✅ Run ativa: não respawna aqui — manda pro RunManager decidir (revive ou game over)
+        if (RunManager.I != null && RunManager.I.IsRunActive)
+        {
+            RunManager.I.RequestPlayerDeath(this);
+            return;
+        }
+
+        // fallback (testes)
         Invoke(nameof(Respawn), respawnDelay);
     }
 
@@ -753,9 +760,41 @@ public class PlayerController : MonoBehaviour
         hasUsedDoubleJump = false;
         isHurtLocked = false;
         CancelInvoke(nameof(ClearHurtLock));
+
         var hp = GetComponent<PlayerHealth>();
         if (hp != null) hp.ResetFull();
     }
+    public void ReviveAt(Vector3 worldPos)
+    {
+        transform.position = worldPos;
+
+        rb.simulated = true;
+        rb.gravityScale = originalGravity;
+        rb.linearVelocity = Vector2.zero;
+
+        externalMoveInput = 0f;
+        externalJumpDown = false;
+        externalJumpUp = false;
+        externalJumpHeld = false;
+
+        moveInput = 0f;
+        coyoteTimeCounter = 0f;
+        jumpBufferCounter = 0f;
+
+        isJumping = false;
+        jumpHoldCounter = 0f;
+
+        hasUsedDoubleJump = false;
+        isHurtLocked = false;
+        CancelInvoke(nameof(ClearHurtLock));
+
+        isLedgeHanging = false;
+        isClimbing = false;
+
+        isDead = false;
+    }
+
+
 
     private void OnDrawGizmosSelected()
     {

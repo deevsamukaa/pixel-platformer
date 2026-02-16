@@ -1,0 +1,3159 @@
+fileFormatVersion: 2
+guid: f3af6a6526dcadb419f230feded92367
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5383447342557495733
+    second: spritesheet_variant_ranger_olive_0
+  - first:
+      213: 6520219457746185854
+    second: spritesheet_variant_ranger_olive_1
+  - first:
+      213: -2894536490277525958
+    second: spritesheet_variant_ranger_olive_2
+  - first:
+      213: -3819954363028749319
+    second: spritesheet_variant_ranger_olive_3
+  - first:
+      213: -6011550077659665602
+    second: spritesheet_variant_ranger_olive_4
+  - first:
+      213: 4970600754904484558
+    second: spritesheet_variant_ranger_olive_5
+  - first:
+      213: 909819294046504063
+    second: spritesheet_variant_ranger_olive_6
+  - first:
+      213: -8430674292917956720
+    second: spritesheet_variant_ranger_olive_7
+  - first:
+      213: 7999288399436023179
+    second: spritesheet_variant_ranger_olive_8
+  - first:
+      213: 7254910312846710712
+    second: spritesheet_variant_ranger_olive_9
+  - first:
+      213: -5366292221767279441
+    second: spritesheet_variant_ranger_olive_10
+  - first:
+      213: -5280278994404088608
+    second: spritesheet_variant_ranger_olive_11
+  - first:
+      213: 2790780360561756606
+    second: spritesheet_variant_ranger_olive_12
+  - first:
+      213: 5885599236662865245
+    second: spritesheet_variant_ranger_olive_13
+  - first:
+      213: 4690798109501655980
+    second: spritesheet_variant_ranger_olive_14
+  - first:
+      213: 8239819266979323453
+    second: spritesheet_variant_ranger_olive_15
+  - first:
+      213: -3027781140601594572
+    second: spritesheet_variant_ranger_olive_16
+  - first:
+      213: -6937984732479735165
+    second: spritesheet_variant_ranger_olive_17
+  - first:
+      213: -6944345383388363493
+    second: spritesheet_variant_ranger_olive_18
+  - first:
+      213: 4317386499958844388
+    second: spritesheet_variant_ranger_olive_19
+  - first:
+      213: -657915561812001835
+    second: spritesheet_variant_ranger_olive_20
+  - first:
+      213: 554980715188081234
+    second: spritesheet_variant_ranger_olive_21
+  - first:
+      213: 4895223217204500351
+    second: spritesheet_variant_ranger_olive_22
+  - first:
+      213: 3338556575376625902
+    second: spritesheet_variant_ranger_olive_23
+  - first:
+      213: 5768116211322054495
+    second: spritesheet_variant_ranger_olive_24
+  - first:
+      213: -8904881710477426156
+    second: spritesheet_variant_ranger_olive_25
+  - first:
+      213: 3085112969214683023
+    second: spritesheet_variant_ranger_olive_26
+  - first:
+      213: 6808507032597468653
+    second: spritesheet_variant_ranger_olive_27
+  - first:
+      213: -6125844697492223130
+    second: spritesheet_variant_ranger_olive_28
+  - first:
+      213: -3204544579671261860
+    second: spritesheet_variant_ranger_olive_29
+  - first:
+      213: -8490339648675443594
+    second: spritesheet_variant_ranger_olive_30
+  - first:
+      213: 4827212971050058749
+    second: spritesheet_variant_ranger_olive_31
+  - first:
+      213: 5961396834496446553
+    second: spritesheet_variant_ranger_olive_32
+  - first:
+      213: 2681475755746597751
+    second: spritesheet_variant_ranger_olive_33
+  - first:
+      213: 5215436483727603073
+    second: spritesheet_variant_ranger_olive_34
+  - first:
+      213: 8220130686178787001
+    second: spritesheet_variant_ranger_olive_35
+  - first:
+      213: 1675478680748172055
+    second: spritesheet_variant_ranger_olive_36
+  - first:
+      213: -7137979731430779192
+    second: spritesheet_variant_ranger_olive_37
+  - first:
+      213: -2670338263204351311
+    second: spritesheet_variant_ranger_olive_38
+  - first:
+      213: 7664539858968498675
+    second: spritesheet_variant_ranger_olive_39
+  - first:
+      213: 8023485213527236273
+    second: spritesheet_variant_ranger_olive_40
+  - first:
+      213: -5655707417609981798
+    second: spritesheet_variant_ranger_olive_41
+  - first:
+      213: 7296299216994840008
+    second: spritesheet_variant_ranger_olive_42
+  - first:
+      213: -6384009362347007907
+    second: spritesheet_variant_ranger_olive_43
+  - first:
+      213: -2980132847690978228
+    second: spritesheet_variant_ranger_olive_44
+  - first:
+      213: 6874604837461320799
+    second: spritesheet_variant_ranger_olive_45
+  - first:
+      213: 8125635631358410318
+    second: spritesheet_variant_ranger_olive_46
+  - first:
+      213: 4976885319696132515
+    second: spritesheet_variant_ranger_olive_47
+  - first:
+      213: -634414267931479950
+    second: spritesheet_variant_ranger_olive_48
+  - first:
+      213: 6434040759196691733
+    second: spritesheet_variant_ranger_olive_49
+  - first:
+      213: 9140851204431259008
+    second: spritesheet_variant_ranger_olive_50
+  - first:
+      213: -1453942448483750904
+    second: spritesheet_variant_ranger_olive_51
+  - first:
+      213: -2137884181413084457
+    second: spritesheet_variant_ranger_olive_52
+  - first:
+      213: -5500892768255204767
+    second: spritesheet_variant_ranger_olive_53
+  - first:
+      213: -8975762049303958481
+    second: spritesheet_variant_ranger_olive_54
+  - first:
+      213: 4819360859858270592
+    second: spritesheet_variant_ranger_olive_55
+  - first:
+      213: -5967395021487537946
+    second: spritesheet_variant_ranger_olive_56
+  - first:
+      213: 3246617953322652147
+    second: spritesheet_variant_ranger_olive_57
+  - first:
+      213: 6695975786346614679
+    second: spritesheet_variant_ranger_olive_58
+  - first:
+      213: -5862145781942168257
+    second: spritesheet_variant_ranger_olive_59
+  - first:
+      213: -207621285482017121
+    second: spritesheet_variant_ranger_olive_60
+  - first:
+      213: -3578052160734095623
+    second: spritesheet_variant_ranger_olive_61
+  - first:
+      213: -4628252415034644039
+    second: spritesheet_variant_ranger_olive_62
+  - first:
+      213: 4235864532085826746
+    second: spritesheet_variant_ranger_olive_63
+  - first:
+      213: 256441287696446886
+    second: spritesheet_variant_ranger_olive_64
+  - first:
+      213: 1083525276350789084
+    second: spritesheet_variant_ranger_olive_65
+  - first:
+      213: 5870876785018028000
+    second: spritesheet_variant_ranger_olive_66
+  - first:
+      213: 4752835135620601939
+    second: spritesheet_variant_ranger_olive_67
+  - first:
+      213: -2936919435322642387
+    second: spritesheet_variant_ranger_olive_68
+  - first:
+      213: -2211535887871474633
+    second: spritesheet_variant_ranger_olive_69
+  - first:
+      213: 413298357074906772
+    second: spritesheet_variant_ranger_olive_70
+  - first:
+      213: -3072474763141192112
+    second: spritesheet_variant_ranger_olive_71
+  - first:
+      213: 4020920568763734561
+    second: spritesheet_variant_ranger_olive_72
+  - first:
+      213: 9039816090809975867
+    second: spritesheet_variant_ranger_olive_73
+  - first:
+      213: -7898779378443105692
+    second: spritesheet_variant_ranger_olive_74
+  - first:
+      213: -3126481489889544630
+    second: spritesheet_variant_ranger_olive_75
+  - first:
+      213: -5776172186229045891
+    second: spritesheet_variant_ranger_olive_76
+  - first:
+      213: -2393251392694936228
+    second: spritesheet_variant_ranger_olive_77
+  - first:
+      213: 334146769481519424
+    second: spritesheet_variant_ranger_olive_78
+  - first:
+      213: 6457401878619549480
+    second: spritesheet_variant_ranger_olive_79
+  - first:
+      213: 4984539786790728543
+    second: spritesheet_variant_ranger_olive_80
+  - first:
+      213: -671322137455520239
+    second: spritesheet_variant_ranger_olive_81
+  - first:
+      213: -5572186810121138744
+    second: spritesheet_variant_ranger_olive_82
+  - first:
+      213: -4155251002185997987
+    second: spritesheet_variant_ranger_olive_83
+  - first:
+      213: -3714686986720464190
+    second: spritesheet_variant_ranger_olive_84
+  - first:
+      213: 6239462554441688456
+    second: spritesheet_variant_ranger_olive_85
+  - first:
+      213: 8555977410023746063
+    second: spritesheet_variant_ranger_olive_86
+  - first:
+      213: -3405158759949371894
+    second: spritesheet_variant_ranger_olive_87
+  - first:
+      213: 2045700305194977959
+    second: spritesheet_variant_ranger_olive_88
+  - first:
+      213: -4943453267746405328
+    second: spritesheet_variant_ranger_olive_89
+  - first:
+      213: 6230641369181628899
+    second: spritesheet_variant_ranger_olive_90
+  - first:
+      213: -5903740916638390400
+    second: spritesheet_variant_ranger_olive_91
+  - first:
+      213: -2809091161068926475
+    second: spritesheet_variant_ranger_olive_92
+  - first:
+      213: -2286656278739118929
+    second: spritesheet_variant_ranger_olive_93
+  - first:
+      213: -7867162651539310094
+    second: spritesheet_variant_ranger_olive_94
+  - first:
+      213: 174219569544542093
+    second: spritesheet_variant_ranger_olive_95
+  - first:
+      213: 2695749374144235758
+    second: spritesheet_variant_ranger_olive_96
+  - first:
+      213: 6560919269712071330
+    second: spritesheet_variant_ranger_olive_97
+  - first:
+      213: 6013429326753452022
+    second: spritesheet_variant_ranger_olive_98
+  - first:
+      213: -579936216441774652
+    second: spritesheet_variant_ranger_olive_99
+  - first:
+      213: -2420729420185107586
+    second: spritesheet_variant_ranger_olive_100
+  - first:
+      213: 6799451511306862213
+    second: spritesheet_variant_ranger_olive_101
+  - first:
+      213: -721361366536927853
+    second: spritesheet_variant_ranger_olive_102
+  - first:
+      213: 5332675192503306817
+    second: spritesheet_variant_ranger_olive_103
+  - first:
+      213: -5076253191522260737
+    second: spritesheet_variant_ranger_olive_104
+  - first:
+      213: -8768397371557029969
+    second: spritesheet_variant_ranger_olive_105
+  - first:
+      213: -9050810790901162617
+    second: spritesheet_variant_ranger_olive_106
+  - first:
+      213: 1287816629500057547
+    second: spritesheet_variant_ranger_olive_107
+  - first:
+      213: 6661159690472975228
+    second: spritesheet_variant_ranger_olive_108
+  - first:
+      213: -2924354485079535
+    second: spritesheet_variant_ranger_olive_109
+  - first:
+      213: 4662428188518359314
+    second: spritesheet_variant_ranger_olive_110
+  - first:
+      213: -937617924145194141
+    second: spritesheet_variant_ranger_olive_111
+  - first:
+      213: -5826767982242204687
+    second: spritesheet_variant_ranger_olive_112
+  - first:
+      213: -6191157955040947681
+    second: spritesheet_variant_ranger_olive_113
+  - first:
+      213: 4150448890422319577
+    second: spritesheet_variant_ranger_olive_114
+  - first:
+      213: 8767047566674610345
+    second: spritesheet_variant_ranger_olive_115
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b10928d5d8d5ba40800000000000000
+      internalID: 5383447342557495733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e2d8c1d097c7a50800000000000000
+      internalID: 6520219457746185854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 704
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a362a93e56a84d7d0800000000000000
+      internalID: -2894536490277525958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 704
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3c77deebbccfac0800000000000000
+      internalID: -3819954363028749319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 704
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3baf9f0e0fa29ca0800000000000000
+      internalID: -6011550077659665602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_5
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 704
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecace5c1d0f1bf440800000000000000
+      internalID: 4970600754904484558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 660
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f744077d3d350ac00800000000000000
+      internalID: 909819294046504063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 663
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f8b91f56a300b80800000000000000
+      internalID: -8430674292917956720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 662
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b858940da6e230f60800000000000000
+      internalID: 7999288399436023179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 660
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7db8acd7e9ea460800000000000000
+      internalID: 7254910312846710712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 660
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac9e98f7a91785b0800000000000000
+      internalID: -5366292221767279441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 663
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4669f0b3ea8b6b0800000000000000
+      internalID: -5280278994404088608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 618
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb98b65a3f7dab620800000000000000
+      internalID: 2790780360561756606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 616
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5da99f8259dda150800000000000000
+      internalID: 5885599236662865245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 616
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab8be51700191140800000000000000
+      internalID: 4690798109501655980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 607
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ed8b587f7b95270800000000000000
+      internalID: 8239819266979323453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_16
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 616
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d90d038192bf5d0800000000000000
+      internalID: -3027781140601594572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 616
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a367315a357bf90800000000000000
+      internalID: -6937984732479735165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 572
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b154381aaaab0af90800000000000000
+      internalID: -6944345383388363493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 572
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb2d10b5207aeb30800000000000000
+      internalID: 4317386499958844388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 572
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db7ef5484d9ed6f0800000000000000
+      internalID: -657915561812001835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_21
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 572
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2525af12500b3b700800000000000000
+      internalID: 554980715188081234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 596
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7718bd74935fe340800000000000000
+      internalID: 4895223217204500351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_23
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 572
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee05ed1548fe45e20800000000000000
+      internalID: 3338556575376625902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_24
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 569
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57e50722277c0050800000000000000
+      internalID: 5768116211322054495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412ce10b3418b6480800000000000000
+      internalID: -8904881710477426156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 528
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87edfd56e580da20800000000000000
+      internalID: 3085112969214683023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_27
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 528
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de598b8b21dac7e50800000000000000
+      internalID: 6808507032597468653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_28
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 530
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b04c824b0acfaa0800000000000000
+      internalID: -6125844697492223130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_29
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 563
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d7ac5eeab2783d0800000000000000
+      internalID: -3204544579671261860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_30
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 556
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c0942c2114c2a80800000000000000
+      internalID: -8490339648675443594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_31
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 557
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3c89a1f94bdf240800000000000000
+      internalID: 4827212971050058749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_32
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 550
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9508c4d06d22bb250800000000000000
+      internalID: 5961396834496446553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_33
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 547
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b19172ef3863520800000000000000
+      internalID: 2681475755746597751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_34
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 537
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185323179d3f06840800000000000000
+      internalID: 5215436483727603073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 543
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be79f49e45c31270800000000000000
+      internalID: 8220130686178787001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_36
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 529
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7132cbaabfe704710800000000000000
+      internalID: 1675478680748172055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_37
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 532
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6512eb04dc0fc90800000000000000
+      internalID: -7137979731430779192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_38
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 484
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b232976f7d01fad0800000000000000
+      internalID: -2670338263204351311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 503
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1d3aca46aed5a60800000000000000
+      internalID: 7664539858968498675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_40
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 513
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bed3ec9a45295f60800000000000000
+      internalID: 8023485213527236273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 506
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90b0d3a114e281b0800000000000000
+      internalID: -5655707417609981798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_42
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 501
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd20fbfa79a14560800000000000000
+      internalID: 7296299216994840008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_43
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 491
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50e9821f417767a0800000000000000
+      internalID: -6384009362347007907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_44
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 484
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ce7e5e6f074a6d0800000000000000
+      internalID: -2980132847690978228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_45
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 484
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54601c2da0876f50800000000000000
+      internalID: 6874604837461320799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_46
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 484
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4eff552e8e04c070800000000000000
+      internalID: 8125635631358410318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 503
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9285064d2711540800000000000000
+      internalID: 4976885319696132515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 484
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2703187a59b1237f0800000000000000
+      internalID: -634414267931479950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_49
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 484
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51dad424bfd4a4950800000000000000
+      internalID: 6434040759196691733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085a3d87db3dade70800000000000000
+      internalID: 9140851204431259008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_51
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 440
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ca342eb0f82dbe0800000000000000
+      internalID: -1453942448483750904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_52
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 440
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d242fbf9a5b452e0800000000000000
+      internalID: -2137884181413084457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_53
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 440
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16222a81c27e8a3b0800000000000000
+      internalID: -5500892768255204767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_54
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 440
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c2ec6c8ffaf6380800000000000000
+      internalID: -8975762049303958481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_55
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 442
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089f5400b2fc1e240800000000000000
+      internalID: 4819360859858270592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_56
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 398
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e00dc538dd8f2da0800000000000000
+      internalID: -5967395021487537946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_57
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 398
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1d335c3dd4e0d20800000000000000
+      internalID: 3246617953322652147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_58
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 399
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f8ec93082ecec50800000000000000
+      internalID: 6695975786346614679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 399
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3558c5687975aea0800000000000000
+      internalID: -5862145781942168257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_60
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 396
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ec8077a816e1df0800000000000000
+      internalID: -207621285482017121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_61
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 396
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f610a36484385ec0800000000000000
+      internalID: -3578052160734095623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 352
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9240733f425cfb0800000000000000
+      internalID: -4628252415034644039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_63
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 360
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4e6af6950d8ca30800000000000000
+      internalID: 4235864532085826746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_64
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 353
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5f3e21eff0f8300800000000000000
+      internalID: 256441287696446886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_65
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 353
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5bb028f74790f00800000000000000
+      internalID: 1083525276350789084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_66
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 353
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef361ba45b897150800000000000000
+      internalID: 5870876785018028000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_67
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 353
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35859aecf5675f140800000000000000
+      internalID: 4752835135620601939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_68
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2037a38557fd37d0800000000000000
+      internalID: -2936919435322642387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_69
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7348463c3db0f41e0800000000000000
+      internalID: -2211535887871474633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_70
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 309
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ec3bf7aa45cb500800000000000000
+      internalID: 413298357074906772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_71
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 309
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056ed994b706c55d0800000000000000
+      internalID: -3072474763141192112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_72
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 309
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a593b14fd2dc730800000000000000
+      internalID: 4020920568763734561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_73
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34c69fe6d0e37d70800000000000000
+      internalID: 9039816090809975867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_74
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 265
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ac7bc3106e16290800000000000000
+      internalID: -7898779378443105692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_75
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 265
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46bc4656a18c94d0800000000000000
+      internalID: -3126481489889544630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_76
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 265
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d758356000ae6dfa0800000000000000
+      internalID: -5776172186229045891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_77
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 264
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d9530d98679ced0800000000000000
+      internalID: -2393251392694936228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_78
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 264
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0415ac967b023a400800000000000000
+      internalID: 334146769481519424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_79
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 264
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82fee0bbbcc4d9950800000000000000
+      internalID: 6457401878619549480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_80
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f537670e684ac2540800000000000000
+      internalID: 4984539786790728543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_81
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1169b13a21cfea6f0800000000000000
+      internalID: -671322137455520239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_82
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 220
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdcc907e9d9ba2b0800000000000000
+      internalID: -5572186810121138744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_83
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 220
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d512e1e9a359556c0800000000000000
+      internalID: -4155251002185997987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_84
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 220
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2b2c8edd7c27cc0800000000000000
+      internalID: -3714686986720464190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_85
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 220
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88529da9226079650800000000000000
+      internalID: 6239462554441688456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_86
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 176
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a6bb67f10fcb670800000000000000
+      internalID: 8555977410023746063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_87
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06786d26227eb0d0800000000000000
+      internalID: -3405158759949371894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 176
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa0e08c699c36c10800000000000000
+      internalID: 2045700305194977959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_89
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 176
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0344b3cc173556bb0800000000000000
+      internalID: -4943453267746405328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_90
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 176
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9acec505fa77650800000000000000
+      internalID: 6230641369181628899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_91
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08764d96ae2b11ea0800000000000000
+      internalID: -5903740916638390400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_92
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f90cc2e87a1409d0800000000000000
+      internalID: -2809091161068926475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_93
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 176
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4965eca3a2440e0800000000000000
+      internalID: -2286656278739118929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_94
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 132
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f977cc104932d290800000000000000
+      internalID: -7867162651539310094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_95
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 132
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87bf9386c3fa6200800000000000000
+      internalID: 174219569544542093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_96
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 132
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee84959e5c9396520800000000000000
+      internalID: 2695749374144235758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_97
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 132
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa043780511d0b50800000000000000
+      internalID: 6560919269712071330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 132
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff4e07bc1ef37350800000000000000
+      internalID: 6013429326753452022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_99
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 132
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd9a927517a3f7f0800000000000000
+      internalID: -579936216441774652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_100
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 88
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73878cfa67d76ed0800000000000000
+      internalID: -2420729420185107586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_101
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 88
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e30fedf118c5e50800000000000000
+      internalID: 6799451511306862213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_102
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 88
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39540e8b8a53df5f0800000000000000
+      internalID: -721361366536927853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_103
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a82b775d7710a40800000000000000
+      internalID: 5332675192503306817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_104
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 88
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff86f511e968d89b0800000000000000
+      internalID: -5076253191522260737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_105
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 88
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7dfda2c05605680800000000000000
+      internalID: -8768397371557029969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_106
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 48
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d5017f98f056280800000000000000
+      internalID: -9050810790901162617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 88
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc71131c66e3fd110800000000000000
+      internalID: 1287816629500057547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_108
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 44
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7beac63271317c50800000000000000
+      internalID: 6661159690472975228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_109
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 50
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11238b9a05c95fff0800000000000000
+      internalID: -2924354485079535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_110
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 47
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211a76f1cb544b040800000000000000
+      internalID: 4662428188518359314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_111
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 46
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b59483779ecf2f0800000000000000
+      internalID: -937617924145194141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_112
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 50
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f375d54469232fa0800000000000000
+      internalID: -5826767982242204687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_113
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12537d54a6941aa0800000000000000
+      internalID: -6191157955040947681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_114
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9590c964b599930800000000000000
+      internalID: 4150448890422319577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ranger_olive_115
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8c794ef4fcaa970800000000000000
+      internalID: 8767047566674610345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spritesheet_variant_ranger_olive_0: 5383447342557495733
+      spritesheet_variant_ranger_olive_1: 6520219457746185854
+      spritesheet_variant_ranger_olive_10: -5366292221767279441
+      spritesheet_variant_ranger_olive_100: -2420729420185107586
+      spritesheet_variant_ranger_olive_101: 6799451511306862213
+      spritesheet_variant_ranger_olive_102: -721361366536927853
+      spritesheet_variant_ranger_olive_103: 5332675192503306817
+      spritesheet_variant_ranger_olive_104: -5076253191522260737
+      spritesheet_variant_ranger_olive_105: -8768397371557029969
+      spritesheet_variant_ranger_olive_106: -9050810790901162617
+      spritesheet_variant_ranger_olive_107: 1287816629500057547
+      spritesheet_variant_ranger_olive_108: 6661159690472975228
+      spritesheet_variant_ranger_olive_109: -2924354485079535
+      spritesheet_variant_ranger_olive_11: -5280278994404088608
+      spritesheet_variant_ranger_olive_110: 4662428188518359314
+      spritesheet_variant_ranger_olive_111: -937617924145194141
+      spritesheet_variant_ranger_olive_112: -5826767982242204687
+      spritesheet_variant_ranger_olive_113: -6191157955040947681
+      spritesheet_variant_ranger_olive_114: 4150448890422319577
+      spritesheet_variant_ranger_olive_115: 8767047566674610345
+      spritesheet_variant_ranger_olive_12: 2790780360561756606
+      spritesheet_variant_ranger_olive_13: 5885599236662865245
+      spritesheet_variant_ranger_olive_14: 4690798109501655980
+      spritesheet_variant_ranger_olive_15: 8239819266979323453
+      spritesheet_variant_ranger_olive_16: -3027781140601594572
+      spritesheet_variant_ranger_olive_17: -6937984732479735165
+      spritesheet_variant_ranger_olive_18: -6944345383388363493
+      spritesheet_variant_ranger_olive_19: 4317386499958844388
+      spritesheet_variant_ranger_olive_2: -2894536490277525958
+      spritesheet_variant_ranger_olive_20: -657915561812001835
+      spritesheet_variant_ranger_olive_21: 554980715188081234
+      spritesheet_variant_ranger_olive_22: 4895223217204500351
+      spritesheet_variant_ranger_olive_23: 3338556575376625902
+      spritesheet_variant_ranger_olive_24: 5768116211322054495
+      spritesheet_variant_ranger_olive_25: -8904881710477426156
+      spritesheet_variant_ranger_olive_26: 3085112969214683023
+      spritesheet_variant_ranger_olive_27: 6808507032597468653
+      spritesheet_variant_ranger_olive_28: -6125844697492223130
+      spritesheet_variant_ranger_olive_29: -3204544579671261860
+      spritesheet_variant_ranger_olive_3: -3819954363028749319
+      spritesheet_variant_ranger_olive_30: -8490339648675443594
+      spritesheet_variant_ranger_olive_31: 4827212971050058749
+      spritesheet_variant_ranger_olive_32: 5961396834496446553
+      spritesheet_variant_ranger_olive_33: 2681475755746597751
+      spritesheet_variant_ranger_olive_34: 5215436483727603073
+      spritesheet_variant_ranger_olive_35: 8220130686178787001
+      spritesheet_variant_ranger_olive_36: 1675478680748172055
+      spritesheet_variant_ranger_olive_37: -7137979731430779192
+      spritesheet_variant_ranger_olive_38: -2670338263204351311
+      spritesheet_variant_ranger_olive_39: 7664539858968498675
+      spritesheet_variant_ranger_olive_4: -6011550077659665602
+      spritesheet_variant_ranger_olive_40: 8023485213527236273
+      spritesheet_variant_ranger_olive_41: -5655707417609981798
+      spritesheet_variant_ranger_olive_42: 7296299216994840008
+      spritesheet_variant_ranger_olive_43: -6384009362347007907
+      spritesheet_variant_ranger_olive_44: -2980132847690978228
+      spritesheet_variant_ranger_olive_45: 6874604837461320799
+      spritesheet_variant_ranger_olive_46: 8125635631358410318
+      spritesheet_variant_ranger_olive_47: 4976885319696132515
+      spritesheet_variant_ranger_olive_48: -634414267931479950
+      spritesheet_variant_ranger_olive_49: 6434040759196691733
+      spritesheet_variant_ranger_olive_5: 4970600754904484558
+      spritesheet_variant_ranger_olive_50: 9140851204431259008
+      spritesheet_variant_ranger_olive_51: -1453942448483750904
+      spritesheet_variant_ranger_olive_52: -2137884181413084457
+      spritesheet_variant_ranger_olive_53: -5500892768255204767
+      spritesheet_variant_ranger_olive_54: -8975762049303958481
+      spritesheet_variant_ranger_olive_55: 4819360859858270592
+      spritesheet_variant_ranger_olive_56: -5967395021487537946
+      spritesheet_variant_ranger_olive_57: 3246617953322652147
+      spritesheet_variant_ranger_olive_58: 6695975786346614679
+      spritesheet_variant_ranger_olive_59: -5862145781942168257
+      spritesheet_variant_ranger_olive_6: 909819294046504063
+      spritesheet_variant_ranger_olive_60: -207621285482017121
+      spritesheet_variant_ranger_olive_61: -3578052160734095623
+      spritesheet_variant_ranger_olive_62: -4628252415034644039
+      spritesheet_variant_ranger_olive_63: 4235864532085826746
+      spritesheet_variant_ranger_olive_64: 256441287696446886
+      spritesheet_variant_ranger_olive_65: 1083525276350789084
+      spritesheet_variant_ranger_olive_66: 5870876785018028000
+      spritesheet_variant_ranger_olive_67: 4752835135620601939
+      spritesheet_variant_ranger_olive_68: -2936919435322642387
+      spritesheet_variant_ranger_olive_69: -2211535887871474633
+      spritesheet_variant_ranger_olive_7: -8430674292917956720
+      spritesheet_variant_ranger_olive_70: 413298357074906772
+      spritesheet_variant_ranger_olive_71: -3072474763141192112
+      spritesheet_variant_ranger_olive_72: 4020920568763734561
+      spritesheet_variant_ranger_olive_73: 9039816090809975867
+      spritesheet_variant_ranger_olive_74: -7898779378443105692
+      spritesheet_variant_ranger_olive_75: -3126481489889544630
+      spritesheet_variant_ranger_olive_76: -5776172186229045891
+      spritesheet_variant_ranger_olive_77: -2393251392694936228
+      spritesheet_variant_ranger_olive_78: 334146769481519424
+      spritesheet_variant_ranger_olive_79: 6457401878619549480
+      spritesheet_variant_ranger_olive_8: 7999288399436023179
+      spritesheet_variant_ranger_olive_80: 4984539786790728543
+      spritesheet_variant_ranger_olive_81: -671322137455520239
+      spritesheet_variant_ranger_olive_82: -5572186810121138744
+      spritesheet_variant_ranger_olive_83: -4155251002185997987
+      spritesheet_variant_ranger_olive_84: -3714686986720464190
+      spritesheet_variant_ranger_olive_85: 6239462554441688456
+      spritesheet_variant_ranger_olive_86: 8555977410023746063
+      spritesheet_variant_ranger_olive_87: -3405158759949371894
+      spritesheet_variant_ranger_olive_88: 2045700305194977959
+      spritesheet_variant_ranger_olive_89: -4943453267746405328
+      spritesheet_variant_ranger_olive_9: 7254910312846710712
+      spritesheet_variant_ranger_olive_90: 6230641369181628899
+      spritesheet_variant_ranger_olive_91: -5903740916638390400
+      spritesheet_variant_ranger_olive_92: -2809091161068926475
+      spritesheet_variant_ranger_olive_93: -2286656278739118929
+      spritesheet_variant_ranger_olive_94: -7867162651539310094
+      spritesheet_variant_ranger_olive_95: 174219569544542093
+      spritesheet_variant_ranger_olive_96: 2695749374144235758
+      spritesheet_variant_ranger_olive_97: 6560919269712071330
+      spritesheet_variant_ranger_olive_98: 6013429326753452022
+      spritesheet_variant_ranger_olive_99: -579936216441774652
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

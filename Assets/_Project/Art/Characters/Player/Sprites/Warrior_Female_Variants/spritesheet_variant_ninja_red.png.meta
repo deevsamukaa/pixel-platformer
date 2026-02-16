@@ -1,0 +1,3159 @@
+fileFormatVersion: 2
+guid: 7f9917d26d3706747959b91ab9f803d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 282331879502211325
+    second: spritesheet_variant_ninja_red_0
+  - first:
+      213: -905898323993933580
+    second: spritesheet_variant_ninja_red_1
+  - first:
+      213: 8955328662173287652
+    second: spritesheet_variant_ninja_red_2
+  - first:
+      213: 4584270293028346907
+    second: spritesheet_variant_ninja_red_3
+  - first:
+      213: 8622705703678513093
+    second: spritesheet_variant_ninja_red_4
+  - first:
+      213: 2517032017241565489
+    second: spritesheet_variant_ninja_red_5
+  - first:
+      213: -6973877230792913899
+    second: spritesheet_variant_ninja_red_6
+  - first:
+      213: -3388281816990172941
+    second: spritesheet_variant_ninja_red_7
+  - first:
+      213: 6840043594516797595
+    second: spritesheet_variant_ninja_red_8
+  - first:
+      213: -4146851006128341013
+    second: spritesheet_variant_ninja_red_9
+  - first:
+      213: -1623030331669235801
+    second: spritesheet_variant_ninja_red_10
+  - first:
+      213: -3594336756470397561
+    second: spritesheet_variant_ninja_red_11
+  - first:
+      213: -1717724121023635856
+    second: spritesheet_variant_ninja_red_12
+  - first:
+      213: -6181861624953916577
+    second: spritesheet_variant_ninja_red_13
+  - first:
+      213: 1454437238900061161
+    second: spritesheet_variant_ninja_red_14
+  - first:
+      213: -737501526583525573
+    second: spritesheet_variant_ninja_red_15
+  - first:
+      213: -5506578710694782825
+    second: spritesheet_variant_ninja_red_16
+  - first:
+      213: -2618478307698410430
+    second: spritesheet_variant_ninja_red_17
+  - first:
+      213: 7724218780476547079
+    second: spritesheet_variant_ninja_red_18
+  - first:
+      213: 1566698083154653228
+    second: spritesheet_variant_ninja_red_19
+  - first:
+      213: 5425850416442047569
+    second: spritesheet_variant_ninja_red_20
+  - first:
+      213: 5064673993179641395
+    second: spritesheet_variant_ninja_red_21
+  - first:
+      213: 4471121852360032433
+    second: spritesheet_variant_ninja_red_22
+  - first:
+      213: -4835957980877227552
+    second: spritesheet_variant_ninja_red_23
+  - first:
+      213: -8707320856304675578
+    second: spritesheet_variant_ninja_red_24
+  - first:
+      213: -7544319161640976636
+    second: spritesheet_variant_ninja_red_25
+  - first:
+      213: -6491117627861050246
+    second: spritesheet_variant_ninja_red_26
+  - first:
+      213: -3205051591975418969
+    second: spritesheet_variant_ninja_red_27
+  - first:
+      213: 4162046938938157836
+    second: spritesheet_variant_ninja_red_28
+  - first:
+      213: -7147794594986319718
+    second: spritesheet_variant_ninja_red_29
+  - first:
+      213: -4993038774284420354
+    second: spritesheet_variant_ninja_red_30
+  - first:
+      213: -3678353760105201944
+    second: spritesheet_variant_ninja_red_31
+  - first:
+      213: -370705549381825126
+    second: spritesheet_variant_ninja_red_32
+  - first:
+      213: 6589229361827375962
+    second: spritesheet_variant_ninja_red_33
+  - first:
+      213: -8797016445523926923
+    second: spritesheet_variant_ninja_red_34
+  - first:
+      213: -1864434826017914956
+    second: spritesheet_variant_ninja_red_35
+  - first:
+      213: 7071616868521289070
+    second: spritesheet_variant_ninja_red_36
+  - first:
+      213: -846370361238151104
+    second: spritesheet_variant_ninja_red_37
+  - first:
+      213: 6132742528692984857
+    second: spritesheet_variant_ninja_red_38
+  - first:
+      213: 2776299717632849512
+    second: spritesheet_variant_ninja_red_39
+  - first:
+      213: -5635903777495267088
+    second: spritesheet_variant_ninja_red_40
+  - first:
+      213: -9122322645574385188
+    second: spritesheet_variant_ninja_red_41
+  - first:
+      213: -5930273957832554640
+    second: spritesheet_variant_ninja_red_42
+  - first:
+      213: -125056146897504977
+    second: spritesheet_variant_ninja_red_43
+  - first:
+      213: 1188302276032561605
+    second: spritesheet_variant_ninja_red_44
+  - first:
+      213: -6759899625715379176
+    second: spritesheet_variant_ninja_red_45
+  - first:
+      213: 519487029693048147
+    second: spritesheet_variant_ninja_red_46
+  - first:
+      213: -2515926816025272820
+    second: spritesheet_variant_ninja_red_47
+  - first:
+      213: 8567886722645503886
+    second: spritesheet_variant_ninja_red_48
+  - first:
+      213: -4685523161118294430
+    second: spritesheet_variant_ninja_red_49
+  - first:
+      213: -7080585614384348927
+    second: spritesheet_variant_ninja_red_50
+  - first:
+      213: -7140073939869452402
+    second: spritesheet_variant_ninja_red_51
+  - first:
+      213: -4345992176025417605
+    second: spritesheet_variant_ninja_red_52
+  - first:
+      213: 2666505925452122849
+    second: spritesheet_variant_ninja_red_53
+  - first:
+      213: -5914678488385593660
+    second: spritesheet_variant_ninja_red_54
+  - first:
+      213: -6078435328466584447
+    second: spritesheet_variant_ninja_red_55
+  - first:
+      213: 7543238836556716754
+    second: spritesheet_variant_ninja_red_56
+  - first:
+      213: 7970031542075291038
+    second: spritesheet_variant_ninja_red_57
+  - first:
+      213: -498454622073984842
+    second: spritesheet_variant_ninja_red_58
+  - first:
+      213: 3131950544624329819
+    second: spritesheet_variant_ninja_red_59
+  - first:
+      213: 2056942577025652982
+    second: spritesheet_variant_ninja_red_60
+  - first:
+      213: 6607517231629126130
+    second: spritesheet_variant_ninja_red_61
+  - first:
+      213: 4810123096333143685
+    second: spritesheet_variant_ninja_red_62
+  - first:
+      213: 4245136768226197484
+    second: spritesheet_variant_ninja_red_63
+  - first:
+      213: 9053764083035473803
+    second: spritesheet_variant_ninja_red_64
+  - first:
+      213: -8744429466151490785
+    second: spritesheet_variant_ninja_red_65
+  - first:
+      213: 7753987378825338924
+    second: spritesheet_variant_ninja_red_66
+  - first:
+      213: -570831113637658614
+    second: spritesheet_variant_ninja_red_67
+  - first:
+      213: -1064312645061088108
+    second: spritesheet_variant_ninja_red_68
+  - first:
+      213: 2070949615569498737
+    second: spritesheet_variant_ninja_red_69
+  - first:
+      213: 7475840201586649508
+    second: spritesheet_variant_ninja_red_70
+  - first:
+      213: -194877622745423096
+    second: spritesheet_variant_ninja_red_71
+  - first:
+      213: 784722582156585064
+    second: spritesheet_variant_ninja_red_72
+  - first:
+      213: 7495034210797213439
+    second: spritesheet_variant_ninja_red_73
+  - first:
+      213: 2366035406828439988
+    second: spritesheet_variant_ninja_red_74
+  - first:
+      213: 6174797392913146794
+    second: spritesheet_variant_ninja_red_75
+  - first:
+      213: -3382328451819361261
+    second: spritesheet_variant_ninja_red_76
+  - first:
+      213: -2482361836208617617
+    second: spritesheet_variant_ninja_red_77
+  - first:
+      213: -8337352708888243480
+    second: spritesheet_variant_ninja_red_78
+  - first:
+      213: 758335917030373220
+    second: spritesheet_variant_ninja_red_79
+  - first:
+      213: -5962030697543586400
+    second: spritesheet_variant_ninja_red_80
+  - first:
+      213: -8708885155833856516
+    second: spritesheet_variant_ninja_red_81
+  - first:
+      213: -8698418119614354716
+    second: spritesheet_variant_ninja_red_82
+  - first:
+      213: -8354315916139928524
+    second: spritesheet_variant_ninja_red_83
+  - first:
+      213: -439218500529946525
+    second: spritesheet_variant_ninja_red_84
+  - first:
+      213: -8312588077050449447
+    second: spritesheet_variant_ninja_red_85
+  - first:
+      213: -3850776210312504084
+    second: spritesheet_variant_ninja_red_86
+  - first:
+      213: -3569293072236888646
+    second: spritesheet_variant_ninja_red_87
+  - first:
+      213: -2298135838454718830
+    second: spritesheet_variant_ninja_red_88
+  - first:
+      213: -5375633828306335065
+    second: spritesheet_variant_ninja_red_89
+  - first:
+      213: 2384087140820102700
+    second: spritesheet_variant_ninja_red_90
+  - first:
+      213: 5865526745095747025
+    second: spritesheet_variant_ninja_red_91
+  - first:
+      213: -8766868422545605361
+    second: spritesheet_variant_ninja_red_92
+  - first:
+      213: -8150042092197656676
+    second: spritesheet_variant_ninja_red_93
+  - first:
+      213: 6718937597743568752
+    second: spritesheet_variant_ninja_red_94
+  - first:
+      213: 1149148825608725069
+    second: spritesheet_variant_ninja_red_95
+  - first:
+      213: -4677637199631732230
+    second: spritesheet_variant_ninja_red_96
+  - first:
+      213: 5756499860566247828
+    second: spritesheet_variant_ninja_red_97
+  - first:
+      213: -931133300990175667
+    second: spritesheet_variant_ninja_red_98
+  - first:
+      213: 6797002007598976818
+    second: spritesheet_variant_ninja_red_99
+  - first:
+      213: 4810622291519132977
+    second: spritesheet_variant_ninja_red_100
+  - first:
+      213: -899551925212893652
+    second: spritesheet_variant_ninja_red_101
+  - first:
+      213: -8198411978354777088
+    second: spritesheet_variant_ninja_red_102
+  - first:
+      213: -2092071660551940282
+    second: spritesheet_variant_ninja_red_103
+  - first:
+      213: -6389700594235906765
+    second: spritesheet_variant_ninja_red_104
+  - first:
+      213: -3792603566420953338
+    second: spritesheet_variant_ninja_red_105
+  - first:
+      213: -4260968640610458581
+    second: spritesheet_variant_ninja_red_106
+  - first:
+      213: -8496821947990445038
+    second: spritesheet_variant_ninja_red_107
+  - first:
+      213: 1300638769132170760
+    second: spritesheet_variant_ninja_red_108
+  - first:
+      213: -8262309113868372414
+    second: spritesheet_variant_ninja_red_109
+  - first:
+      213: -3674165170800113764
+    second: spritesheet_variant_ninja_red_110
+  - first:
+      213: -5690295178245488003
+    second: spritesheet_variant_ninja_red_111
+  - first:
+      213: -5753286697550175410
+    second: spritesheet_variant_ninja_red_112
+  - first:
+      213: 4242474455366199308
+    second: spritesheet_variant_ninja_red_113
+  - first:
+      213: 6488881492442029306
+    second: spritesheet_variant_ninja_red_114
+  - first:
+      213: -4984131030562681831
+    second: spritesheet_variant_ninja_red_115
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df86f7a395b0be300800000000000000
+      internalID: 282331879502211325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f848b3264a9d63f0800000000000000
+      internalID: -905898323993933580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 704
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e486bb88f7b74c70800000000000000
+      internalID: 8955328662173287652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 704
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c94520b899e9f30800000000000000
+      internalID: 4584270293028346907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 704
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf0e7607210aa770800000000000000
+      internalID: 8622705703678513093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_5
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 704
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139e7fba84b4ee220800000000000000
+      internalID: 2517032017241565489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 660
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c47679b9fc73f90800000000000000
+      internalID: -6973877230792913899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 663
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8b26ba3a76af0d0800000000000000
+      internalID: -3388281816990172941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 662
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b981c5bb867bcee50800000000000000
+      internalID: 6840043594516797595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 660
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befbf3b1bfc6376c0800000000000000
+      internalID: -4146851006128341013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 660
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7bb253386d979e0800000000000000
+      internalID: -1623030331669235801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 663
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785c37b73c95e1ec0800000000000000
+      internalID: -3594336756470397561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 618
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e1448430b6928e0800000000000000
+      internalID: -1717724121023635856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 616
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53b002ea9d953aa0800000000000000
+      internalID: -6181861624953916577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 616
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3fcbc76f23f2410800000000000000
+      internalID: 1454437238900061161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 607
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f3eaed44ed3c5f0800000000000000
+      internalID: -737501526583525573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_16
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 616
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7981f4576d3b493b0800000000000000
+      internalID: -5506578710694782825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 616
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cf1993adb49abd0800000000000000
+      internalID: -2618478307698410430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 572
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700a4b16e00f13b60800000000000000
+      internalID: 7724218780476547079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 572
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20f7bc1b970eb510800000000000000
+      internalID: 1566698083154653228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 572
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cfe64d43e7c4b40800000000000000
+      internalID: 5425850416442047569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_21
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 572
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336b1aab926594640800000000000000
+      internalID: 5064673993179641395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 596
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0086db2ad9c0e30800000000000000
+      internalID: 4471121852360032433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_23
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 572
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9f811a6d933ecb0800000000000000
+      internalID: -4835957980877227552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_24
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 569
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6051c9680d1692780800000000000000
+      internalID: -8707320856304675578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f773aa1b13d4790800000000000000
+      internalID: -7544319161640976636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 528
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7cd01ca8eaeae5a0800000000000000
+      internalID: -6491117627861050246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_27
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 528
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a34185ee8e5583d0800000000000000
+      internalID: -3205051591975418969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_28
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 530
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b29e5b3af82c930800000000000000
+      internalID: 4162046938938157836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_29
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 563
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90226ebfaeedcc90800000000000000
+      internalID: -7147794594986319718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_30
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 556
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa760560b925bab0800000000000000
+      internalID: -4993038774284420354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_31
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 557
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eef4b27ebcd3fcc0800000000000000
+      internalID: -3678353760105201944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_32
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 550
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d84d4544dfadaf0800000000000000
+      internalID: -370705549381825126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_33
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 547
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b6b4f7135a17b50800000000000000
+      internalID: 6589229361827375962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_34
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 537
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570e641c628bae580800000000000000
+      internalID: -8797016445523926923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 543
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfb55867623026e0800000000000000
+      internalID: -1864434826017914956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_36
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 529
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e652fdb231e632260800000000000000
+      internalID: 7071616868521289070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_37
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 532
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0402bf504a61144f0800000000000000
+      internalID: -846370361238151104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_38
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 484
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c1da156d0eb1550800000000000000
+      internalID: 6132742528692984857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 503
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866f58b32e5678620800000000000000
+      internalID: 2776299717632849512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_40
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 513
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8cc1aef5f39c1b0800000000000000
+      internalID: -5635903777495267088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 506
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd18900d2eff66180800000000000000
+      internalID: -9122322645574385188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_42
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 501
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07704aa514f63bda0800000000000000
+      internalID: -5930273957832554640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_43
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 491
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25f133d816b34ef0800000000000000
+      internalID: -125056146897504977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_44
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 484
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c185b8cf92bd7010800000000000000
+      internalID: 1188302276032561605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_45
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 484
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81450fb1b130032a0800000000000000
+      internalID: -6759899625715379176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_46
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 484
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355e64e73b6953700800000000000000
+      internalID: 519487029693048147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 503
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e1fe904e1a51dd0800000000000000
+      internalID: -2515926816025272820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 484
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f2213649f37e670800000000000000
+      internalID: 8567886722645503886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_49
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 484
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ebdaa828da9feb0800000000000000
+      internalID: -4685523161118294430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10141e4f5e4bcbd90800000000000000
+      internalID: -7080585614384348927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_51
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 440
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87be08d49c59ec90800000000000000
+      internalID: -7140073939869452402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_52
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 440
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78c067542fefa3c0800000000000000
+      internalID: -4345992176025417605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_53
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 440
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea4c0ee205510520800000000000000
+      internalID: 2666505925452122849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_54
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 440
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ced12b8047daeda0800000000000000
+      internalID: -5914678488385593660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_55
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 442
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c7090164f05aba0800000000000000
+      internalID: -6078435328466584447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_56
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 398
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dad4ec81c7fea860800000000000000
+      internalID: 7543238836556716754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_57
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 398
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e957e02e57d3b9e60800000000000000
+      internalID: 7970031542075291038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_58
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 399
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8e0a289222519f0800000000000000
+      internalID: -498454622073984842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 399
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54ac623d6ce67b20800000000000000
+      internalID: 3131950544624329819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_60
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 396
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f89dfa206abb8c10800000000000000
+      internalID: 2056942577025652982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_61
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 396
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9c68ef9ed92bb50800000000000000
+      internalID: 6607517231629126130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 352
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ec6d2987df0c240800000000000000
+      internalID: 4810123096333143685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_63
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 360
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef72152661c9ea30800000000000000
+      internalID: 4245136768226197484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_64
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 353
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b870581f67e65ad70800000000000000
+      internalID: 9053764083035473803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_65
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 353
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1be4920bbb85a680800000000000000
+      internalID: -8744429466151490785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_66
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 353
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c202fbb4072bb9b60800000000000000
+      internalID: 7753987378825338924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_67
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 353
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0003e460200418f0800000000000000
+      internalID: -570831113637658614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_68
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c6d2dc94dca31f0800000000000000
+      internalID: -1064312645061088108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_69
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17270c7f3bd7dbc10800000000000000
+      internalID: 2070949615569498737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_70
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 309
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9282dfd058fb760800000000000000
+      internalID: 7475840201586649508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_71
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 309
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8032699a5d7ab4df0800000000000000
+      internalID: -194877622745423096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_72
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 309
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868aba4e705e3ea00800000000000000
+      internalID: 784722582156585064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_73
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 309
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6d7f187e5b30860800000000000000
+      internalID: 7495034210797213439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_74
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 265
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9810eaaa8d5d020800000000000000
+      internalID: 2366035406828439988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_75
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 265
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3a89c638941b550800000000000000
+      internalID: 6174797392913146794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_76
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 265
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c2c93813e8f01d0800000000000000
+      internalID: -3382328451819361261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_77
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 264
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f678cc4ef01ec8dd0800000000000000
+      internalID: -2482361836208617617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_78
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 264
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2539b62e5cb4c80800000000000000
+      internalID: -8337352708888243480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_79
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 264
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467f30baf76268a00800000000000000
+      internalID: 758335917030373220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_80
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ada0f43bac924da0800000000000000
+      internalID: -5962030697543586400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_81
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdb9d8a713d32780800000000000000
+      internalID: -8708885155833856516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_82
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 220
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eaa0907ec2094780800000000000000
+      internalID: -8698418119614354716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_83
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 220
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4346615ffe18f0c80800000000000000
+      internalID: -8354315916139928524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_84
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 220
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3600221d91597e9f0800000000000000
+      internalID: -439218500529946525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_85
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 220
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1b2479f21c3ac80800000000000000
+      internalID: -8312588077050449447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_86
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 176
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec5cc2607b4f8ac0800000000000000
+      internalID: -3850776210312504084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_87
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdbe0a9cd2577ec0800000000000000
+      internalID: -3569293072236888646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 176
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29edf4781a16b10e0800000000000000
+      internalID: -2298135838454718830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_89
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 176
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa4a35b389e565b0800000000000000
+      internalID: -5375633828306335065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_90
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 176
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ea8268f9af51120800000000000000
+      internalID: 2384087140820102700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_91
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d53cfd6f79866150800000000000000
+      internalID: 5865526745095747025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_92
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d74995e93d55680800000000000000
+      internalID: -8766868422545605361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_93
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 176
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97c31ed5eb35ee80800000000000000
+      internalID: -8150042092197656676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_94
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 132
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077958d85267e3d50800000000000000
+      internalID: 6718937597743568752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_95
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 132
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d422778b4c892ff00800000000000000
+      internalID: 1149148825608725069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_96
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 132
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af13cc700c1b51fb0800000000000000
+      internalID: -4677637199631732230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_97
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 132
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49903aabf1233ef40800000000000000
+      internalID: 5756499860566247828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 132
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4691f33233f313f0800000000000000
+      internalID: -931133300990175667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_99
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 132
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fcd88505dc35e50800000000000000
+      internalID: 6797002007598976818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_100
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 88
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135d2928c73c2c240800000000000000
+      internalID: 4810622291519132977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_101
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 88
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2eaaa04a462483f0800000000000000
+      internalID: -899551925212893652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_102
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 88
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0042bd32eb3693e80800000000000000
+      internalID: -8198411978354777088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_103
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647d324b8e777f2e0800000000000000
+      internalID: -2092071660551940282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_104
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 88
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3356773e9293357a0800000000000000
+      internalID: -6389700594235906765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_105
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 88
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60779918627fd5bc0800000000000000
+      internalID: -3792603566420953338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_106
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 48
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24a551d89ffdd4c0800000000000000
+      internalID: -4260968640610458581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 88
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2147946d479351a80800000000000000
+      internalID: -8496821947990445038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_108
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 44
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e6937c11ccc0210800000000000000
+      internalID: 1300638769132170760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_109
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 50
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2463763f2a1665d80800000000000000
+      internalID: -8262309113868372414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_110
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 47
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97c8546e3eb20dc0800000000000000
+      internalID: -3674165170800113764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_111
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 46
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d724f811fa20801b0800000000000000
+      internalID: -5690295178245488003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_112
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 50
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43aa851b383820b0800000000000000
+      internalID: -5753286697550175410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_113
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0865c02a0c40ea30800000000000000
+      internalID: 4242474455366199308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_114
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc1d9a76532d0a50800000000000000
+      internalID: 6488881492442029306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_variant_ninja_red_115
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c4f491c3fc4dab0800000000000000
+      internalID: -4984131030562681831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spritesheet_variant_ninja_red_0: 282331879502211325
+      spritesheet_variant_ninja_red_1: -905898323993933580
+      spritesheet_variant_ninja_red_10: -1623030331669235801
+      spritesheet_variant_ninja_red_100: 4810622291519132977
+      spritesheet_variant_ninja_red_101: -899551925212893652
+      spritesheet_variant_ninja_red_102: -8198411978354777088
+      spritesheet_variant_ninja_red_103: -2092071660551940282
+      spritesheet_variant_ninja_red_104: -6389700594235906765
+      spritesheet_variant_ninja_red_105: -3792603566420953338
+      spritesheet_variant_ninja_red_106: -4260968640610458581
+      spritesheet_variant_ninja_red_107: -8496821947990445038
+      spritesheet_variant_ninja_red_108: 1300638769132170760
+      spritesheet_variant_ninja_red_109: -8262309113868372414
+      spritesheet_variant_ninja_red_11: -3594336756470397561
+      spritesheet_variant_ninja_red_110: -3674165170800113764
+      spritesheet_variant_ninja_red_111: -5690295178245488003
+      spritesheet_variant_ninja_red_112: -5753286697550175410
+      spritesheet_variant_ninja_red_113: 4242474455366199308
+      spritesheet_variant_ninja_red_114: 6488881492442029306
+      spritesheet_variant_ninja_red_115: -4984131030562681831
+      spritesheet_variant_ninja_red_12: -1717724121023635856
+      spritesheet_variant_ninja_red_13: -6181861624953916577
+      spritesheet_variant_ninja_red_14: 1454437238900061161
+      spritesheet_variant_ninja_red_15: -737501526583525573
+      spritesheet_variant_ninja_red_16: -5506578710694782825
+      spritesheet_variant_ninja_red_17: -2618478307698410430
+      spritesheet_variant_ninja_red_18: 7724218780476547079
+      spritesheet_variant_ninja_red_19: 1566698083154653228
+      spritesheet_variant_ninja_red_2: 8955328662173287652
+      spritesheet_variant_ninja_red_20: 5425850416442047569
+      spritesheet_variant_ninja_red_21: 5064673993179641395
+      spritesheet_variant_ninja_red_22: 4471121852360032433
+      spritesheet_variant_ninja_red_23: -4835957980877227552
+      spritesheet_variant_ninja_red_24: -8707320856304675578
+      spritesheet_variant_ninja_red_25: -7544319161640976636
+      spritesheet_variant_ninja_red_26: -6491117627861050246
+      spritesheet_variant_ninja_red_27: -3205051591975418969
+      spritesheet_variant_ninja_red_28: 4162046938938157836
+      spritesheet_variant_ninja_red_29: -7147794594986319718
+      spritesheet_variant_ninja_red_3: 4584270293028346907
+      spritesheet_variant_ninja_red_30: -4993038774284420354
+      spritesheet_variant_ninja_red_31: -3678353760105201944
+      spritesheet_variant_ninja_red_32: -370705549381825126
+      spritesheet_variant_ninja_red_33: 6589229361827375962
+      spritesheet_variant_ninja_red_34: -8797016445523926923
+      spritesheet_variant_ninja_red_35: -1864434826017914956
+      spritesheet_variant_ninja_red_36: 7071616868521289070
+      spritesheet_variant_ninja_red_37: -846370361238151104
+      spritesheet_variant_ninja_red_38: 6132742528692984857
+      spritesheet_variant_ninja_red_39: 2776299717632849512
+      spritesheet_variant_ninja_red_4: 8622705703678513093
+      spritesheet_variant_ninja_red_40: -5635903777495267088
+      spritesheet_variant_ninja_red_41: -9122322645574385188
+      spritesheet_variant_ninja_red_42: -5930273957832554640
+      spritesheet_variant_ninja_red_43: -125056146897504977
+      spritesheet_variant_ninja_red_44: 1188302276032561605
+      spritesheet_variant_ninja_red_45: -6759899625715379176
+      spritesheet_variant_ninja_red_46: 519487029693048147
+      spritesheet_variant_ninja_red_47: -2515926816025272820
+      spritesheet_variant_ninja_red_48: 8567886722645503886
+      spritesheet_variant_ninja_red_49: -4685523161118294430
+      spritesheet_variant_ninja_red_5: 2517032017241565489
+      spritesheet_variant_ninja_red_50: -7080585614384348927
+      spritesheet_variant_ninja_red_51: -7140073939869452402
+      spritesheet_variant_ninja_red_52: -4345992176025417605
+      spritesheet_variant_ninja_red_53: 2666505925452122849
+      spritesheet_variant_ninja_red_54: -5914678488385593660
+      spritesheet_variant_ninja_red_55: -6078435328466584447
+      spritesheet_variant_ninja_red_56: 7543238836556716754
+      spritesheet_variant_ninja_red_57: 7970031542075291038
+      spritesheet_variant_ninja_red_58: -498454622073984842
+      spritesheet_variant_ninja_red_59: 3131950544624329819
+      spritesheet_variant_ninja_red_6: -6973877230792913899
+      spritesheet_variant_ninja_red_60: 2056942577025652982
+      spritesheet_variant_ninja_red_61: 6607517231629126130
+      spritesheet_variant_ninja_red_62: 4810123096333143685
+      spritesheet_variant_ninja_red_63: 4245136768226197484
+      spritesheet_variant_ninja_red_64: 9053764083035473803
+      spritesheet_variant_ninja_red_65: -8744429466151490785
+      spritesheet_variant_ninja_red_66: 7753987378825338924
+      spritesheet_variant_ninja_red_67: -570831113637658614
+      spritesheet_variant_ninja_red_68: -1064312645061088108
+      spritesheet_variant_ninja_red_69: 2070949615569498737
+      spritesheet_variant_ninja_red_7: -3388281816990172941
+      spritesheet_variant_ninja_red_70: 7475840201586649508
+      spritesheet_variant_ninja_red_71: -194877622745423096
+      spritesheet_variant_ninja_red_72: 784722582156585064
+      spritesheet_variant_ninja_red_73: 7495034210797213439
+      spritesheet_variant_ninja_red_74: 2366035406828439988
+      spritesheet_variant_ninja_red_75: 6174797392913146794
+      spritesheet_variant_ninja_red_76: -3382328451819361261
+      spritesheet_variant_ninja_red_77: -2482361836208617617
+      spritesheet_variant_ninja_red_78: -8337352708888243480
+      spritesheet_variant_ninja_red_79: 758335917030373220
+      spritesheet_variant_ninja_red_8: 6840043594516797595
+      spritesheet_variant_ninja_red_80: -5962030697543586400
+      spritesheet_variant_ninja_red_81: -8708885155833856516
+      spritesheet_variant_ninja_red_82: -8698418119614354716
+      spritesheet_variant_ninja_red_83: -8354315916139928524
+      spritesheet_variant_ninja_red_84: -439218500529946525
+      spritesheet_variant_ninja_red_85: -8312588077050449447
+      spritesheet_variant_ninja_red_86: -3850776210312504084
+      spritesheet_variant_ninja_red_87: -3569293072236888646
+      spritesheet_variant_ninja_red_88: -2298135838454718830
+      spritesheet_variant_ninja_red_89: -5375633828306335065
+      spritesheet_variant_ninja_red_9: -4146851006128341013
+      spritesheet_variant_ninja_red_90: 2384087140820102700
+      spritesheet_variant_ninja_red_91: 5865526745095747025
+      spritesheet_variant_ninja_red_92: -8766868422545605361
+      spritesheet_variant_ninja_red_93: -8150042092197656676
+      spritesheet_variant_ninja_red_94: 6718937597743568752
+      spritesheet_variant_ninja_red_95: 1149148825608725069
+      spritesheet_variant_ninja_red_96: -4677637199631732230
+      spritesheet_variant_ninja_red_97: 5756499860566247828
+      spritesheet_variant_ninja_red_98: -931133300990175667
+      spritesheet_variant_ninja_red_99: 6797002007598976818
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
