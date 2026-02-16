@@ -18,6 +18,9 @@ public class PlayerAnimator : MonoBehaviour
     private static readonly int H_Attacking = Animator.StringToHash("Attacking");
     private static readonly int H_Dash = Animator.StringToHash("Dash");
     private static readonly int H_Dashing = Animator.StringToHash("Dashing");
+    private static readonly int H_WallSliding = Animator.StringToHash("WallSliding");
+    private static readonly int H_WallHolding = Animator.StringToHash("WallHolding");
+
 
 
     private void Awake()
@@ -43,6 +46,9 @@ public class PlayerAnimator : MonoBehaviour
 
         if (controller != null)
             animator.SetBool(H_Dashing, controller.IsDashing);
+        animator.SetBool(H_WallSliding, controller != null && controller.IsWallSliding);
+        animator.SetBool(H_WallHolding, controller != null && controller.IsWallHolding);
+
 
     }
 

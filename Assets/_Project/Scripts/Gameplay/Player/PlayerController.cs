@@ -100,6 +100,54 @@ public class PlayerController : MonoBehaviour
     private Collider2D col;
     private RaycastHit2D topHitCached;  // bloqueia re-entrada logo ao agarrar
 
+    [Header("Wall Slide / Hold")]
+    [SerializeField] private bool enableWallSlide = true;
+
+    [Tooltip("Distância do raycast para detectar parede (a partir do wallCheck).")]
+    [SerializeField] private float wallDetectDistance = 0.15f;
+
+    [Tooltip("Velocidade máxima de queda enquanto desliza na parede (valor positivo).")]
+    [SerializeField] private float wallSlideMaxFallSpeed = 3.5f;
+
+    [Tooltip("Se true, segurar contra a parede faz o player 'grudar' (Edge-Idle).")]
+    [SerializeField] private bool enableWallHold = true;
+
+    [Tooltip("Deadzone para considerar 'sem input'.")]
+    [SerializeField] private float wallInputDeadzone = 0.08f;
+    private bool wallGrabFired;
+    private int lastWallSide;
+
+    private bool isWallSliding;
+    private bool isWallHolding;
+    private int wallSide; // -1 esquerda, +1 direita
+
+    public bool IsWallSliding => isWallSliding;
+    public bool IsWallHolding => isWallHolding;
+    public int WallSide => wallSide;
+
+    [Header("Wall Jump")]
+    [SerializeField] private bool enableWallJump = true;
+
+    [Tooltip("Força vertical do wall jump.")]
+    [SerializeField] private float wallJumpUpForce = 12f;
+
+    [Tooltip("Força horizontal quando pula para longe da parede.")]
+    [SerializeField] private float wallJumpSideForce = 8f;
+
+    [Tooltip("Força horizontal quando faz o hop vertical (segurando contra a parede).")]
+    [SerializeField] private float wallHopSideForce = 1.5f;
+
+    [Tooltip("Tempo que trava o input horizontal após wall jump (segundos).")]
+    [SerializeField] private float wallJumpMoveLock = 0.12f;
+
+    [Tooltip("Tempo mínimo antes de permitir regrudar após wall jump (segundos).")]
+    [SerializeField] private float wallRegrabLock = 0.12f;
+
+    private float wallJumpMoveLockUntil = -999f;
+    private float wallRegrabLockUntil = -999f;
+
+
+
 
     [Header("Ledge Climb (Hollow Knight-like)")]
     public bool IsClimbingOrHanging => isClimbing || isLedgeHanging;
@@ -218,6 +266,9 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+        if (!isWallHolding)
+            rb.gravityScale = originalGravity;
+
         // ✅ Ground check sincronizado com a física (única fonte)
         isGroundedFixed = Physics2D.OverlapCircle(
             groundCheck.position,
@@ -239,6 +290,10 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
             return;
         }
+
+        UpdateWallSlideHold();
+
+        if (isWallHolding || isWallSliding) return;
 
         var combat = GetComponent<PlayerCombat>();
         if (combat != null && combat.IsAttacking && isGroundedFixed && !isLedgeHanging && !isClimbing)
@@ -314,8 +369,12 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        if (Time.time < wallJumpMoveLockUntil)
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+        else
+            rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
     }
+
 
     private void Jump()
     {
@@ -352,12 +411,22 @@ public class PlayerController : MonoBehaviour
     {
         if (jumpBufferCounter <= 0f) return;
 
+        if (enableWallJump && (isWallSliding || isWallHolding) && wallSide != 0)
+        {
+            if (TryDoWallJump())
+            {
+                jumpBufferCounter = 0f;
+                coyoteTimeCounter = 0f;
+                return;
+            }
+            // se retornou false, segue fluxo normal (coyote/double)
+        }
+
         // 1) Pulo normal (chão/coyote)
         if (coyoteTimeCounter > 0f)
         {
             JumpWithForce(jumpForce);
 
-            // ✅ ao usar pulo do chão, libera double jump de novo
             hasUsedDoubleJump = false;
 
             jumpBufferCounter = 0f;
@@ -373,10 +442,48 @@ public class PlayerController : MonoBehaviour
 
             hasUsedDoubleJump = true;
             jumpBufferCounter = 0f;
-
-            // opcional: dá “peso” e garante que não herda coyote residual
             coyoteTimeCounter = 0f;
         }
+    }
+
+    private bool TryDoWallJump()
+    {
+        int side = wallSide;
+        float x = moveInput;
+
+        bool pressingAway = x * side < -wallInputDeadzone;
+
+        // ✅ se está empurrando pra fora, NÃO faz wall jump especial
+        if (pressingAway)
+            return false;
+
+        // ✅ guarda o facing atual (antes de qualquer mudança)
+        int prevFacing = facing;
+
+        ClearWallState();
+        rb.gravityScale = originalGravity;
+
+        wallRegrabLockUntil = Time.time + wallRegrabLock;
+        wallJumpMoveLockUntil = Time.time + wallJumpMoveLock;
+
+        float horiz = -side * wallHopSideForce;          // hop pra fora da parede
+        float up = Mathf.Max(wallJumpUpForce, jumpForce);
+
+        rb.linearVelocity = new Vector2(horiz, up);
+
+        // integra no jump variável
+        isJumping = true;
+        jumpHoldCounter = jumpHoldTime;
+
+        if (Mathf.Abs(moveInput) > wallInputDeadzone)
+            facing = (moveInput > 0f) ? 1 : -1;
+        else
+            facing = prevFacing;
+
+        if (visualSprite != null)
+            visualSprite.flipX = (facing == -1);
+
+        return true;
     }
 
 
@@ -671,6 +778,14 @@ public class PlayerController : MonoBehaviour
             Vector3 dir = Vector3.right * facing;
             Gizmos.DrawLine(ledgeCheck.position, ledgeCheck.position + dir * ledgeCheckDistance);
         }
+
+        if (wallCheck != null)
+        {
+            Gizmos.color = Color.magenta;
+            Gizmos.DrawLine(wallCheck.position, wallCheck.position + Vector3.left * wallDetectDistance);
+            Gizmos.DrawLine(wallCheck.position, wallCheck.position + Vector3.right * wallDetectDistance);
+        }
+
     }
 
     public void SetSpawnPosition(Vector3 newSpawn)
@@ -763,4 +878,137 @@ public class PlayerController : MonoBehaviour
         if (dashLockMovement)
             rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
     }
+
+    private void UpdateWallSlideHold()
+    {
+        if (!enableWallSlide)
+        {
+            ClearWallState();
+            return;
+        }
+
+        // Bloqueios gerais
+        if (isDead || isHurtLocked || isDashing || isClimbing || isLedgeHanging)
+        {
+            ClearWallState();
+            return;
+        }
+
+        if (Time.time < wallRegrabLockUntil)
+        {
+            ClearWallState();
+            return;
+        }
+
+        // Só faz sentido no ar
+        if (ShouldTreatAsGrounded())
+        {
+            ClearWallState();
+            return;
+        }
+
+        if (wallCheck == null)
+        {
+            ClearWallState();
+            return;
+        }
+
+        // Só quando está caindo (se estiver subindo, deixa livre — vai ajudar o wall jump depois)
+        if (rb.linearVelocity.y > 0.01f)
+        {
+            ClearWallState();
+            return;
+        }
+
+        // Detecta parede dos dois lados (independente do facing)
+        RaycastHit2D hitL = Physics2D.Raycast(wallCheck.position, Vector2.left, wallDetectDistance, groundLayer);
+        RaycastHit2D hitR = Physics2D.Raycast(wallCheck.position, Vector2.right, wallDetectDistance, groundLayer);
+
+        bool onLeft = hitL.collider != null;
+        bool onRight = hitR.collider != null;
+
+        if (!onLeft && !onRight)
+        {
+            ClearWallState();
+            return;
+        }
+
+        // Se encostou nos dois (canto estreito), escolhe o mais “dominante” pelo input/facing
+        if (onLeft && onRight)
+        {
+            if (moveInput < -wallInputDeadzone) wallSide = -1;
+            else if (moveInput > wallInputDeadzone) wallSide = 1;
+            else wallSide = facing;
+        }
+        else
+        {
+            wallSide = onLeft ? -1 : 1;
+        }
+
+        bool noInput = Mathf.Abs(moveInput) <= wallInputDeadzone;
+        bool pressingToWall = moveInput * wallSide > wallInputDeadzone;
+
+        // Sua regra:
+        // - sem input => desliza
+        // - segurando para a parede => segura (edge-grab -> edge-idle)
+        if (enableWallHold && pressingToWall)
+        {
+            // Se acabou de entrar no hold (ou mudou de lado), toca EdgeGrab 1x
+            bool enteredHold = !isWallHolding;
+            bool changedSide = (lastWallSide != 0 && lastWallSide != wallSide);
+
+            isWallHolding = true;
+            isWallSliding = false;
+
+            if ((enteredHold || changedSide) && !wallGrabFired)
+            {
+                playerAnimator?.TriggerEdgeGrab();
+                wallGrabFired = true;
+                lastWallSide = wallSide;
+            }
+
+            rb.linearVelocity = new Vector2(0f, 0f);
+            rb.gravityScale = 0f;
+
+            facing = wallSide;
+            if (visualSprite != null) visualSprite.flipX = (facing == -1);
+
+            return;
+        }
+
+        // Se não está segurando para a parede, resta o slide (somente se sem input)
+        rb.gravityScale = originalGravity;
+
+        if (noInput)
+        {
+            isWallSliding = true;
+            isWallHolding = false;
+            hasUsedDoubleJump = false;
+
+            // limita a queda
+            float y = rb.linearVelocity.y;
+            float minY = -Mathf.Abs(wallSlideMaxFallSpeed);
+            if (y < minY) y = minY;
+
+            rb.linearVelocity = new Vector2(0f, y);
+
+            // opcional: face na parede
+            facing = wallSide;
+            if (visualSprite != null) visualSprite.flipX = (facing == -1);
+        }
+        else
+        {
+            ClearWallState();
+        }
+    }
+
+    private void ClearWallState()
+    {
+        isWallSliding = false;
+        isWallHolding = false;
+        wallSide = 0;
+        wallGrabFired = false;
+        lastWallSide = 0;
+    }
+
 }

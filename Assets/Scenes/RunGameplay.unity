@@ -3821,7 +3821,7 @@ MonoBehaviour:
       Size: {x: 0.8, y: 0.8}
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
-  TargetOffset: {x: 0, y: -0.008219538, z: 0}
+  TargetOffset: {x: 0, y: -0.008219539, z: 0}
   Damping: {x: 1, y: 1, z: 1}
   Lookahead:
     Enabled: 0
@@ -4087,16 +4087,32 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2777030518035636007, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
-      propertyPath: dashSpeed
-      value: 20
+      propertyPath: wallJumpUpForce
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2777030518035636007, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
-      propertyPath: dashCooldown
-      value: 0.6
+      propertyPath: wallHopSideForce
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2777030518035636007, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
-      propertyPath: dashDuration
-      value: 0.2
+      propertyPath: wallCheckDistance
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777030518035636007, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
+      propertyPath: wallJumpSideForce
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777030518035636007, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
+      propertyPath: ledgeCheckDistance
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777030518035636007, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
+      propertyPath: wallDetectDistance
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777030518035636007, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
+      propertyPath: wallSlideMaxFallSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7184016620082162045, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
       propertyPath: m_LocalPosition.x
