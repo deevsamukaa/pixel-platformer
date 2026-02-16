@@ -126,10 +126,7 @@ public class PlayerMeleeHitboxPolygon : MonoBehaviour
 
             HitStop.Do(0.035f, 0.08f);
 
-            var cam = Camera.main != null ? Camera.main.GetComponent<CameraShake2D>() : null;
-            cam?.Shake(0.08f, 0.12f);
-
-            var flash = col.GetComponentInParent<FlashOnHit>();
+            var flash = col.transform.GetComponentInChildren<FlashOnHit>();
             flash?.Flash();
         }
     }

@@ -2295,11 +2295,12 @@ GameObject:
   - component: {fileID: 1346012890}
   - component: {fileID: 1346012889}
   - component: {fileID: 1346012888}
-  - component: {fileID: 1346012887}
   - component: {fileID: 1346012886}
   - component: {fileID: 1346012892}
   - component: {fileID: 1346012891}
   - component: {fileID: 1346012893}
+  - component: {fileID: 1346012894}
+  - component: {fileID: 1346012895}
   m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
@@ -2323,52 +2324,6 @@ MonoBehaviour:
   applyKnockback: 1
   defaultHitStun: 0.18
   rb: {fileID: 1346012888}
---- !u!61 &1346012887
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1346012885}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -0.034499407, y: -0.045999408}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.25, y: 2.625}
-    newSize: {x: 3.375, y: 3.9375}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1.169013, y: 2.5330012}
-  m_EdgeRadius: 0
 --- !u!50 &1346012888
 Rigidbody2D:
   serializedVersion: 5
@@ -2488,12 +2443,12 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
-  windUpTime: 0.25
+  windUpTime: 0.3
   dashSpeed: 10
-  dashDuration: 0.35
+  dashDuration: 0.28
   recoveryTime: 0.4
-  minAttackInterval: 0.9
-  hitStunOnDamage: 0.18
+  minAttackInterval: 1.2
+  hitStunOnDamage: 0.28
 --- !u!114 &1346012892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2528,7 +2483,69 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FlashOnHit
   sr: {fileID: 1346012889}
+  flashMaterial: {fileID: 2100000, guid: fbf867c4345f4c34abcb940d589ebc3e, type: 2}
+  originalMaterial: {fileID: 2100000, guid: ea8f50dc87d338f439446f6626c985fd, type: 2}
   flashTime: 0.06
+  flashColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!95 &1346012894
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346012885}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6335f15cd83a0e54f8857f7a5dd177f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!70 &1346012895
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346012885}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1.15, y: 2.625}
+  m_Direction: 0
 --- !u!1 &1356468267
 GameObject:
   m_ObjectHideFlags: 0
@@ -3248,6 +3265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1771349173}
   - component: {fileID: 1771349172}
+  - component: {fileID: 1771349175}
   - component: {fileID: 1771349171}
   - component: {fileID: 1771349174}
   m_Layer: 0
@@ -3363,6 +3381,23 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!114 &1771349175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771349169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e924e0599b346824eb51f99fb4631ca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraShake2D
+  cam: {fileID: 0}
+  perlin: {fileID: 0}
+  defaultDuration: 0.08
+  defaultAmplitude: 1
+  defaultFrequency: 12
 --- !u!1 &1783772333
 GameObject:
   m_ObjectHideFlags: 0
@@ -3754,7 +3789,7 @@ GameObject:
   - component: {fileID: 2107908023}
   - component: {fileID: 2107908026}
   - component: {fileID: 2107908027}
-  - component: {fileID: 2107908028}
+  - component: {fileID: 2107908029}
   m_Layer: 0
   m_Name: VirtualCamera
   m_TagString: Untagged
@@ -3888,7 +3923,7 @@ MonoBehaviour:
   holdTime: 0
   lookDownOffsetY: -3.5
   smoothSpeed: 12
---- !u!114 &2107908028
+--- !u!114 &2107908029
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3897,11 +3932,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2107908022}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e924e0599b346824eb51f99fb4631ca1, type: 3}
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CameraShake2D
-  defaultDuration: 0.08
-  defaultStrength: 0.12
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineBasicMultiChannelPerlin
+  NoiseProfile: {fileID: 0}
+  PivotOffset: {x: 0, y: 0, z: 0}
+  AmplitudeGain: 0
+  FrequencyGain: 0
+  m_NoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &2131785815
 GameObject:
   m_ObjectHideFlags: 0
@@ -4047,10 +4085,6 @@ PrefabInstance:
     - target: {fileID: 2483986292729766039, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6686875902230756601, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
-      propertyPath: hittableLayers.m_Bits
-      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 7184016620082162045, guid: 1fc52abb6b66ccc48a319df9dc830e5d, type: 3}
       propertyPath: m_LocalPosition.x

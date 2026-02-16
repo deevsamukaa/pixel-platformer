@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 6341710892115290888}
   m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
   - {fileID: 1258678434808058795}
   hittableLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 128
   damages: 010000000100000002000000
   knockbacks:
   - 9
@@ -318,7 +318,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FlashOnHit
   sr: {fileID: 8346454390706687901}
+  flashMaterial: {fileID: 2100000, guid: fbf867c4345f4c34abcb940d589ebc3e, type: 2}
+  originalMaterial: {fileID: 2100000, guid: ea8f50dc87d338f439446f6626c985fd, type: 2}
   flashTime: 0.06
+  flashColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2556730742019136347
 GameObject:
   m_ObjectHideFlags: 0
