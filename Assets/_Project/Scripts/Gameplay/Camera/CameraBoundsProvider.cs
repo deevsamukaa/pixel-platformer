@@ -1,11 +1,10 @@
 using UnityEngine;
 
 /// <summary>
-/// Coloque este script no GameObject "CameraBounds" dentro do prefab da fase.
-/// Ele expõe o Collider2D que o Confiner deve usar.
+/// Coloque no GameObject "CameraBounds" (PolygonCollider2D) dentro do prefab do Segment.
 /// </summary>
-[RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(PolygonCollider2D))]
 public class CameraBoundsProvider : MonoBehaviour
 {
-    public Collider2D BoundsCollider => GetComponent<Collider2D>();
+    public PolygonCollider2D Poly => GetComponent<PolygonCollider2D>();
 }

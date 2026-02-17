@@ -75,6 +75,7 @@ MonoBehaviour:
   - 12
   knockUpBias: 0.35
   hitEnableTime: 0.03
+  hitVfxPrefab: {fileID: 511111920921721892, guid: 8d48038fc58f9614ebb55355c0bf3507, type: 3}
   debugLog: 1
 --- !u!114 &3331196103836021331
 MonoBehaviour:
@@ -88,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ca69611ceb8f03428ea2bcbea4ba29a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  maxHP: 10
+  maxHP: 3
   currentHP: 0
   iFrameDuration: 0.8
   resetVelocityBeforeKnockback: 1
@@ -163,11 +164,23 @@ MonoBehaviour:
   hurtLockDuration: 0.15
   ledgeStartClimbLock: 0.35
   ledgeHangLock: 0.12
+  enableWallSlide: 1
+  wallDetectDistance: 0.22
+  wallSlideMaxFallSpeed: 5
+  enableWallHold: 1
+  wallInputDeadzone: 0.08
+  enableWallJump: 1
+  wallJumpUpForce: 14
+  wallJumpSideForce: 14
+  wallHopSideForce: 14
+  wallJumpMoveLock: 0.12
+  wallRegrabLock: 0.12
+  dashLedgeGrabGrace: 0.1
   enableLedgeClimb: 1
   wallCheck: {fileID: 3119248185363908457}
   ledgeCheck: {fileID: 8324415098479185147}
-  wallCheckDistance: 0.48
-  ledgeCheckDistance: 0.48
+  wallCheckDistance: 0.22
+  ledgeCheckDistance: 0.22
   autoClimbDelay: 0.15
   climbDuration: 0.12
   climbEndOffset: {x: 0.35, y: 1.1}
@@ -248,8 +261,8 @@ MonoBehaviour:
   comboResetTime: 0.55
   maxBufferedInputs: 3
   attackFailSafeTime: 1.3
-  lungeAttack1: 0.5
-  lungeAttack3: 1
+  lungeAttack1: 0.1
+  lungeAttack3: 0.1
   debugHitbox: 1
   debugHitboxDuration: 2
 --- !u!114 &4654773292306859373

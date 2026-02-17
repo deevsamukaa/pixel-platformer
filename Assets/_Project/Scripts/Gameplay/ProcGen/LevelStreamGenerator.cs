@@ -20,6 +20,9 @@ public class LevelStreamGenerator : MonoBehaviour
     [Header("Seed")]
     [SerializeField] private bool useRunManagerSeed = true;
 
+    [Header("Camera Bounds")]
+    [SerializeField] private CameraBoundsManager cameraBoundsManager;
+
     private readonly Queue<SegmentSpec> _spawned = new();
     private System.Random _rng;
 
@@ -30,6 +33,9 @@ public class LevelStreamGenerator : MonoBehaviour
     {
         if (player == null)
             player = GameObject.FindGameObjectWithTag("Player")?.transform;
+
+        if (cameraBoundsManager == null)
+            cameraBoundsManager = FindAnyObjectByType<CameraBoundsManager>();
 
         int seed = useRunManagerSeed && RunManager.I != null ? RunManager.I.Seed : 12345;
         _rng = new System.Random(seed);
@@ -54,8 +60,16 @@ public class LevelStreamGenerator : MonoBehaviour
         while (_spawned.Count > 0)
         {
             var s = _spawned.Dequeue();
-            if (s != null) Destroy(s.gameObject);
+            if (s != null)
+            {
+                if (cameraBoundsManager != null)
+                    cameraBoundsManager.UnregisterSegment(s);
+
+                Destroy(s.gameObject);
+            }
         }
+
+
         _spawnedGateNumbers.Clear();
 
         _nextSpawnWorldPos = transform.position;
@@ -295,6 +309,10 @@ public class LevelStreamGenerator : MonoBehaviour
 
         var inst = Instantiate(prefab, worldPos, Quaternion.identity, transform);
 
+        if (cameraBoundsManager != null && inst != null)
+            cameraBoundsManager.RegisterSegment(inst);
+
+
         if (inst.startAnchor != null)
         {
             Vector3 delta = worldPos - inst.startAnchor.position;
@@ -333,6 +351,9 @@ public class LevelStreamGenerator : MonoBehaviour
 
             _spawned.Dequeue();
             if (_spawnedGateNumbers.Count > 0) _spawnedGateNumbers.Dequeue();
+
+            if (cameraBoundsManager != null)
+                cameraBoundsManager.UnregisterSegment(oldest);
 
             Destroy(oldest.gameObject);
         }
