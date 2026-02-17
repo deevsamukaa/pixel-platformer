@@ -10,7 +10,7 @@ public class DamageOnContact2D : MonoBehaviour
     [Header("Knockback")]
     [SerializeField] private float knockbackForce = 11f;
 
-    [Tooltip("Se true, calcula direção pelo vetor (alvo - hazard). Se false, usa facing fixo.")]
+    [Tooltip("Se true, calcula direção pelo vetor (alvo - hazard). Se false, usa direção fixa.")]
     [SerializeField] private bool useRelativeDirection = true;
 
     [Tooltip("Empurra um pouco pra cima pra ficar gostoso e evitar 'raspar no chão'.")]
@@ -23,11 +23,13 @@ public class DamageOnContact2D : MonoBehaviour
     [Tooltip("Cooldown entre danos quando onlyOnEnter = false (útil pra lava).")]
     [SerializeField] private float damageCooldown = 0.35f;
 
+    [Header("Hit VFX (enviado via DamageInfo; spawn ocorre no Damageable)")]
+    [SerializeField] private GameObject hitVfxPrefab;
+
     private float _nextDamageTime;
 
     private void Reset()
     {
-        // Sugestão padrão: spikes costumam ser Trigger
         var c = GetComponent<Collider2D>();
         if (c != null) c.isTrigger = true;
     }
@@ -48,27 +50,43 @@ public class DamageOnContact2D : MonoBehaviour
         var damageable = other.GetComponentInParent<IDamageable>();
         if (damageable == null) return;
 
-        Vector2 dir = Vector2.up;
+        Vector2 hazardPos = transform.position;
 
+        // ponto real de impacto no collider do alvo
+        Vector2 hitPoint = other.ClosestPoint(hazardPos);
+
+        // normal aproximada (hazard -> ponto)
+        Vector2 hitNormal = (hitPoint - hazardPos);
+        if (hitNormal.sqrMagnitude < 0.0001f) hitNormal = Vector2.up;
+        hitNormal.Normalize();
+
+        // direção do knockback
+        Vector2 dir;
         if (useRelativeDirection)
         {
-            // do hazard -> alvo
-            dir = (other.transform.position - transform.position);
-
-            // garante bias pra cima
+            dir = (hitPoint - hazardPos);
             dir.y = Mathf.Max(dir.y, knockUpBias);
+            if (dir.sqrMagnitude < 0.0001f) dir = Vector2.up;
         }
         else
         {
-            // direção fixa caso você queira usar hazard "empurra pra direita", etc
-            dir = new Vector2(0f, 1f);
+            dir = Vector2.up;
         }
+        dir.Normalize();
 
-        var info = new DamageInfo(damage, dir.normalized, knockbackForce, gameObject);
+        var info = new DamageInfo(
+            damage,
+            dir,
+            knockbackForce,
+            gameObject,
+            hitPoint,
+            hitNormal,
+            hitVfxPrefab
+        );
 
         bool applied = damageable.TakeDamage(info);
 
-        // Se aplicou, configura cooldown (pra lava / contato contínuo)
+        // cooldown (só quando aplicou, pra respeitar invulnerabilidade)
         if (applied && !onlyOnEnter)
             _nextDamageTime = Time.time + Mathf.Max(0.01f, damageCooldown);
     }

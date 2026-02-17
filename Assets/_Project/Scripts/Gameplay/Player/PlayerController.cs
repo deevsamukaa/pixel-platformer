@@ -146,8 +146,9 @@ public class PlayerController : MonoBehaviour
     private float wallJumpMoveLockUntil = -999f;
     private float wallRegrabLockUntil = -999f;
 
-
-
+    [Header("Dash -> Ledge Grab")]
+    [SerializeField] private float dashLedgeGrabGrace = 0.10f; // 0.08~0.12 costuma ficar perfeito
+    private float dashLedgeGrabGraceUntil = -999f;
 
     [Header("Ledge Climb (Hollow Knight-like)")]
     public bool IsClimbingOrHanging => isClimbing || isLedgeHanging;
@@ -256,9 +257,16 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         if (isDead) return;
+
+        // ✅ Ground check sincronizado com a física (sempre)
+        isGroundedFixed = Physics2D.OverlapCircle(
+            groundCheck.position,
+            groundCheckRadius,
+            groundLayer
+        );
+
         if (isClimbing) return;
         if (isDashing) return;
-
         if (isHurtLocked)
         {
             // trava movimento horizontal durante o hit
@@ -268,14 +276,6 @@ public class PlayerController : MonoBehaviour
 
         if (!isWallHolding)
             rb.gravityScale = originalGravity;
-
-        // ✅ Ground check sincronizado com a física (única fonte)
-        isGroundedFixed = Physics2D.OverlapCircle(
-            groundCheck.position,
-            groundCheckRadius,
-            groundLayer
-        );
-
 
         // Só corta o hold se estiver no chão e NÃO estiver na janela pós-pulo
         if (ShouldTreatAsGrounded())
@@ -542,7 +542,8 @@ public class PlayerController : MonoBehaviour
         if (!enableLedgeClimb) return;
         if (ledgeCooldownTimer > 0f) return;
         if (isGroundedFixed) return;          // ✅ trocado
-        if (rb.linearVelocity.y >= 0f) return;
+        if (rb.linearVelocity.y >= 0f && Time.time > dashLedgeGrabGraceUntil) return; // ✅ Normalmente só agarra caindo, MAS após dash damos uma janela para agarrar mesmo com y==0
+
         if (wallCheck == null || ledgeCheck == null) return;
 
         Vector2 dir = Vector2.right * facing;
@@ -912,6 +913,7 @@ public class PlayerController : MonoBehaviour
 
         isDashing = false;
         dashCo = null;
+        dashLedgeGrabGraceUntil = Time.time + dashLedgeGrabGrace;
 
         // dá uma pequena “saída” sem grudar
         if (dashLockMovement)

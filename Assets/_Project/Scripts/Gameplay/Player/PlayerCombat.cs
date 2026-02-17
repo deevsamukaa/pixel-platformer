@@ -56,6 +56,7 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private bool debugHitbox = false;
     [SerializeField] private float debugHitboxDuration = 0.06f;
 
+
     public bool IsAttacking => _isAttacking;
 
     private bool _isAttacking;
@@ -158,11 +159,6 @@ public class PlayerCombat : MonoBehaviour
         ForceEndAttack();
     }
 
-    public void AnimEvent_MeleeHit()
-    {
-        DoMeleeHit(_currentAttackIndex);
-    }
-
     public void AnimEvent_Lunge()
     {
         if (rb == null) return;
@@ -207,43 +203,6 @@ public class PlayerCombat : MonoBehaviour
             return visualSprite.flipX ? -1 : 1;
 
         return transform.localScale.x < 0 ? -1 : 1;
-    }
-
-    private void DoMeleeHit(int attackIndex)
-    {
-        if (attackPoint == null) return;
-
-        int i = Mathf.Clamp(attackIndex, 1, 3) - 1;
-
-        if (i < 0 || i >= hitBoxSizes.Length) return;
-        if (i < 0 || i >= hitBoxCenterOffsets.Length) return;
-
-        Vector2 size = hitBoxSizes[i];
-        int damage = (i < hitDamages.Length) ? hitDamages[i] : 1;
-        float kb = (i < hitKnockbackForces.Length) ? hitKnockbackForces[i] : 0f;
-
-        int facing = GetFacing();
-
-        // ✅ centro custom por hit + espelho automático no X
-        Vector2 off = hitBoxCenterOffsets[i];
-        Vector3 center = attackPoint.position + new Vector3(off.x * facing, off.y, 0f);
-
-        var hits = Physics2D.OverlapBoxAll(center, size, 0f, hittableLayers);
-        foreach (var h in hits)
-        {
-            if (h == null) continue;
-
-            var dmg = h.GetComponentInParent<IDamageable>();
-            if (dmg == null) continue;
-
-            Vector2 dir = new Vector2(facing, 0f);
-            dir.y = Mathf.Max(dir.y, knockUpBias);
-
-            dmg.TakeDamage(new DamageInfo(damage, dir.normalized, kb, gameObject));
-        }
-
-        if (debugHitbox)
-            DebugDrawRect(center, size, debugHitboxDuration);
     }
 
     private void DebugDrawRect(Vector3 center, Vector2 size, float dur)
